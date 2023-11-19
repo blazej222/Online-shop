@@ -15,6 +15,7 @@ products = []
 for element in soup.find_all("div", class_="product-inner-wrap"):
     prodImage = element.find('a', class_="prodimage f-row")
     productURL = prodImage["href"]
-    products.append(Product(productURL))
+    product = Product(productURL)
+    products.append(product)
 
 for product in products: print(product.name)

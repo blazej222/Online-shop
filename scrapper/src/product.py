@@ -1,8 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+from time import sleep
 
-BASE_URL = "https://foxkomputer.pl"
+BASE_URL = 'https://foxkomputer.pl'
 
 class Product:
     name: str
@@ -10,6 +11,7 @@ class Product:
     manufacturer: str
     specs: list
     imgURL: str
+    id: int
 
     
 
@@ -22,35 +24,53 @@ class Product:
         self._fetchProductDetails(self.__productURL)
 
     def _fetchProductDetails(self, productURL):
-        productPage = requests.get(BASE_URL+ productURL)
-        soup = BeautifulSoup(productPage.content, "html.parser")
-        mainContainer = soup.find('div', class_="centercol s-grid-12")
-        print(mainContainer)
+        productPage = self._getPageResponse(BASE_URL+ productURL)
+        soup = BeautifulSoup(productPage.content, 'html.parser')
+        mainContainer = soup.find('div', class_='centercol s-grid-12')
         self.name = soup.find('h1', class_='name').text.strip()
+        self.id = soup.find('button', class_='availability-notifier-btn btn btn-red')['data-product-id']
         self._fetchProductAttr(mainContainer)
-        self._saveImgs(self.name, BASE_URL+(mainContainer.find('img', class_="photo js__open-gallery")["src"]))
+        gallery = mainContainer.find('div', class_='smallgallery row')
+        images = gallery.find_all('a', class_='gallery js__gallery-anchor-image')
+        if len(images) > 0:
+            ind = 0
+            for image in images:
+                self._saveImg(str(ind), BASE_URL + image['href'])
+                thumbnail=image.find('img')
+                self._saveImg(f'{ind}-thumbnail', BASE_URL + thumbnail['src'])
+                ind+=1
+        else:
+            self._saveImg('0', BASE_URL+(mainContainer.find('img', class_='js__open-gallery')['src']))
 
 
 
     def _fetchProductAttr(self, mainContainer):
-        div = mainContainer.find('div', class_="innerbox tab-content product-attributes zebra")
+        div = mainContainer.find('div', class_='innerbox tab-content product-attributes zebra')
         table = div.find('table', class_='table')
-        rows = table.find_all("tr")
+        rows = table.find_all('tr')
         productSpecs = []
         for row in rows:
-            columns = row.find_all("td")
+            columns = row.find_all('td')
             rowName = columns[0].text.strip()
             rowValue = columns[1].text.strip()
-            attrStruct = {"name": rowName,
-                            "value": rowValue}
+            attrStruct = {'name': rowName,
+                            'value': rowValue}
             productSpecs.append(attrStruct)
         self.specs = productSpecs
 
-    def _saveImgs(self, imgName, imgURL):
-        req = requests.get(imgURL).content
+    def _saveImg(self, imgName, imgURL):
+        req = self._getPageResponse(imgURL).content
         try:
-            req = str(req, "utf-8")
+            req = str(req, 'utf-8')
         except UnicodeDecodeError:
-            print(os.getcwd())
-            with open(f"scrapper\scrapped\img\{imgName}.jpg", "wb+") as f:
+            if not os.path.exists(f'scrapper\scrapped\img\{self.id}'):
+                os.mkdir(f'scrapper\scrapped\img\{self.id}')
+            with open(f'scrapper\scrapped\img\{self.id}\{imgName}.jpg', 'wb+') as f:
                 f.write(req)
+
+    def _getPageResponse(self, URL):
+         while True:
+            try:
+                return requests.get(URL)
+            except:
+                sleep(1)
