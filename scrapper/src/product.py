@@ -4,6 +4,7 @@ import os
 from time import sleep
 
 BASE_URL = 'https://foxkomputer.pl'
+MAX_RETRIES = 10
 
 class Product:
     name: str
@@ -12,8 +13,7 @@ class Product:
     specs: list
     imgURL: str
     id: int
-
-    
+    category: str
 
     def __init__(self, productURL):
         self.__productURL = productURL
@@ -29,23 +29,17 @@ class Product:
         mainContainer = soup.find('div', class_='centercol s-grid-12')
         self.name = soup.find('h1', class_='name').text.strip()
         self.id = soup.find('button', class_='availability-notifier-btn btn btn-red')['data-product-id']
+        self.category = mainContainer.find('div', id='box_productfull')['data-category']
         self._fetchProductAttr(mainContainer)
-        gallery = mainContainer.find('div', class_='smallgallery row')
-        images = gallery.find_all('a', class_='gallery js__gallery-anchor-image')
-        if len(images) > 0:
-            ind = 0
-            for image in images:
-                self._saveImg(str(ind), BASE_URL + image['href'])
-                thumbnail=image.find('img')
-                self._saveImg(f'{ind}-thumbnail', BASE_URL + thumbnail['src'])
-                ind+=1
-        else:
-            self._saveImg('0', BASE_URL+(mainContainer.find('img', class_='js__open-gallery')['src']))
+        self._fetchGallery(mainContainer)
 
 
 
     def _fetchProductAttr(self, mainContainer):
         div = mainContainer.find('div', class_='innerbox tab-content product-attributes zebra')
+        if div == None:
+            print("NO SPECS TABLE!")
+            return
         table = div.find('table', class_='table')
         rows = table.find_all('tr')
         productSpecs = []
@@ -58,7 +52,22 @@ class Product:
             productSpecs.append(attrStruct)
         self.specs = productSpecs
 
-    def _saveImg(self, imgName, imgURL):
+    def _fetchGallery(self, mainContainer):
+        gallery = mainContainer.find('div', class_='smallgallery row')
+        images = gallery.find_all('a', class_='gallery js__gallery-anchor-image')
+        if len(images) > 0:
+            ind = 0
+            for image in images:
+                self._saveImg(str(ind), BASE_URL + image['href'])
+                thumbnail=image.find('img')
+                self._saveImg(f'{ind}-thumbnail', BASE_URL + thumbnail['src'])
+                ind+=1
+        else:
+            self._saveImg('0', BASE_URL+(mainContainer.find('img', class_='js__open-gallery')['src']))
+
+    def _saveImg(self, imgName:str, imgURL:str):
+        #ignore already downloaded imgs
+        if os.path.exists(f'scrapper\scrapped\img\{self.id}\{imgName}.jpg'): return
         req = self._getPageResponse(imgURL).content
         try:
             req = str(req, 'utf-8')
@@ -68,9 +77,13 @@ class Product:
             with open(f'scrapper\scrapped\img\{self.id}\{imgName}.jpg', 'wb+') as f:
                 f.write(req)
 
-    def _getPageResponse(self, URL):
-         while True:
+    @staticmethod
+    def _getPageResponse(URL):
+         print(URL)
+         retries = 0
+         while retries < MAX_RETRIES:
             try:
                 return requests.get(URL)
             except:
-                sleep(1)
+                retries+=1
+                sleep(5)
