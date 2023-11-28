@@ -14,6 +14,7 @@
 /themes/*/cache/
 /modules/*/config*.xml
 /var/cache
+/var/logs
 
 # Site content
 # The following folders contain product images, virtual products, CSV's, etc.
