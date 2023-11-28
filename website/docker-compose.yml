@@ -19,14 +19,18 @@ services:
     container_name: prestashop
     image: prestashop/prestashop:1.7.8-apache
     #exec apache2-foreground
-    command: /bin/sh -c "usermod -u 1000 www-data && exec apache2-foreground" # chown -R 1000:1000 /tmp/data-ps && /tmp/docker_run.sh
+    #a2enmod ssl && service apache2 restart && 
+    #/bin/sh -c "usermod -u 1000 www-data && exec apache2-foreground" # chown -R 1000:1000 /tmp/data-ps && /tmp/docker_run.sh
+    command: /bin/sh /etc/apache2/sites-available/starter.sh
     restart: unless-stopped
     depends_on:
       - mysql
     ports:
       - 8080:80
+      - 8443:443
     volumes:
       - ./src:/var/www/html
+      - ./apache-config:/etc/apache2/sites-available
     networks:
       - prestashop_net
 networks:
