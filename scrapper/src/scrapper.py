@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 from product import Product
 import time
+from category import *
 
 def getPageResponse(URL):
          print(URL)
@@ -13,7 +14,6 @@ def getPageResponse(URL):
                 time.sleep(5)
 
 BASE_URL = "https://foxkomputer.pl"
-URL = "https://foxkomputer.pl/pl/c/Laptopy/222"
 start = time.time()
 
 page = requests.get(BASE_URL)
@@ -22,7 +22,23 @@ soup = BeautifulSoup(page.content, "html.parser")
 soup.find('ul', class_='menu-list large standard')
 
 products = []
-for category in soup.find_all('li', class_='parent'):
+navigationList = soup.find('ul', class_='menu-list large standard')
+parentCategory = navigationList.find('li', class_='parent')
+parentCategories = []
+
+categoryDict = getCategories(navigationList)
+saveCategoriesToCsv(categoryDict)
+
+
+while parentCategory != None:
+    parentCategories.append(parentCategory)
+    parentCategory = parentCategory.findNextSibling()
+for category in categoryDict: 
+        print('---------------------------------------')
+        print(category)
+        print('--' + str(categoryDict[category]))
+exit()
+for category in rootCategories:#soup.find_all('li', class_='parent'):
     href = category.find('a')['href']
     while True:
         categoryPage = getPageResponse(BASE_URL + href)

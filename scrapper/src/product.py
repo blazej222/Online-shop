@@ -12,8 +12,11 @@ class Product:
     manufacturer: str
     specs: list
     imgURL: str
+
+
     id: int
     category: str
+    description: str
 
     def __init__(self, productURL):
         self.__productURL = productURL
@@ -30,6 +33,8 @@ class Product:
         self.name = soup.find('h1', class_='name').text.strip()
         self.id = soup.find('button', class_='availability-notifier-btn btn btn-red')['data-product-id']
         self.category = mainContainer.find('div', id='box_productfull')['data-category']
+        self.description =  mainContainer.find('div', itemprop="description").find('p').text.strip()
+        self.price = mainContainer.find('div', class_ ='price').find('em', class_='main-price').text.replace('\xa0zł', '').replace(',', '.')
         self._fetchProductAttr(mainContainer)
         self._fetchGallery(mainContainer)
 
