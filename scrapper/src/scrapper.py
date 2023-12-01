@@ -34,11 +34,10 @@ saveCategoriesToCsv(categoryDict)
 while parentCategory != None:
     parentCategories.append(parentCategory)
     parentCategory = parentCategory.findNextSibling()
-# for category in categoryDict: 
-#         print('---------------------------------------')
-#         print(category)
-#         print('--' + str(categoryDict[category]))
-
+for category in categoryDict: 
+        print('---------------------------------------')
+        print(category)
+        print('--' + str(categoryDict[category]))
 with open('../scrapped/products.csv', 'w', encoding='UTF-8') as f:
     writer = csv.writer(f, delimiter =';', lineterminator="\n")
     for category in parentCategories:#soup.find_all('li', class_='parent'):

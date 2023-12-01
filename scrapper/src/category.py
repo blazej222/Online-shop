@@ -7,9 +7,11 @@ def getCategories(navigationList):
     parentCategory = navigationList.find('li', class_='parent')
     
     categoryDict = {}
-    name = parentCategory.find('span').text.strip()
+    tmp = []
     while parentCategory != None:
-        categoryDict[parentCategory.find('span').text] = getCategory(parentCategory, '', [name])
+        name = parentCategory.find('span').text.strip()
+        tmp.append(name)
+        categoryDict[parentCategory.find('span').text] = getCategory(parentCategory, '', tmp)
 
         parentCategory = parentCategory.findNextSibling()
 
@@ -26,6 +28,7 @@ def getCategory(webObject, prevName, savedCategories):
         while category != None:
             name = category.find('span').text.strip()
             if name != prevName:
+                savedCategories.append(name)
                 categories[name] = getCategory(category, name, savedCategories)
             category = category.findNextSibling()
         submenu = submenu.findNextSibling()
@@ -34,7 +37,7 @@ def getCategory(webObject, prevName, savedCategories):
 
     for categoryName in webObject.find_all('span'):
         name = categoryName.text.strip()
-        if not(name in categories) and name != prevName and not(name in savedCategories):
+        if name not in categories and name != prevName and name not in savedCategories:
             categories[categoryName.text.strip()] = None
             savedCategories.append(name)
 
@@ -44,18 +47,17 @@ def getCategory(webObject, prevName, savedCategories):
 
 def saveCategoriesToCsv(categories):
     headers = ['ID', 'Active (0/1)', 'Name', 'Parent category']
-    
     with open('../scrapped/categories.csv', 'w', encoding='UTF-8') as f:
         writer = csv.writer(f, delimiter =';', lineterminator="\n")
         writer.writerow(headers)
         for categoryName in categories:
-            writer.writerow(['', '', categoryName, ''])
-            writeRow(writer, categories[categoryName], categoryName)
+            writer.writerow(['', '', categoryName.replace("/", "\\"), ''])
+            writeRow(writer, categories[categoryName], categoryName.replace("/", "\\"))
 
 
 def writeRow(writer, category, parent):
     for categoryName in category:
-        writer.writerow(['', '', categoryName, parent])
+        writer.writerow(['', '', categoryName.replace("/", "\\"), parent])
         if category[categoryName] != None:
             writeRow(writer, category[categoryName], categoryName)
         
