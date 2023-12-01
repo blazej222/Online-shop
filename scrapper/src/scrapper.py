@@ -4,6 +4,7 @@ import requests
 from product import Product
 import time
 from category import *
+import csv
 
 def getPageResponse(URL):
          print(URL)
@@ -33,29 +34,33 @@ saveCategoriesToCsv(categoryDict)
 while parentCategory != None:
     parentCategories.append(parentCategory)
     parentCategory = parentCategory.findNextSibling()
-for category in categoryDict: 
-        print('---------------------------------------')
-        print(category)
-        print('--' + str(categoryDict[category]))
-exit()
-for category in rootCategories:#soup.find_all('li', class_='parent'):
-    href = category.find('a')['href']
-    while True:
-        categoryPage = getPageResponse(BASE_URL + href)
-        pageContent = BeautifulSoup(categoryPage.content, "html.parser")
-        for element in pageContent.find_all("div", class_="product-inner-wrap"):
-            prodImage = element.find('a', class_="prodimage f-row")
-            productURL = prodImage["href"]
-            product = Product(productURL)
-            product._saveImg("listing", BASE_URL + prodImage.find('img')['data-src'])
-            products.append(product)
-        
-        try:
-            paginator = pageContent.find('ul', class_='paginator')
-            nextPageButton = paginator.find('li', class_='last')
-            href = nextPageButton.find('a')['href']
-        except:
-             break
+# for category in categoryDict: 
+#         print('---------------------------------------')
+#         print(category)
+#         print('--' + str(categoryDict[category]))
+
+with open('../scrapped/products.csv', 'w', encoding='UTF-8') as f:
+    writer = csv.writer(f, delimiter =';', lineterminator="\n")
+    for category in parentCategories:#soup.find_all('li', class_='parent'):
+        href = category.find('a')['href']
+        while True:
+            categoryPage = getPageResponse(BASE_URL + href)
+            pageContent = BeautifulSoup(categoryPage.content, "html.parser")
+            for element in pageContent.find_all("div", class_="product-inner-wrap"):
+                prodImage = element.find('a', class_="prodimage f-row")
+                productURL = prodImage["href"]
+                product = Product(productURL)
+                product._saveImg("listing", BASE_URL + prodImage.find('img')['data-src'])
+                products.append(product)
+                product.writeToCsv(writer)
+
+            
+            try:
+                paginator = pageContent.find('ul', class_='paginator')
+                nextPageButton = paginator.find('li', class_='last')
+                href = nextPageButton.find('a')['href']
+            except:
+                break
         
 
 
