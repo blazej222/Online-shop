@@ -114,7 +114,8 @@ class Product:
         
         if len(self.name) > 128:
             self.name = self.name[:128]
-
+        
+        self.category = self.category.replace("/", "\\")
         writer.writerow([self.id, #ID
                           1, #Active
                           self.name, #Name
