@@ -8,17 +8,18 @@
  margin-top: 20px;
 }
 
-/*#carousel {*/
-/* overflow: hidden !important;*/
-/* position: relative !important;*/
-/* margin-left: -10.1vw !important;*/
-/* width: 98vw !important; !* Dla pełnej szerokości *!*/
-/*}*/
+#carousel {
+ margin-top: -20px;
+ overflow: hidden !important;
+ position: relative !important;
+ margin-left: -10.2vw !important;
+ width: 98vw !important; /* Dla pełnej szerokości */
+}
 
-/*.carousel-inner {*/
-/* height: 30% !important; !* Wysokość 30% szerokości #carousel *!*/
-/* width: 100% !important; !* Dla pełnej szerokości *!*/
-/*}*/
+.carousel-inner {
+ height: 30% !important; /* Wysokość 30% szerokości #carousel */
+ width: 100% !important; /* Dla pełnej szerokości */
+}
 
 .icon-next{
  margin: 0 !important;
@@ -192,6 +193,30 @@ margin-left: 0px;
 
 
 
+@media screen and (min-width: 0px) and (max-width: 992px) {
+ #carousel {
+  margin-top: -20px;
+  overflow: hidden !important;
+  position: relative !important;
+  margin-left: -49vw !important;
+  width: 97.6vw !important;
+ }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1080px) {
+ #carousel {
+  margin-top: -20px;
+  overflow: hidden !important;
+  position: relative !important;
+  margin-left: -49.7vw !important;
+  width: 98vw !important; /* Dla pełnej szerokości */
+ }
+
+ #carousel {
+  margin-left: -11vw !important;
+ }
+}
+
 @media screen and (min-width: 946px) and (max-width: 1080px) {
  .dropdown-item{
   font-size: 11px !important;
@@ -219,6 +244,8 @@ margin-left: 0px;
   min-width: calc(280px); /* zmiana */
   margin-left: -50px; /* zmiana */
  }
+
+
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1230px) {
@@ -249,11 +276,19 @@ margin-left: 0px;
   margin-left: -30px; /* zmiana */
  }
 
+ #carousel {
+  margin-left: -10.8vw !important;
+ }
+
 }
 
 @media screen and (min-width: 1231px) and (max-width: 1340px) {
  .category-top-menu {
   font-size: 14px !important;
+ }
+
+ #carousel {
+  margin-left: -10.7vw !important;
  }
 
 
