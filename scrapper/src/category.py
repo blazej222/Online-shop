@@ -1,7 +1,8 @@
 import pandas as pd
 import csv
 
-
+directory = '../scrapped/'
+directory = 'C:\\scrapped\\'
 
 def getCategories(navigationList):
     parentCategory = navigationList.find('li', class_='parent')
@@ -47,7 +48,7 @@ def getCategory(webObject, prevName, savedCategories):
 
 def saveCategoriesToCsv(categories):
     headers = ['ID', 'Active (0/1)', 'Name', 'Parent category']
-    with open('../scrapped/categories.csv', 'w', encoding='UTF-8') as f:
+    with open(directory + 'categories.csv', 'w', encoding='UTF-8') as f:
         writer = csv.writer(f, delimiter =';', lineterminator="\n")
         writer.writerow(headers)
         for categoryName in categories:
