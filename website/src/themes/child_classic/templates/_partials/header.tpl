@@ -43,7 +43,7 @@
             {/if}
           {/if}
         </div>
-        <div id="contact_us" class="col-md-6 hidden-sm-down">
+        <div id="contact_us" class="col-md-5 hidden-sm-down">
             {hook h='displayNav1'}
         </div>
         <div id="language" class="col-md-2 hidden-sm-down">
