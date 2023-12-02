@@ -39,8 +39,8 @@
         title="{l s='View my customer account' d='Shop.Theme.Customeraccount'}"
         rel="nofollow"
       >
-        <i class="material-icons hidden-md-up logged white-text">&#xE7FF;</i>
-        <span class="hidden-sm-down white-text">{$customerName}</span>
+        <i class="material-icons hidden-md-up logged header-options">&#xE7FF;</i>
+        <span class="hidden-sm-down header-options">{$customerName}</span>
       </a>
     {else}
       <a
@@ -48,8 +48,8 @@
         title="{l s='Log in to your customer account' d='Shop.Theme.Customeraccount'}"
         rel="nofollow"
       >
-        <i class="material-icons white-text">&#xE7FF;</i>
-        <span class="hidden-sm-down white-text">{l s='Sign in' d='Shop.Theme.Actions'}</span>
+        <i class="material-icons header-options">&#xE7FF;</i>
+        <span class="hidden-sm-down header-options">{l s='Sign in' d='Shop.Theme.Actions'}</span>
       </a>
     {/if}
   </div>

@@ -70,32 +70,22 @@
  width: 80%;
 }
 
-/*.hidden-sm-down{*/
-/* color: red;*/
-/* padding-top: 10px;*/
-/*}*/
-
-/*#sign_in{*/
-/* background-color: red;*/
-/*}*/
 
 #_desktop_user_info{
- margin-top: 10px;
- margin-bottom: 10px;
+ margin-top: 6px;
+ margin-bottom: 6px;
 }
 
-/*.hidden-sm-down{*/
-/* color: White;*/
-/* font-weight: bold;*/
-/*}*/
+.header-options{ /* language, sing in, cart */
+ color: white !important;
+}
+
 
 .white-text{
- color: white;
-
+ color: white !important;
 }
 
 .expand-more{
-
  color: white !important;
 }
 
@@ -108,5 +98,102 @@
 #_desktop_logo{
  margin-left: 80px;
 }
+
+
+.category-top-menu-under{
+margin-left: 0px;
+}
+
+.category-top-menu {
+ color: white !important;
+ text-transform: none !important;
+}
+
+@media screen and (min-width: 700px) and (max-width: 825px) {
+ .category-top-menu {
+  font-size: 7px !important;
+ }
+
+ .header-options{ /* language, sing in, cart */
+  font-size: 10px !important;
+ }
+
+ .expand-more{
+  font-size: 10px !important;
+ }
+
+ #_desktop_user_info{
+  margin-top: -6px;
+  margin-bottom: -6px;
+ }
+}
+
+@media screen and (min-width: 826px) and (max-width: 945px) {
+ .category-top-menu {
+  font-size: 8px !important;
+ }
+
+ .header-options{ /* language, sing in, cart */
+  font-size: 11px !important;
+ }
+
+ .expand-more{
+  font-size: 11px !important;
+ }
+
+ #_desktop_user_info{
+  margin-top: -4px;
+  margin-bottom: -4px;
+ }
+}
+
+@media screen and (min-width: 946px) and (max-width: 1080px) {
+ .category-top-menu {
+  font-size: 10px !important;
+ }
+
+ .header-options{ /* language, sing in, cart */
+  font-size: 14px !important;
+ }
+
+ .expand-more{
+  font-size: 14px !important;
+ }
+
+ #_desktop_user_info{
+  margin-top: -2px;
+  margin-bottom: -2px;
+ }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1230px) {
+ .category-top-menu {
+  font-size: 12px !important;
+ }
+
+ .header-options{ /* language, sing in, cart */
+  font-size: 16px !important;
+ }
+
+ .expand-more{
+  font-size: 16px !important;
+ }
+
+ #_desktop_user_info{
+  margin-top: 2px;
+  margin-bottom: 2px;
+ }
+}
+
+@media screen and (min-width: 1231px) and (max-width: 1340px) {
+ .category-top-menu {
+  font-size: 14px !important;
+ }
+}
+
+
+
+
+
 
 
