@@ -1,0 +1,75 @@
+ID;Active (0/1);Name;Parent category
+;;Laptopy;Home
+;;Akcesoria do laptopów;Laptopy
+;;Torby do laptopów;Akcesoria do laptopów
+;;Zasilacze do laptopów;Akcesoria do laptopów
+;;Laptopy/Notebooki/Ultrabooki;Laptopy
+;;Komputery PC;Home
+;;Komputery PC;Komputery PC
+;;Komputery FGAME;Komputery PC
+;;Komputery Powered by ASUS PRO ART;Komputery PC
+;;Komputery Powered by ASUS;Komputery PC
+;;Komputery Powered by MSI;Komputery PC
+;;Komputery dla graczy;Komputery PC
+;;Podzespoły PC;Home
+;;Dyski;Podzespoły PC
+;;Dyski HDD;Dyski
+;;Dyski SSD;Dyski
+;;Dyski zewnętrzne;Dyski
+;;Napędy optyczne;Podzespoły PC
+;;Zasilacze;Podzespoły PC
+;;Obudowy komputerowe;Podzespoły PC
+;;Chłodzenia komputerowe;Podzespoły PC
+;;Chłodzenia procesora;Chłodzenia komputerowe
+;;Chłodzenia wodne;Chłodzenia komputerowe
+;;Wentylatory;Chłodzenia komputerowe
+;;Pasty termoprzewodzące;Chłodzenia komputerowe
+;;Karty Sieciowe Wi-Fi;Podzespoły PC
+;;Tuning PC;Podzespoły PC
+;;Podzespoły PC;Podzespoły PC
+;;Procesory;Podzespoły PC
+;;Płyty główne;Podzespoły PC
+;;Karty graficzne;Podzespoły PC
+;;Pamięci RAM;Podzespoły PC
+;;Urządzenia peryferyjne;
+;;Urządzenia sieciowe;Urządzenia peryferyjne
+;;Routery;Urządzenia sieciowe
+;;Wzmacniacze sygnału;Urządzenia sieciowe
+;;Mysze;Urządzenia peryferyjne
+;;Klawiatury;Urządzenia peryferyjne
+;;Zestawy mysz + klawiatura;Urządzenia peryferyjne
+;;Słuchawki;Urządzenia peryferyjne
+;;Mikrofony;Urządzenia peryferyjne
+;;Kamery internetowe;Urządzenia peryferyjne
+;;Drukarki;Urządzenia peryferyjne
+;;Laserowe;Drukarki
+;;Atramentowe;Drukarki
+;;Urządzenia peryferyjne;Urządzenia peryferyjne
+;;Monitory;Urządzenia peryferyjne
+;;Akcesoria;
+;;Środki czyszczące;Akcesoria
+;;Sprężone powietrze;Środki czyszczące
+;;Pendrive;Akcesoria
+;;Karty pamięci;Akcesoria
+;;Napędy zewnętrzne;Akcesoria
+;;Podkładki pod mysz;Akcesoria
+;;Kable;Akcesoria
+;;Listwy zasilające;Akcesoria
+;;Obudowy i kieszenie dysków;Akcesoria
+;;Akcesoria;Akcesoria
+;;Uchwyty do monitora;Akcesoria
+;;Oprogramowanie;
+;;Gry;Oprogramowanie
+;;Gry PC;Gry
+;;Gry Xbox;Gry
+;;Gry Playstation;Gry
+;;Oprogramowanie;Oprogramowanie
+;;Systemy operacyjne;Oprogramowanie
+;;Programy antywirusowe;Oprogramowanie
+;;Programy biurowe;Oprogramowanie
+;;Fotele;
+;;Fotele;Fotele
+;;Fotele gamingowe;Fotele
+;;Fotele ergonomiczne;Fotele
+;;Promocje;
+;;Promocje;Promocje

@@ -29,4 +29,3 @@
     <span>{$banner_desc}</span>
   {/if}
 </a>
-
