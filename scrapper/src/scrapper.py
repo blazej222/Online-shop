@@ -6,6 +6,9 @@ import time
 from category import *
 import csv
 
+directory = '../scrapped/'
+directory = 'C:\\scrapped\\'
+
 def getPageResponse(URL):
          print(URL)
          while True:
@@ -13,6 +16,13 @@ def getPageResponse(URL):
                 return requests.get(URL)
             except:
                 time.sleep(5)
+
+def saveManufacturers():
+    with open(directory + 'manufacturers.csv', 'w', encoding='UTF-8') as f:
+        writer = csv.writer(f, delimiter =';', lineterminator="\n")
+        for manufacturer in manufacturers:
+            writer.writerow([manufacturer])
+
 
 BASE_URL = "https://foxkomputer.pl"
 start = time.time()
@@ -26,6 +36,7 @@ products = []
 navigationList = soup.find('ul', class_='menu-list large standard')
 parentCategory = navigationList.find('li', class_='parent')
 parentCategories = []
+manufacturers = []
 
 categoryDict = getCategories(navigationList)
 saveCategoriesToCsv(categoryDict)
@@ -38,8 +49,18 @@ for category in categoryDict:
         print('---------------------------------------')
         print(category)
         print('--' + str(categoryDict[category]))
-with open('../scrapped/products.csv', 'w', encoding='UTF-8') as f:
+with open(directory + 'products.csv', 'w', encoding='UTF-8') as f:
     writer = csv.writer(f, delimiter =';', lineterminator="\n")
+    headers = ['Product ID', 'Active', 'Name', 'Categories', 'Price tax excluded', 'Tax rules ID', 'Cost price', 'On sale',
+         'Discount amount', 'Discount percent', 'Discount from', 'Discount to', 'References', 'Supplier references',
+         'Suppliers', 'Brand', 'EAN13', 'UPC', 'EPN', 'Ecotax', 'Width', 'Height', 'Depth', 'Weight', 'Delivery time of in-stock',
+         'Delivery time of out-of-stock', 'Quantity', 'Minimal quantity', 'Low stock level', 'Send me an email', 
+         'Visibility', 'Additional shipping cost', 'Unit for base price', 'Base price', 'Summary', 'Description',
+         'Tags', 'Meta title', 'Meta keywords', 'Meta decription', 'Rewritten URL', 'Label when in stock',
+         'Label when backorder allowed', 'Avaialble for order', 'Product availability date', 'Product creation date',
+         'Show price', 'Image URLs', 'Image alt texts', 'Delete existing images', 'features', 'Available online only',
+         'Condition']
+    writer.writerow(headers)
     for category in parentCategories:#soup.find_all('li', class_='parent'):
         href = category.find('a')['href']
         while True:
@@ -48,7 +69,15 @@ with open('../scrapped/products.csv', 'w', encoding='UTF-8') as f:
             for element in pageContent.find_all("div", class_="product-inner-wrap"):
                 prodImage = element.find('a', class_="prodimage f-row")
                 productURL = prodImage["href"]
+                # try:
                 product = Product(productURL)
+                product.manufacturer = element.find('a', class_='brand').text.strip()
+                if product.manufacturer not in manufacturers:
+                    manufacturers.append(product.manufacturer)
+                # except Exception as e:
+                #      print(e)
+                #      print("Product skipped")
+                #      continue
                 product._saveImg("listing", BASE_URL + prodImage.find('img')['data-src'])
                 products.append(product)
                 product.writeToCsv(writer)
@@ -60,6 +89,9 @@ with open('../scrapped/products.csv', 'w', encoding='UTF-8') as f:
                 href = nextPageButton.find('a')['href']
             except:
                 break
+        Product.writeFeaturesToCsv()
+        saveManufacturers()
+        exit()
         
 
 
