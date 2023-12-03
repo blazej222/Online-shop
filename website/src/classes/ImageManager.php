@@ -576,7 +576,7 @@ class ImageManagerCore
                 break;
 
             case IMAGETYPE_PNG:
-                return imagecreatefrompng($filename);
+                return @imagecreatefrompng($filename);
 
                 break;
 

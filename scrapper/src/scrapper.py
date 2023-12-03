@@ -69,15 +69,12 @@ with open(directory + 'products.csv', 'w', encoding='UTF-8') as f:
             for element in pageContent.find_all("div", class_="product-inner-wrap"):
                 prodImage = element.find('a', class_="prodimage f-row")
                 productURL = prodImage["href"]
-                # try:
                 product = Product(productURL)
-                product.manufacturer = element.find('a', class_='brand').text.strip()
+                try:
+                    product.manufacturer = element.find('a', class_='brand').text.strip()
+                except:pass
                 if product.manufacturer not in manufacturers:
                     manufacturers.append(product.manufacturer)
-                # except Exception as e:
-                #      print(e)
-                #      print("Product skipped")
-                #      continue
                 product._saveImg("listing", BASE_URL + prodImage.find('img')['data-src'])
                 products.append(product)
                 product.writeToCsv(writer)
@@ -90,9 +87,8 @@ with open(directory + 'products.csv', 'w', encoding='UTF-8') as f:
             except:
                 break
         Product.writeFeaturesToCsv()
-        saveManufacturers()
-        exit()
-        
+    saveManufacturers()
+
 
 
 for product in products: print(product.name)
