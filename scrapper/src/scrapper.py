@@ -5,7 +5,7 @@ from product import Product
 import time
 from category import *
 import csv
-from directory import *
+from config import *
 
 def getPageResponse(URL):
          print(URL)
