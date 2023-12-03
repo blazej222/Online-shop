@@ -3,6 +3,7 @@ import pandas as pd
 from directory import *
 import os
 import io
+import concurrent.futures
 
 categoriesDir = {}
 featuresIDs = {}
@@ -15,7 +16,10 @@ def deleteAll(singular, plural):
         for feature in prestashop.get(plural)[plural][singular]:
             ids.append(int(feature["attrs"]["id"]))
         if ids:
-            prestashop.delete(plural, resource_ids=ids)
+            for i in range(0, len(ids), 100):
+                try:
+                    prestashop.delete(plural, resource_ids=ids[i:i+100])
+                except: pass
             print(f"{plural} deleted")
     except:
         #no features present
@@ -66,43 +70,46 @@ def addCategory(name, parentID):
 
 def addProducts():
     data = pd.read_csv(directory+'products.csv',sep=';', header=0)
-    for index, row in data.iterrows():
-        print(row['Product ID'])
-        product_schema['product']['id_manufacturer'] = manufacturerIDs[row['Brand']]
-        product_schema["product"]["link_rewrite"]["language"]["value"] = row['Name'].replace('/', '-').replace(' ', '-')
-        product_schema["product"]["price"] = row['Base price']
-        product_schema["product"]["id_tax_rules_group"] = 1
-        product_schema["product"]["active"] = 1
-        # product_schema["product"]["id_shop_default"] = 1
-        product_schema["product"]["state"] = 1
-        product_schema["product"]["available_for_order"] = 1
-        product_schema["product"]["minimal_quantity"] = 0
-        product_schema["product"]["show_price"] = 1
-        product_schema["product"]["name"]["language"]["value"] = row['Name']
-        product_schema["product"]["id_category_default"] = findCategoryID(row['Categories'])
-        product_schema["product"]["associations"]["categories"]['category']['id'] = findCategoryID(row['Categories'])
-        # {
-        #     "category": [
-        #         {"id": categoriesDir[findCategoryID(row['Categories'])]}
-        #     ],
-        # }
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+        futures = [executor.submit(addProduct, row) for index, row in data.iterrows()]
+        concurrent.futures.wait(futures)
+    
+       
 
-        features = row['features'].split('|')
-        productFeatures = []
-        for feature in features:
-            featureName = feature.split(': ')[0]
-            featureValue = feature[feature.find(': ')+2:]
-            # featureValue = feature.split(': ')[1]
-            productFeatures.append({
-                "id": featuresIDs[featureName],
-                "id_feature_value": featureValuesIDs[featureValue]
-            })
-        product_schema["product"]["associations"]["product_features"]["product_feature"] = productFeatures
-
-        product_schema["product"]["description"]["language"]["value"] = row['Description']
-        prodID = prestashop.add("products", product_schema)["prestashop"]["product"]["id"]
-        addImages(f"{directory}img/{row['Product ID']}", prodID)
-
+def addProduct(row):
+    print(row['Product ID'])
+    product_schema['product']['id_manufacturer'] = manufacturerIDs[row['Brand']]
+    product_schema["product"]["link_rewrite"]["language"]["value"] = row['Name'].replace('/', '-').replace(' ', '-')
+    product_schema["product"]["price"] = row['Base price']
+    product_schema["product"]["id_tax_rules_group"] = 1
+    product_schema["product"]["active"] = 1
+    # product_schema["product"]["id_shop_default"] = 1
+    product_schema["product"]["state"] = 1
+    product_schema["product"]["available_for_order"] = 1
+    product_schema["product"]["minimal_quantity"] = 0
+    product_schema["product"]["show_price"] = 1
+    product_schema["product"]["name"]["language"]["value"] = row['Name']
+    product_schema["product"]["id_category_default"] = findCategoryID(row['Categories'])
+    product_schema["product"]["associations"]["categories"]['category']['id'] = findCategoryID(row['Categories'])
+    # {
+    #     "category": [
+    #         {"id": categoriesDir[findCategoryID(row['Categories'])]}
+    #     ],
+    # } 
+    features = row['features'].split('|')
+    productFeatures = []
+    for feature in features:
+        featureName = feature.split(': ')[0]
+        featureValue = feature[feature.find(': ')+2:]
+        # featureValue = feature.split(': ')[1]
+        productFeatures.append({
+            "id": featuresIDs[featureName],
+            "id_feature_value": featureValuesIDs[featureValue]
+        })
+    product_schema["product"]["associations"]["product_features"]["product_feature"] = productFeatures  
+    product_schema["product"]["description"]["language"]["value"] = row['Description']
+    prodID = prestashop.add("products", product_schema)["prestashop"]["product"]["id"]
+    addImages(f"{directory}img/{row['Product ID']}", prodID)    
 def addManufacturers():
     data = pd.read_csv(directory+'manufacturers.csv', sep = ';', header=None)
     for index, row in data.iterrows():
@@ -113,6 +120,9 @@ def addManufacturers():
 def addFeatures():
     data = pd.read_csv(directory+'features.csv', sep = ';', header=0)
     for index, row in data.iterrows():
+        try:
+            row['Feature value'] = row['Feature value'].replace('->', '-').replace('=', ' ').replace('<', 'poniżej').replace('>', 'powyżej').replace('{', '(').replace('}', ')')
+        except: pass
         if featuresIDs.get(row['Feature name']) is None:
             product_features_schema['product_feature']['name']['language']['value'] = row['Feature name']
             test = row['Feature name']
@@ -121,16 +131,28 @@ def addFeatures():
             product_features_values_schema['product_feature_value']['value']['language']['value'] = row['Feature value']
             test = featuresIDs[row['Feature name']] 
             product_features_values_schema['product_feature_value']['id_feature'] = featuresIDs[row['Feature name']] 
+            test = row['Feature value']
             featureValuesIDs[row['Feature value']] = prestashop.add('product_feature_values', product_features_values_schema)["prestashop"]["product_feature_value"]["id"]
 
 def addImages(path, productID):
     imgs = os.listdir(path)
+    fd = io.open(path+'/listing.jpg', "rb")
+    content = fd.read()
+    fd.close()
+    try:
+        prestashop.add(f'/images/products/{productID}', files=[('image', 'cover.jpg', content)])
+    except:
+        print("upload failed")
+
     for img in imgs:
         if 'thumbnail' in img or 'listing' in img: continue
         fd = io.open(path+'/'+img, "rb")
         content = fd.read()
         fd.close()
-        prestashop.add(f'/images/products/{productID}', files=[('image', img, content)])
+        try:
+            prestashop.add(f'/images/products/{productID}', files=[('image', img, content)])
+        except:
+            print("upload failed")
 
 
 
@@ -147,10 +169,10 @@ product_features_values_schema = prestashop.get("product_feature_values", option
 del product_schema["product"]["position_in_category"]
 del product_schema["product"]["associations"]["combinations"]
 
-deleteAllCategories()
-deleteAll('manufacturer', 'manufacturers')
-deleteAll('product_feature', 'product_features')
 deleteAll('product', 'products')
+deleteAll('product_feature', 'product_features')
+deleteAll('manufacturer', 'manufacturers')
+deleteAllCategories()
 addCategories()
 addManufacturers()
 addFeatures()
