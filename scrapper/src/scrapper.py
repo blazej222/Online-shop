@@ -5,9 +5,7 @@ from product import Product
 import time
 from category import *
 import csv
-
-directory = '../scrapped/'
-directory = 'C:\\scrapped\\'
+from directory import *
 
 def getPageResponse(URL):
          print(URL)
@@ -86,8 +84,9 @@ with open(directory + 'products.csv', 'w', encoding='UTF-8') as f:
                 href = nextPageButton.find('a')['href']
             except:
                 break
-        Product.writeFeaturesToCsv()
-    saveManufacturers()
+saveManufacturers()
+Product.writeFeaturesToCsv()
+
 
 
 

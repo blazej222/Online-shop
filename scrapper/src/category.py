@@ -1,8 +1,6 @@
 import pandas as pd
 import csv
-
-directory = '../scrapped/'
-directory = 'C:\\scrapped\\'
+from directory import *
 
 def getCategories(navigationList):
     parentCategory = navigationList.find('li', class_='parent')
