@@ -294,6 +294,11 @@ margin-left: 0px;
 
 }
 
+.img-fluid{
+ display: block !important;
+ margin: 0 auto !important;
+}
+
 
 
 
