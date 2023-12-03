@@ -1,6 +1,6 @@
 import pandas as pd
 import csv
-from directory import *
+from config import *
 
 def getCategories(navigationList):
     parentCategory = navigationList.find('li', class_='parent')

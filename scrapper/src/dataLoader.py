@@ -1,6 +1,6 @@
 import prestapyt
 import pandas as pd
-from directory import *
+from config import *
 import os
 import io
 import concurrent.futures
@@ -157,9 +157,6 @@ def addImages(path, productID):
 
 
 api_url = 'http://localhost:8080/api'
-api_key = 'DHXYIV2PNQSPGC173MECU45Q4GJB9GGM'
-
-
 prestashop = prestapyt.PrestaShopWebServiceDict(api_url, api_key)
 category_schema = prestashop.get("categories", options={"schema": "blank"})
 product_schema = prestashop.get("products", options={"schema": "blank"})

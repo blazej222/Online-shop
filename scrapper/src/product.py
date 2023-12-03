@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 from time import sleep
-from directory import *
+from config import *
 import csv
 
 BASE_URL = 'https://foxkomputer.pl'
