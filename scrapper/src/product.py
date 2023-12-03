@@ -75,7 +75,7 @@ class Product:
             if features.get(rowName) is None:
                 features[rowName] = []
             if  rowValue not in features.get(rowName):
-                features.get(rowName).append(rowValue)
+                features[rowName].append(rowValue)
         self.specs = productSpecs
 
     def _fetchGallery(self, mainContainer):
@@ -126,7 +126,7 @@ class Product:
         
         features = ""
         for feature in self.specs:
-            features+=f"{feature['name']}: {feature['value']},"
+            features+=f"{feature['name']}: {feature['value']}|"
         if len(features) > 0:
             features = features[:-1]
         
