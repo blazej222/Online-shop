@@ -40,6 +40,10 @@
  padding: 5px;
 }
 
+.logout{
+ color: white !important;
+}
+
 #contact_us{ /* zmiana */
  float: left;
  font-size: 20px;
@@ -144,6 +148,10 @@ margin-left: 0px;
   font-size: 10px !important;
  }
 
+ .logout{
+  font-size: 10px !important;
+ }
+
  #_desktop_user_info{
   margin-top: -6px;
   margin-bottom: -6px;
@@ -175,6 +183,10 @@ margin-left: 0px;
  }
 
  .expand-more{
+  font-size: 11px !important;
+ }
+
+ .logout{
   font-size: 11px !important;
  }
 
@@ -234,6 +246,10 @@ margin-left: 0px;
   font-size: 14px !important;
  }
 
+ .logout{
+  font-size: 14px !important;
+ }
+
  #_desktop_user_info{
   margin-top: -2px;
   margin-bottom: -2px;
@@ -265,7 +281,13 @@ margin-left: 0px;
   font-size: 16px !important;
  }
 
+ .logout{
+  font-size: 16px !important;
+  padding-bottom: 10px !important;
+ }
+
  #_desktop_user_info{
+  line-height: 1.6 !important; /* nie wiem dlaczego nie działa */
   margin-top: 2px;
   margin-bottom: 2px;
  }
