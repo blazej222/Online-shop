@@ -85,8 +85,8 @@ class Product:
             ind = 0
             for image in images:
                 self._saveImg(str(ind), BASE_URL + image['href'])
-                thumbnail=image.find('img')
-                self._saveImg(f'{ind}-thumbnail', BASE_URL + thumbnail['src'])
+                #thumbnail=image.find('img')
+                #self._saveImg(f'{ind}-thumbnail', BASE_URL + thumbnail['src'])
                 ind+=1
         else:
             self._saveImg('0', BASE_URL+(mainContainer.find('img', class_='js__open-gallery')['src']))
@@ -95,14 +95,14 @@ class Product:
         if not ('thumbnail' in imgName):
             self.imgURLs.append(imgURL)
         #ignore already downloaded imgs
-        if os.path.exists(f'{directory}/img/{self.id}/{imgName}.jpg'): return
+        if os.path.exists(f'{directory}/img/{self.id}/{imgName}.png'): return
         req = self._getPageResponse(imgURL).content
         try:
             req = str(req, 'utf-8')
         except UnicodeDecodeError:
             if not os.path.exists(f'{directory}img/{self.id}'):
                 os.mkdir(f'{directory}img/{self.id}')
-            with open(f'{directory}/img/{self.id}/{imgName}.jpg', 'wb+') as f:
+            with open(f'{directory}/img/{self.id}/{imgName}.png', 'wb+') as f:
                 f.write(req)
 
     @staticmethod

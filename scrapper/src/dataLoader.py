@@ -4,7 +4,7 @@ from config import *
 import os
 import io
 import concurrent.futures
-
+import cv2
 categoriesDir = {}
 featuresIDs = {}
 featureValuesIDs = {}
@@ -64,8 +64,8 @@ def addCategory(name, parentID):
     category_schema["category"]["is_root_category"] = 0
     category_schema["category"]["id_parent"] = parentID
     category_schema["category"]["active"] = 1
-    #category_schema["category"]["link_rewrite"]["language"][0]["value"] = "TEST-CAT"
-    category_schema["category"]["description"] = "Lorem ipsum"
+    category_schema["category"]["link_rewrite"]["language"]["value"] = name.replace(' ', '-')
+    category_schema["category"]["description"] = ""
     prestashop.add("categories", category_schema)
 
 def addProducts():
@@ -80,7 +80,7 @@ def addProduct(row):
     print(row['Product ID'])
     product_schema['product']['id_manufacturer'] = manufacturerIDs[row['Brand']]
     product_schema["product"]["link_rewrite"]["language"]["value"] = row['Name'].replace('/', '-').replace(' ', '-')
-    product_schema["product"]["price"] = row['Base price']
+    product_schema["product"]["price"] = round(float(row['Base price'])/1.23, 2)
     product_schema["product"]["id_tax_rules_group"] = 1
     product_schema["product"]["active"] = 1
     # product_schema["product"]["id_shop_default"] = 1
@@ -125,35 +125,51 @@ def addFeatures():
         except: pass
         if featuresIDs.get(row['Feature name']) is None:
             product_features_schema['product_feature']['name']['language']['value'] = row['Feature name']
-            test = row['Feature name']
             featuresIDs[row['Feature name']] = prestashop.add('product_features', product_features_schema)["prestashop"]["product_feature"]["id"]
         if featureValuesIDs.get(row['Feature value']) is None:
             product_features_values_schema['product_feature_value']['value']['language']['value'] = row['Feature value']
-            test = featuresIDs[row['Feature name']] 
             product_features_values_schema['product_feature_value']['id_feature'] = featuresIDs[row['Feature name']] 
-            test = row['Feature value']
             featureValuesIDs[row['Feature value']] = prestashop.add('product_feature_values', product_features_values_schema)["prestashop"]["product_feature_value"]["id"]
 
 def addImages(path, productID):
     imgs = os.listdir(path)
-    fd = io.open(path+'/listing.jpg', "rb")
+    fd = io.open(path+'/listing.png', "rb")
+    content = fd.read()
+    fd.close()
+    addImage("listing.png",path, productID)
+    # try:
+    #     prestashop.add(f'/images/products/{productID}', files=[('image', 'cover.png', content)])
+    # except:
+    #     print("upload failed listing " + path)
+
+    for img in imgs:
+        addImage(img, path, productID)
+        # if 'thumbnail' in img or 'listing' in img: continue
+        # fd = io.open(path+'/'+img, "rb")
+        # content = fd.read()
+        # fd.close()
+        # try:
+        #     prestashop.add(f'/images/products/{productID}', files=[('image', img, content)])
+        # except Exception as e:
+        #     print(e)
+        #     print("upload failed " + path+'\\'+img)
+
+
+def addImage(name, path, productID, secondTry = False):
+    fd = io.open(path+'/'+name, "rb")
     content = fd.read()
     fd.close()
     try:
-        prestashop.add(f'/images/products/{productID}', files=[('image', 'cover.jpg', content)])
-    except:
-        print("upload failed")
-
-    for img in imgs:
-        if 'thumbnail' in img or 'listing' in img: continue
-        fd = io.open(path+'/'+img, "rb")
-        content = fd.read()
-        fd.close()
-        try:
-            prestashop.add(f'/images/products/{productID}', files=[('image', img, content)])
-        except:
-            print("upload failed")
-
+        prestashop.add(f'/images/products/{productID}', files=[('image', name, content)])
+    except Exception as e:
+        if secondTry:
+            #print("image too large for presta, aborting...")
+            return
+        #print(e)
+        img = cv2.imread(f"{path}/{name}")
+        cv2.imwrite(f"{path}{name}", img, [cv2.IMWRITE_PNG_COMPRESSION, 9])
+        #print(f"Image saved {path}/{name}")
+        addImage(f"{name}", path, productID, True)
 
 
 api_url = 'http://localhost:8080/api'
