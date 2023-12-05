@@ -42,6 +42,7 @@
 
 .logout{
  color: white !important;
+ line-height: 2;
 }
 
 #contact_us{ /* zmiana */
@@ -152,6 +153,10 @@ margin-left: 0px;
   font-size: 10px !important;
  }
 
+ .material-icons{
+  font-size: 10px !important;
+ }
+
  #_desktop_user_info{
   margin-top: -6px;
   margin-bottom: -6px;
@@ -189,6 +194,11 @@ margin-left: 0px;
  .logout{
   font-size: 11px !important;
  }
+
+ .material-icons{
+  font-size: 11px !important;
+ }
+
 
  #_desktop_user_info{
   margin-top: -4px;
@@ -250,6 +260,10 @@ margin-left: 0px;
   font-size: 14px !important;
  }
 
+ .material-icons{
+  font-size: 14px !important;
+ }
+
  #_desktop_user_info{
   margin-top: -2px;
   margin-bottom: -2px;
@@ -281,16 +295,20 @@ margin-left: 0px;
   font-size: 16px !important;
  }
 
+ .material-icons{
+  font-size: 16px !important;
+ }
+
  .logout{
   font-size: 16px !important;
   padding-bottom: 10px !important;
  }
 
- #_desktop_user_info{
-  line-height: 1.6 !important; /* nie wiem dlaczego nie działa */
-  margin-top: 2px;
-  margin-bottom: 2px;
- }
+ /*#_desktop_user_info{*/
+ /* line-height: 1.6 !important; !* nie wiem dlaczego nie działa *!*/
+ /* margin-top: 2px;*/
+ /* margin-bottom: 2px;*/
+ /*}*/
 
  .top-menu .sub-menu {
   width: calc(300px); /* zmiana */
@@ -319,6 +337,24 @@ margin-left: 0px;
 .img-fluid{
  display: block !important;
  margin: 0 auto !important;
+}
+
+.material-icons{
+ color: white;
+}
+
+.add,.remove{
+ color: black;
+}
+
+
+
+#search_widget{
+ margin-top: 1px;
+}
+
+.search{
+ margin-top: 5px;
 }
 
 
