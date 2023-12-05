@@ -107,7 +107,10 @@ def addProduct(row):
             "id_feature_value": featureValuesIDs[featureValue]
         })
     product_schema["product"]["associations"]["product_features"]["product_feature"] = productFeatures  
-    product_schema["product"]["description"]["language"]["value"] = row['Description']
+    if pd.isnull(row['Description']):
+        product_schema["product"]["description"]["language"]["value"] = ""
+    else:
+        product_schema["product"]["description"]["language"]["value"] = row['Description']
     prodID = prestashop.add("products", product_schema)["prestashop"]["product"]["id"]
     addImages(f"{directory}img/{row['Product ID']}", prodID)    
 def addManufacturers():
