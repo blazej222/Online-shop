@@ -8,7 +8,6 @@ def changeStock(element):
     stock_availables_schema["stock_available"]["quantity"] = 10
     prestashop.edit("stock_availables", stock_availables_schema)
 
-api_url = 'http://localhost:8080/api'
 prestashop = prestapyt.PrestaShopWebServiceDict(api_url, api_key)
 elements = prestashop.get('stock_availables')["stock_availables"]["stock_available"]#['stock_availables']
 

@@ -175,7 +175,6 @@ def addImage(name, path, productID, secondTry = False):
         addImage(f"{name}", path, productID, True)
 
 
-api_url = 'http://localhost:8080/api'
 prestashop = prestapyt.PrestaShopWebServiceDict(api_url, api_key)
 category_schema = prestashop.get("categories", options={"schema": "blank"})
 product_schema = prestashop.get("products", options={"schema": "blank"})
