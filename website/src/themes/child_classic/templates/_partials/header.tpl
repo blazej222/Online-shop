@@ -44,9 +44,12 @@
           {/if}
         </div>
         <div id="contact_us" class="col-md-5 hidden-sm-down">
-            {hook h='displayNav1'}
+            {hook h='displaySearch'}
         </div>
-        <div id="language" class="col-md-2 hidden-sm-down">
+        <div class="col-md-1 hidden-sm-down">
+        </div>
+        <div id="language" class="col-md-3 hidden-sm-down">
+            {hook h='displayNav1'}
             {hook h='displayNav2'}
         </div>
       </div>
@@ -62,6 +65,9 @@
     <div id="categories" class="header-top-right col-md-12 col-sm-12 position-static">
         <div id="categories-inside" class="container">
             {hook h='displayTop'}
+            <div id="search_disappear">
+                {hook h='displaySearch'}
+            </div>
         </div>
     </div>
   </div>
