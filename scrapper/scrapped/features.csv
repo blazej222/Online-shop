@@ -72,12 +72,9 @@ Model;Latitude 5440
 Model;Latitude 5530
 Model;Latitude 5540
 Model;Latitude 7340
-Model;Latitude 7440
 Model;Latitude 7440 2in1
-Model;Latitude 7640
 Model;Latitude 9440 2-in-1
 Model;Vostro 3510
-Model;Vostro 3530
 Model;XPS 13 9315
 Model;XPS 13 9320
 Model;XPS 15 9530
@@ -85,13 +82,10 @@ Model;250 G9
 Model;255 G9
 Model;HP EliteBook 640 14 inch G10 Notebook PC
 Model;EliteBook 860 16 inch G10 Notebook PC
-Model;HP Dragonfly 13.5 inch G4 Notebook PC
 Model;8A3S4EA
-Model;8A3S6EA
 Model;HP Elite x360 1040 14 inch G10 2-in-1 Notebook PC
 Model;HP EliteBook 840 G10
 Model;HP EliteBook 1040 14 inch G10 Notebook PC
-Model;HP EliteBook 630 13.3 inch G10 Notebook PC
 Model;HP EliteBook 640 14 inch G9 Notebook PC
 Model;HP EliteBook 645 14 inch G10 Notebook PC
 Model;HP EliteBook 650 15.6 inch G9 Notebook PC
@@ -104,6 +98,7 @@ Model;HP ProBook 440 G10
 Model;HP ProBook 445 14 inch G10 Notebook PC
 Model;HP ProBook 450 G10
 Model;HP ProBook 455 15.6 inch G10 Notebook PC
+Model;HP ProBook 455 15.6 inch G9 Notebook PC
 Model;Elite x360 1040 14 inch G10 2-in-1 Notebook PC
 Model;KM1405.2-G
 Model;ThinkBook 14 G6 IRL
@@ -112,7 +107,6 @@ Model;ThinkBook 16 G6 IRL
 Model;ThinkBook 16 G6
 Model;ThinkPad E14 Gen 5
 Model;ThinkPad E14 G5
-Model;ThinkPad E16 G1
 Model;ThinkPad E16 Gen 1
 Model;ThinkPad L13 Gen 4
 Model;21FN0008PB
@@ -135,7 +129,6 @@ Model;ThinkPad T14 Gen 3
 Model;ThinkPad T14 Gen 4
 Model;ThinkPad T14s G3
 Model;ThinkPad T14s Gen 3
-Model;ThinkPad X1 Extreme Gen 5
 Model;ThinkPad X13 Yoga G4
 Model;ThinkPad X13s Gen 1
 Model;mBook14
@@ -151,7 +144,6 @@ Model;Satellite Pro A50-J-12G
 Model;Ryzen 5 3600
 Model;TUF GAMING Z690-PLUS D4
 Model;Ryzen 7 2700
-Model;Ryzen 9 3900 PRO
 Model;GeForce RTX™ 4070 12GB DUAL OC
 Model;Fera 5
 Model;Fortis 5
@@ -293,9 +285,9 @@ Model;Radeon HD 6450
 Model;Geforce GT 210
 Model;Geforce GT420
 Model;Geforce GT 610
+Model;Geforce GT 710
 Model;Geforce GT 730
 Model;Radeon RX 550 4GB
-Model;Ryzen 5700X
 Model;AMD Radeon RX 6600 Challenger D
 Model;Radeon RX 6800 XT
 Model;RX7700XT PG 12GO
@@ -312,21 +304,22 @@ Model;B550M PHANTOM GAMING 4
 Model;B550M Pro4
 Model;B550M-HDV
 Model;B550M-HVS SE
-Model;B560M-HDV R3.0
 Model;B650 PRO RS
 Model;B650E PG RIPTIDE WIFI
+Model;B650E Steel Legend WiFi
 Model;B650M PG Riptide
 Model;B650M-H/M.2+
 Model;B650M-HDV/M.2
+Model;B660M Pro RS
 Model;B760 PRO RS/D4
 Model;B760 Pro RS
 Model;B760 PRO RS/D4 WIFI
 Model;B760M PG RIPTIDE
 Model;B760M PRO RS/D4 WIFI
-Model;B760M PRO RS/D4
 Model;B760M STEEL LEGEND WIFI
 Model;B760M-HDV/M.2 D4
 Model;H310CM-DVS
+Model;H510M-HDV/M.2
 Model;H610M-HVS/M.2
 Model;X570 PHANTOM GAMING 4
 Model;X570 PRO4
@@ -341,7 +334,6 @@ Model;Z790 PRO RS/D4
 Model;Z790 Steel Legend WIFI
 Model;Z790M PG Lightning/D4
 Model;4060 DUAL OC V2 BULK
-Model;GT 1030 OC
 Model;GT730 2GB DDR5
 Model;GT730
 Model;GeForce RTX 3050 DUAL OC
@@ -351,7 +343,6 @@ Model;Dual GeForce RTX 4060 Ti OC
 Model;GeForce RTX 4060 Ti
 Model;GeForce RTX 4070
 Model;GeForce RTX 4070 Ti
-Model;GeForce RTX 4080
 Model;Dual Radeon RX 560
 Model;6900XT ROG STRIX LC OC 16GB
 Model;RTX 4060 ProArt
@@ -360,12 +351,10 @@ Model;DUAL-GTX1650-O4GD6-P-EVO
 Model;PRIME B450-PLUS
 Model;PRIME B450M-K II
 Model;PRIME B650-PLUS
-Model;PRIME B660-PLUS D4
 Model;B660M-K
 Model;PRIME H510M-E
 Model;PRIME H510M-K
 Model;H510M-K
-Model;PRIME H610M-K D4
 Model;H610M-K
 Model;PRIME Z790-A WIFI
 Model;PRIME Z790-P
@@ -382,7 +371,6 @@ Model;ROG STRIX Z790-E GAMING WIFI II
 Model;ROG STRIX Z790-F GAMING WIFI II
 Model;TUF GAMING B550-PLUS
 Model;TUF Gaming B550-Plus
-Model;TUF GAMING B550-PLUS WIFI II
 Model;TUF GAMING B650M-PLUS
 Model;TUF GAMING B650M-PLUS WIFI
 Model;TUF GAMING X670E-PLUS
@@ -391,13 +379,13 @@ Model;TUF GAMING Z790-PRO WIFI
 Model;TUF GAMING A620M-PLUS WIFI
 Model;Vengeance LPX
 Model;MP600
-Model;MP600 GS
 Model;MP600 PRO Gen4
-Model;MP600 Gen4 PCIe
 Model;MP700
+Model;MP600 GS
 Model;MP600 PRO
 Model;MP600 CORE XT
 Model;X6
+Model;BX500
 Model;P3
 Model;X10 Pro
 Model;T700
@@ -411,7 +399,6 @@ Model;Spatium M480 PRO 2TB
 Model;S26361-F5782-L960
 Model;F3-1600C10D-16GAO
 Model;F3-10666CL9D-16GBXL
-Model;F3-12800CL10D-16GBXL
 Model;F3-12800CL10Q-32GBZL
 Model;G.SKILL DDR3 4GB 1600MHz CL11
 Model;G.SKILL DDR4 Aegis 8GB 2666MHz CL19
@@ -423,29 +410,24 @@ Model;GV-N3060GAMING OC-12GD 2.0
 Model;GeForce RTX 3060 GAMING OC 8G (rev. 2.0)
 Model;GeForce RTX 3060 WINDFORCE OC 12G rev. 2.0
 Model;GV-N3060WF2OC-12GD 2.0
-Model;GV-N4060AERO OC-8GD
 Model;GV-N4060AORUS E-8GD
 Model;4060 AORUS ELITE
 Model;GV-N4060GAMING OC-8GD
 Model;GV-N4060WF2OC-8GD
 Model;GV-N4070EAGLE OC-12GD
 Model;GV-N407TEAGLE OC-12GD 2.0
-Model;GV-N4070WF3OC-12GD
 Model;GeForce RTX 4080 16GB EAGLE OC
 Model;GV-N4090GAMING OC-24GD
-Model;RX 6600 EAGLE
 Model;Radeon RX 7600 Gaming OC
 Model;Radeon RX 7700 XT GAMING OC 12G
 Model;7800XT Gaming OC
 Model;A520M S2H
 Model;B450M K
-Model;B550 AORUS ELITE V2
 Model;B550M Aorus Elite
 Model;B550M DS3H AC
 Model;B550M DS3H
 Model;B650 GAMING X AX
 Model;B650E AORUS MASTER
-Model;B650M GAMING X AX
 Model;B650M S2H
 Model;B760 AORUS ELITE AX
 Model;B760 AORUS ELITE
@@ -459,7 +441,6 @@ Model;B760M GAMING X DDR4
 Model;H410M S2H V2
 Model;H510M H V2
 Model;H510M K V2
-Model;H610M S2H V2 DDR4
 Model;X670 AORUS ELITE AX
 Model;X670 Gaming X AX V2
 Model;X670E AORUS MASTER
@@ -530,7 +511,6 @@ Model;Radeon RX 6400
 Model;Radeon RX 6750 XT MECH 2X 12G V1
 Model;3050 GAMING X
 Model;GeForce RTX 4060 Ti GAMING X SLIM 8G
-Model;B450M-A PRO MAX
 Model;B550M PRO-VDH WIFI
 Model;MSI B560M PRO-E
 Model;MAG B650M MORTAR WIFI
@@ -541,10 +521,12 @@ Model;PRO B760-P WIFI DDR4
 Model;PRO B760M-P
 Model;PRO Z790-P WIFI
 Model;PRO Z790-S WIFI
+Model;Z790 GAMING PLUS WIFI
 Model;GeForce RTX 3050 StormX
 Model;GeForce RTX 3060
 Model;GeForce RTX 4080 GAMEROCK
 Model;GeForce RTX 4080 GamingPro OC
+Model;GeForce RTX 4080
 Model;Viper Steel
 Model;PBE120GS25SSDR
 Model;P220
@@ -564,14 +546,15 @@ Model;PRIME H410M-K
 Model;B450 AORUS M
 Model;H310M S2
 Model;Z490M GAMING X
+Model;B450M-A PRO MAX
 Model;CS3140
 Model;CS2230
 Model;M280CS2230-1TB-RB
 Model;M280CS1030-1TB-RB
 Model;CS1030
 Model;M280CS2230-500
-Model;SSD7CS900-500-RB
 Model;M280CS1030-500-RB
+Model;GeForce GTX 1650
 Model;GeForce RTX4060
 Model;GeForce RTX 4060 Ti 16GB XLR8 Gaming VERTO Overclocked Dual Fan DLSS 3
 Model;GeForce RTX 4060 Ti 8GB OC XLR8 Gaming VERTO Dual Fan
@@ -585,17 +568,12 @@ Model;M22110PSVHS-XR-RB
 Model;MU-PC1T0T/WW
 Model;MU-PC500R/WW
 Model;PM9A3
-Model;SSD MZ-V8P2T0BW
-Model;970 EVO PLUS
-Model;MZ-V9P1T0BW
 Model;PM893
 Model;Portable SSD T7
-Model;Portable SSD T7 Shield
 Model;MU-PC2T0K/WW
 Model;Radeon RX 7600
 Model;11335-02-20G
 Model;PULSE AMD Radeon RX 7800 XT 16GB
-Model;RX 550 PULSE
 Model;ZP2048GV3A002
 Model;Firecuda 540
 Model;IronWolf 125
@@ -644,8 +622,6 @@ Model;Thock TKL Wireless Black
 Model;Thock TKL Wireless Red
 Model;Thock Wireless Brown
 Model;Thock Wireless Red
-Model;Comet RGB Outemu Blue
-Model;Comet RGB Outemu Brown
 Model;Meteor RGB Outemu Blue
 Model;GK650K Omnis Kailh Blue RGB
 Model;LC-STARR-TWO
@@ -660,6 +636,7 @@ Model;Reno
 Model;Nitro XZ270UPbmiiphx
 Model;Nitro VG240YEb
 Model;Nitro VG240YE
+Model;Nitro ED270RS3
 Model;Nitro QG270H3
 Model;Nitro VG270E
 Model;Nitro XV275KV
@@ -670,13 +647,12 @@ Model;LW-2402
 Model;SC-2702
 Model;SC-2202
 Model;22B2H/EU
-Model;24G2SPU/BK
 Model;M2470Swh
 Model;24B2XDA
 Model;24B2XDAM
 Model;24B2XH/EU
-Model;24G2SAE/BK
 Model;24G2SPAE/BK
+Model;24P2Q
 Model;24P2QM
 Model;27G2SPU/BK
 Model;Q27G2S
@@ -685,7 +661,6 @@ Model;27B2DA
 Model;27B2H/EU
 Model;27G2SAE/BK
 Model;27G2SPAE
-Model;27P2Q
 Model;27V5C/BK
 Model;27V5CE/BK
 Model;CU34G2XE/BK
@@ -709,8 +684,8 @@ Model;U32P2
 Model;U34E2M
 Model;U34G3XM/EU
 Model;U34V5C/BK
+Model;Studio Display
 Model;PA147CDV
-Model;PA148CTV
 Model;MQ16AH
 Model;VY229HE
 Model;VZ22EHE
@@ -745,10 +720,10 @@ Model;VG249Q1R
 Model;ROG Strix XG259QN
 Model;ZenScreen Ink
 Model;BL2381T
-Model;GW2475H
 Model;EW2480
 Model;GW2485TC
 Model;SW240
+Model;GW2480
 Model;GW2480E
 Model;GW2480T
 Model;PD2500Q
@@ -785,8 +760,10 @@ Model;E2222H
 Model;E2223HV
 Model;E2423H
 Model;E2423HN
+Model;E2422HS
 Model;E2723H
 Model;G2422HS
+Model;AW2524H
 Model;G3223Q
 Model;P1917s
 Model;P2222H
@@ -803,7 +780,6 @@ Model;P3223QE
 Model;P3424WEB
 Model;P1424H
 Model;S2421H
-Model;S2421HN
 Model;S2422HG
 Model;S2721DS
 Model;S2721HN
@@ -821,6 +797,7 @@ Model;U3023E
 Model;3223QE
 Model;U3223QZ
 Model;U4924DW
+Model;C2723H
 Model;S3221QSA
 Model;U3824DW
 Model;AORUS G24F 2
@@ -839,6 +816,7 @@ Model;E27m G4
 Model;ProLite XU2494HSU-B6
 Model;TW1023ASC-B1P
 Model;TW1523AS-B1P
+Model;G2250HS-B1
 Model;ProLite X2283HSU-B1
 Model;XB2283HSU-B1
 Model;ProLite XU2293HS-B5
@@ -847,6 +825,7 @@ Model;T2234AS-B1
 Model;PROLITE T2252MSC-B2
 Model;XUB2293HS-B5
 Model;XUB2395WSU-B1
+Model;XUB2390HS-B5
 Model;ProLite XU2493HSU-B6
 Model;G-MASTER G2445HSU-B1
 Model;ProLite X2483HSU-B5
@@ -854,9 +833,9 @@ Model;ProLite XU2492HSU-B6
 Model;ProLite XU2293HS
 Model;ProLite XUB2490HSUC
 Model;ProLite XUB2492HSU
+Model;ProLite XUB2493HS-B5
 Model;ProLite XUB2493QSU
 Model;ProLite XUB2494HSU-B6
-Model;Prolite XUB2494HSU
 Model;GB2470HSU-B5
 Model;ProLite XUB2492HSC
 Model;ProLite XUB2492HSN
@@ -873,28 +852,31 @@ Model;G2755HSU-B1
 Model;G-MASTER GB2730HSU-B5
 Model;G-Master GB2730QSU
 Model;G-MASTER GB2766HSU-B1
+Model;GB2770HSU-B5
 Model;G-Master GB2770QSU-B5
 Model;GB2790QSU-B5
 Model;XU2792HSU-B1
 Model;XU2792QSU-B1
+Model;PROLITE XU2793HS-B5
 Model;ProLite XU2794QSU-B6
 Model;ProLite XUB2792HSC
 Model;PROLITE XUB2792HSN-B5
 Model;ProLite XUB2792HSU
 Model;PROLITE XUB2792QSC-B5
+Model;PROLITE XUB2792QSN-B5
+Model;XUB2793HS-B5
 Model;Prolite XUB2794QSU-B6
 Model;Prolite T2735MSC-B3
 Model;G-MASTER GB2870UHSU-B1
 Model;XB3288UHSU-B5
-Model;G-MASTER GB3271QSU-B1
 Model;ProLite XUB3294QSU
 Model;PROLITE XB3270QS-B5
 Model;PROLITE XUB3294QSU-B1
+Model;PROLITE XCB3494WQSN-B5
 Model;ProLite XUB3493WQSU
 Model;G-Master G4380UHSU-B1
 Model;G-Master GB2470HSU-W5
 Model;G-Master GCB3280QSU
-Model;G-MASTER G2745HSU-B1
 Model;G-MASTER G2470HSU-B1
 Model;G-MASTER G2770HSU-B1
 Model;ProLite T2234MSC-B1S
@@ -909,7 +891,6 @@ Model;ThinkVision T24mv-30
 Model;E24-28
 Model;E24q-20
 Model;T24i-30
-Model;63E0KAT4EU
 Model;ThinkVision T25d-10
 Model;T27h-30
 Model;T27i-30
@@ -1005,6 +986,7 @@ Model;S27A60PUUU
 Model;S27A800UJP
 Model;S27A800UNP
 Model;LS27C432GA
+Model;S27R650FDR
 Model;LS27C902PAUXDU
 Model;U32R590CWP
 Model;S32A600NAU
@@ -1012,14 +994,15 @@ Model;LS32A600UUPXEN
 Model;LS32BM700UPXEN
 Model;S34BG850SU
 Model;S34C500GAU
+Model;LS34C652VAUXEN
 Model;S49A950UIP
+Model;LS49CG934SUXEN
 Model;Odyssey G95SC
 Model;QB24R-TB
 Model;DM4240PEUZ
 Model;Secondary
 Model;29200
 Model;XL2566K
-Model;XL2540K
 Model;XL2546K
 Model;TUF Gaming A1 + SSD Patriot P300 512GB
 Model;F5 2.5m czarna
@@ -1039,7 +1022,6 @@ Kod produktu (producenta);50011
 Kod produktu (producenta);100-100000031BOX
 Kod produktu (producenta);TUF GAMING Z690-PLUS D4
 Kod produktu (producenta);YD2700BBAF
-Kod produktu (producenta);100-000000072
 Kod produktu (producenta);DUAL-RTX4070-O12G
 Kod produktu (producenta);EY3A005
 Kod produktu (producenta);EY3A008
@@ -1139,7 +1121,6 @@ Kod produktu (producenta);ALEG-800-1000GCS
 Kod produktu (producenta);SLEG-900-1TCS
 Kod produktu (producenta);ASU800SS-512GT-C
 Kod produktu (producenta);AGAMMIXS11P-1TT-C
-Kod produktu (producenta);100-100000926WOF
 Kod produktu (producenta);DUAL-RTX4060-O8G
 Kod produktu (producenta);GT730-SL-2GD5-BRK
 Kod produktu (producenta);DUAL-RTX3050-O8G
@@ -1200,8 +1181,6 @@ Kod produktu (producenta);EY5A081
 Kod produktu (producenta);EY5A080
 Kod produktu (producenta);EY5A078
 Kod produktu (producenta);EY5A079
-Kod produktu (producenta);KRX0023
-Kod produktu (producenta);KRX0024
 Kod produktu (producenta);KRX0025
 Kod produktu (producenta);SPG115
 Kod produktu (producenta);LC-STARR-TWO
@@ -1251,8 +1230,8 @@ Przekątna ekranu;"15.6"""
 Przekątna ekranu;15,6''
 Przekątna ekranu;13,3''
 Przekątna ekranu;14''
-Przekątna ekranu;16''
 Przekątna ekranu;13,4''
+Przekątna ekranu;16''
 Przekątna ekranu;13,5''
 Przekątna ekranu;14,1''
 Przekątna ekranu;17,3''
@@ -1340,7 +1319,6 @@ Liczba rdzeni;4
 Liczba rdzeni;10
 Liczba rdzeni;6
 Liczba rdzeni;2
-Liczba rdzeni;5
 Liczba rdzeni;12
 Liczba rdzeni;14
 Liczba rdzeni;8
@@ -1354,15 +1332,6 @@ Bluetooth;1.0
 Bluetooth;5.1
 Bluetooth;Nie
 Bluetooth;Tak
-Liczba wątków;4
-Liczba wątków;12
-Liczba wątków;8
-Liczba wątków;6
-Liczba wątków;16
-Liczba wątków;20
-Liczba wątków;2
-Liczba wątków;24
-Liczba wątków;32
 Rodzina procesora;Intel Celeron
 Rodzina procesora;Intel Pentium Silver
 Rodzina procesora;Intel Core i5
@@ -1379,9 +1348,9 @@ Rodzina procesora;Intel Celeron Quad Core
 Rodzina procesora;Intel Celeron • Intel Core i3 • Intel Core i5 • Intel Core i7 • Intel Core i9 • Intel Pentium
 Rodzina procesora;AMD Ryzen 9
 Rodzina procesora;Bez procesora
-Rodzina procesora;Intel Core
 Rodzina procesora;AMD Ryzen • AMD Ryzen 5 • AMD Ryzen 7 • AMD Ryzen 9
 Rodzina procesora;AMD Ryzen 5 • AMD Ryzen 7 • AMD Ryzen 9
+Rodzina procesora;Intel Core
 Rodzina procesora;Intel Core i3 • Intel Core i5 • Intel Core i7
 Rodzina procesora;Intel Celeron • Intel Core • Intel Pentium
 Rodzina procesora;Intel Celeron • Intel Core • Intel Pentium Gold
@@ -1389,35 +1358,14 @@ Rodzina procesora;Intel Celeron • Intel Core i3 • Intel Core i5 • Intel Co
 Rodzina procesora;Intel Celeron D • Intel Core i3 • Intel Core i5 • Intel Core i7 • Intel Core i9 • Intel Pentium
 Rodzina procesora;Intel Core i3 • Intel Core i5 • Intel Core i7 • Intel Core i9
 Rodzina procesora;AMD Epyc
-Rodzina procesora;AMD Athlon X4 • AMD Ryzen
-Taktowanie procesora;1.1 GHz
-Taktowanie procesora;3 GHz
-Taktowanie procesora;3.3 GHz
-Taktowanie procesora;3.5 GHz
-Taktowanie procesora;2.7 GHz
-Taktowanie procesora;3.4 GHz
-Taktowanie procesora;3.7 GHz
-Taktowanie procesora;0 Hz
-Taktowanie procesora;4.6 GHz
-Taktowanie procesora;2 GHz
-Taktowanie procesora;4.5 GHz
-Taktowanie procesora;2.3 GHz
-Taktowanie procesora;1.3 GHz
-Taktowanie procesora;1.2 GHz
-Taktowanie procesora;2.4 GHz
-Taktowanie procesora;1.7 GHz
-Taktowanie procesora;2.9 GHz
-Taktowanie procesora;3.2 GHz
-Taktowanie procesora;3.6 GHz
-Taktowanie procesora;4 GHz
-Taktowanie procesora;3.8 GHz
-Taktowanie procesora;3.9 GHz
-Taktowanie procesora;4.7 GHz
-Taktowanie procesora;4.2 GHz
-Taktowanie procesora;4.4 GHz
-Taktowanie procesora;2.6 GHz
-Taktowanie procesora;2.5 GHz
-Taktowanie procesora;2.1 GHz
+Liczba wątków;4
+Liczba wątków;12
+Liczba wątków;8
+Liczba wątków;16
+Liczba wątków;20
+Liczba wątków;2
+Liczba wątków;32
+Liczba wątków;24
 Cache L3;4 MB
 Cache L3;12 MB
 Cache L3;10 MB
@@ -1435,6 +1383,34 @@ Cache L3;20 MB
 Cache L3;25 MB
 Cache L3;30 MB
 Cache L3;36 MB
+Taktowanie procesora;1.1 GHz
+Taktowanie procesora;3 GHz
+Taktowanie procesora;3.3 GHz
+Taktowanie procesora;3.5 GHz
+Taktowanie procesora;2.7 GHz
+Taktowanie procesora;3.4 GHz
+Taktowanie procesora;3.7 GHz
+Taktowanie procesora;0 Hz
+Taktowanie procesora;4.6 GHz
+Taktowanie procesora;2 GHz
+Taktowanie procesora;2.3 GHz
+Taktowanie procesora;4.5 GHz
+Taktowanie procesora;1.3 GHz
+Taktowanie procesora;1.2 GHz
+Taktowanie procesora;2.4 GHz
+Taktowanie procesora;1.7 GHz
+Taktowanie procesora;2.9 GHz
+Taktowanie procesora;3.2 GHz
+Taktowanie procesora;3.6 GHz
+Taktowanie procesora;4 GHz
+Taktowanie procesora;3.8 GHz
+Taktowanie procesora;3.9 GHz
+Taktowanie procesora;4.7 GHz
+Taktowanie procesora;4.2 GHz
+Taktowanie procesora;4.4 GHz
+Taktowanie procesora;2.6 GHz
+Taktowanie procesora;2.5 GHz
+Taktowanie procesora;2.1 GHz
 Taktowanie (Boost);2.8 GHz
 Taktowanie (Boost);3.3 GHz
 Taktowanie (Boost);4.6 GHz
@@ -1459,7 +1435,6 @@ Taktowanie (Boost);5.7 GHz
 Taktowanie (Boost);3.4 GHz
 Taktowanie (Boost);5.5 GHz
 Taktowanie (Boost);5.8 GHz
-Taktowanie (Boost);6 GHz
 Obsługa ECC;Nie
 Obsługa ECC;Tak
 Pozostałe informacje o procesorze;Intel Celeron N5100
@@ -1471,19 +1446,18 @@ Pozostałe informacje o procesorze;Intel Core i7-1355U
 Pozostałe informacje o procesorze;Intel Core i7-1365U
 Pozostałe informacje o procesorze;Intel Core i7-1265U
 Pozostałe informacje o procesorze;Intel Core i3-1115G4
-Pozostałe informacje o procesorze;Intel Core i3-1305U
 Pozostałe informacje o procesorze;Intel Core i7-1250U
 Pozostałe informacje o procesorze;Intel Core i7-1360P
 Pozostałe informacje o procesorze;Intel Core i9-13900H
-Pozostałe informacje o procesorze;Intel Core i5-1235U
 Pozostałe informacje o procesorze;Intel Core i3-1215U
+Pozostałe informacje o procesorze;Intel Core i5-1235U
 Pozostałe informacje o procesorze;AMD Ryzen 3 5425U
 Pozostałe informacje o procesorze;Intel Core i7-1370P
 Pozostałe informacje o procesorze;Intel Core i5-1350P
 Pozostałe informacje o procesorze;AMD Ryzen 7 7730U
 Pozostałe informacje o procesorze;Intel Core i7-1255U
 Pozostałe informacje o procesorze;AMD Ryzen 5 7530U
-Pozostałe informacje o procesorze;Intel Core i5-1340P
+Pozostałe informacje o procesorze;AMD Ryzen 5 5625U
 Pozostałe informacje o procesorze;AMD Ryzen 5 PRO 7530U (6C / 12T, 2.0 / 4.5GHz, 3MB L2 / 16MB L3)
 Pozostałe informacje o procesorze;AMD Ryzen 5 PRO 7530U
 Pozostałe informacje o procesorze;AMD Ryzen 7 PRO 7730U
@@ -1495,7 +1469,6 @@ Pozostałe informacje o procesorze;AMD Ryzen 5 PRO 6650U
 Pozostałe informacje o procesorze;AMD Ryzen 5 PRO 7540U
 Pozostałe informacje o procesorze;AMD Ryzen 7 PRO 7840U
 Pozostałe informacje o procesorze;Intel Core i7-1260P
-Pozostałe informacje o procesorze;Intel Core i9-12900H
 Pozostałe informacje o procesorze;Qualcomm Snapdragon 8cx Gen 3
 Pozostałe informacje o procesorze;Intel Celeron J4125
 Pozostałe informacje o procesorze;Intel Core i5-1245U
@@ -1510,7 +1483,6 @@ Rozdzielczość;2560 x 1600 (WQXGA)
 Rozdzielczość;3840 x 2400
 Rozdzielczość;3456 x 2160
 Rozdzielczość;2880 x 1800
-Rozdzielczość;3000 x 2000
 Rozdzielczość;2256 x 1504
 Rozdzielczość;2496 x 1664
 Rozdzielczość;2400 x 1600
@@ -1526,6 +1498,7 @@ Rozdzielczość;2560 x 1440
 Rozdzielczość;3840 x 2160
 Rozdzielczość;3440 x 1440
 Rozdzielczość;3840 x 1080
+Rozdzielczość;5120 x 2880
 Rozdzielczość;1920 x 550
 Rozdzielczość;102 x 80
 Rozdzielczość;5120 x 2160
@@ -1535,7 +1508,6 @@ Rozdzielczość;5120 x 1440
 Rozdzielczość;3840 x 1600
 Rozdzielczość;1280 x 800 (WXGA)
 Rozdzielczość;2560 x 1080
-Rozdzielczość;5120 x 2880
 Powierzchnia matrycy;Matowa
 Powierzchnia matrycy;Błyszcząca
 Powierzchnia matrycy;Błyszcząca • Matowa
@@ -1551,7 +1523,6 @@ Model karty graficznej;Radeon
 Model karty graficznej;Intel HD Graphics
 Model karty graficznej;Radeon 740M
 Model karty graficznej;Radeon 780M
-Model karty graficznej;GeForce RTX 3080 Ti
 Model karty graficznej;Adreno 690
 Model karty graficznej;GeForce RTX 4050
 Model karty graficznej;GeForce RTX 3050 Ti
@@ -1658,9 +1629,11 @@ Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 1 x PCIe 3.0 x 16
 Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 1 x PCIe 4.0 x 16
 Gniazda rozszerzeń;1 x M.2 • 1 x PCIe 3.0 x 16 • 1 x PCIe 4.0 x 1 • 1 x PCIe 4.0 x 16
 Gniazda rozszerzeń;1 x M.2 • 1 x PCIe 3.0 x 16 • 1 x PCIe 4.0 x 1 • 1 x PCIe 5.0 x 16
+Gniazda rozszerzeń;1 x PCIe 3.0 x 16 • 1 x PCIe 5.0 x 16
 Gniazda rozszerzeń;2 x PCIe 3.0 x 1 • 2 x PCIe 4.0 x 16
 Gniazda rozszerzeń;1 x M.2 • 1 x PCIe 4.0 x 16 • 2 x PCIe 4.0 x 1
 Gniazda rozszerzeń;1 x M.2 • 1 x PCIe 4.0 x 1 • 2 x PCIe 4.0 x 16
+Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 2 x PCIe 3.0 x 16
 Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 1 x PCIe 3.0 x 16 • 2 x PCIe 4.0 x 16
 Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 1 x PCIe 3.0 x 16 • 1 x PCIe 4.0 x 16 • 1 x PCIe 5.0 x 16
 Gniazda rozszerzeń;1 x M.2 • 1 x PCIe 3.0 x 1 • 1 x PCIe 3.0 x 16 • 2 x PCIe 4.0 x 16
@@ -1682,7 +1655,6 @@ Gniazda rozszerzeń;1 x M.2 • 1 x PCIe 3.0 x 1 • 1 x PCIe 3.0 x 16 • 1 x P
 Gniazda rozszerzeń;1 x PCIe 3.0 x 16 • 1 x PCIe 3.0 x 8 • 3 x PCIe 2.0 x 1
 Gniazda rozszerzeń;1 x PCIe 3.0 x 16
 Gniazda rozszerzeń;2 x PCIe 4.0 x 1 • 2 x PCIe 4.0 x 16
-Gniazda rozszerzeń;1 x PCIe 3.0 x 16 • 1 x PCIe 4.0 x 16 • 2 x PCIe 3.0 x 1
 Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 1 x PCIe 4.0 x 16 • 2 x PCIe 3.0
 Gniazda rozszerzeń;1 x PCIe 4.0 x 16 • 1 x PCIe 4.0 x 4 • 1 x PCIe 5.0 x 16 • 2 x PCIe 3.0 x 1
 Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 1 x PCIe 5.0 x 16 • 3 x PCIe 4.0 x 16
@@ -1696,13 +1668,11 @@ Gniazda rozszerzeń;1 x PCIe 5.0 x 16 • 2 x PCIe 4.0 x 16
 Gniazda rozszerzeń;1 x PCIe 4.0 x 16 • 1 x PCIe 4.0 x 4 • 1 x PCIe 5.0 x 16
 Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 1 x PCIe 3.0 x 16 • 1 x PCIe 4.0 x 16 • 1 x PCIe 4.0 x 4 • 1 x PCIe 5.0 x 16
 Gniazda rozszerzeń;1 x PCIe 3.0 x 16 • 2 x PCIe 3.0 x 1
-Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 2 x PCIe 3.0 x 16
 Gniazda rozszerzeń;1 x PCIe 3.0 x 16 • 1 x PCIe 4.0 x 16
 Gniazda rozszerzeń;1 x M.2 • 1 x PCIe 3.0 x 4 • 1 x PCIe 4.0 x 16 • 1 x PCIe 4.0 x 4
 Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 4 x PCIe 3.0 x 16
 Gniazda rozszerzeń;1 x PCIe 4.0 x 16 • 2 x PCIe 3.0 x 16
 Gniazda rozszerzeń;1 x PCIe 4.0 x 2 • 1 x PCIe 4.0 x 4 • 1 x PCIe 5.0 x 16 • 3 x M.2
-Gniazda rozszerzeń;1 x PCIe 3.0 x 1 • 1 x PCIe 4.0 x 16 • 2 x M.2
 Gniazda rozszerzeń;1 x PCIe 4.0 x 16 • 2 x PCIe 3.0 x 1 • 3 x M.2
 Gniazda rozszerzeń;1 x PCIe 4.0 x 16 • 2 x M.2 • 2 x PCIe 3.0 x 1
 Gniazda rozszerzeń;1 x PCIe 4.0 x 16 • 4 x PCIe 3.0 x 16
@@ -1729,6 +1699,7 @@ Gniazda rozszerzeń;2 x PCIe 4.0 x 16 • 3 x PCIe 3.0 x 1
 Gniazda rozszerzeń;1 x PCIe 4.0 x 16 • 2 x PCIe 4.0 x 1
 Gniazda rozszerzeń;1 x PCIe 4.0 x 16 • 1 x PCIe 5.0 x 16 • 2 x PCIe 3.0 x 1
 Gniazda rozszerzeń;2 x M.2 • 2 x PCIe x 16 • 3 x PCIe x 1
+Gniazda rozszerzeń;1 x PCIe 4.0 x 4 • 1 x PCIe 5.0 x 16 • 1 x PCIe x 1 • 2 x M.2 • 2 x PCIe 3.0 x 1 • 3 x PCIe x 16
 Gniazda rozszerzeń;1 x PCIe 5.0 x16, 2 x PCIe 4.0 x16, 1 x PCIe 3.0
 Gniazda rozszerzeń;2 x PCI Express 3.0 x16, 3 x PCI Express 3.0 x1, 1 x M.2 Socket (Key M)
 Gniazda rozszerzeń;1 x PCIe 3.0 x16, 2 x PCIe 3.0 x1
@@ -1741,12 +1712,11 @@ Porty USB;1 x USB 3.1 Type-C • 2 x USB 3.0 Type-A
 Porty USB;1 x USB 3.1 Type-C • 3 x USB 3.0 Type-A
 Porty USB;2 x USB 3.0 Type-A
 Porty USB;1 x USB 3.0 Type-A
-Porty USB;1 x USB 2.0 Type-A • 1 x USB 3.0 Type-A • 1 x USB 3.1 Type-C
 Porty USB;1 x USB 3.1 Type-C
 Porty USB;2 x USB 3.0 Type-A • 2 x USB 3.1 Type-C
 Porty USB;1 x USB 3.0 Type-A • 2 x USB 3.1 Type-C
 Porty USB;3 x USB 3.0 Type-A
-Porty USB;1 x USB 3.0 Type-C • 1 x USB 3.1 Type-C • 2 x USB 3.0 Type-A
+Porty USB;1 x USB 2.0 Type-A • 1 x USB 3.0 Type-A • 1 x USB 3.1 Type-C
 Porty USB;1 x USB 2.0 Type-A • 1 x USB 3.0 Type-A • 1 x USB 3.0 Type-C
 Porty USB;1 x USB 3.1 Type-A • 1 x USB 3.1 Type-C • 2 x USB 3.0 Type-A
 Porty USB;2 x USB 3.1 Type-C
@@ -1771,7 +1741,6 @@ Porty wideo;1 x DVI • 1 x HDMI
 Porty wideo;1 x DVI • 1 x HDMI • 1 x VGA (15 pin D-Sub)
 Porty wideo;1 x DVI • 1 x DisplayPort • 1 x HDMI
 Porty wideo;1 x HDMI • 3 x DisplayPort
-Porty wideo;1 x DVI-D • 1 x HDMI
 Porty wideo;1 x DVI-D • 1 x HDMI • 1 x VGA (15 pin D-Sub)
 Porty wideo;2 x HDMI • 3 x DisplayPort
 Porty wideo;1 x HDMI • 2 x DisplayPort
@@ -1810,7 +1779,6 @@ Pojemność baterii;45 Wh
 Pojemność baterii;46 Wh
 Pojemność baterii;38 Wh
 Pojemność baterii;52.5 Wh
-Pojemność baterii;90 Wh
 Pojemność baterii;54.7 Wh
 Pojemność baterii;49.5 Wh
 Pojemność baterii;4500 mAh
@@ -1846,17 +1814,14 @@ Wysokość;22.8 mm
 Wysokość;17.6 mm
 Wysokość;16.44 mm
 Wysokość;17.1 mm
-Wysokość;18.4 mm
 Wysokość;16.28 mm
 Wysokość;18.9 mm
-Wysokość;18.99 mm
 Wysokość;13.99 mm
 Wysokość;15.28 mm
 Wysokość;18 mm
 Wysokość;19.2 mm
 Wysokość;16.4 mm
 Wysokość;11.8 mm
-Wysokość;15.9 mm
 Wysokość;14 mm
 Wysokość;16.9 mm
 Wysokość;17.5 mm
@@ -1898,6 +1863,7 @@ Wysokość;6.1 mm
 Wysokość;7.55 mm
 Wysokość;8 mm
 Wysokość;10.2 mm
+Wysokość;15.9 mm
 Wysokość;12.25 mm
 Wysokość;0 mm
 Wysokość;3 mm
@@ -1910,8 +1876,8 @@ Wysokość;100 mm
 Wysokość;11 mm
 Wysokość;0.8 mm
 Wysokość;3.8 mm
-Wysokość;2.21 mm
 Wysokość;10.5 mm
+Wysokość;2.21 mm
 Wysokość;13.5 mm
 Wysokość;2.23 mm
 Wysokość;7.2 mm
@@ -1919,13 +1885,11 @@ Wysokość;2.45 mm
 Wysokość;9.7 mm
 Wysokość;10 mm
 Wysokość;0.7 cm
-Wysokość;0.38 cm
 Wysokość;0.038 cm
+Wysokość;0.38 cm
 Wysokość;80.4 mm
 Wysokość;4 mm
 Wysokość;57 mm
-Wysokość;2.38 mm
-Wysokość;88 mm
 Wysokość;120.5 mm
 Wysokość;126 mm
 Wysokość;3.58 mm
@@ -1934,10 +1898,12 @@ Wysokość;24.6 mm
 Wysokość;71.3 mm
 Wysokość;2.4 mm
 Wysokość;100.2 mm
+Wysokość;2.38 mm
 Wysokość;1.5 mm
 Wysokość;80 mm
 Wysokość;41.41 cm
 Wysokość;324.1 mm
+Wysokość;363 mm
 Wysokość;364.2 mm
 Wysokość;455 mm
 Wysokość;362 mm
@@ -1951,7 +1917,6 @@ Wysokość;320.94 mm
 Wysokość;326.4 mm
 Wysokość;365.8 mm
 Wysokość;361.39 mm
-Wysokość;369.5 mm
 Wysokość;357.94 mm
 Wysokość;363.4 mm
 Wysokość;367.5 mm
@@ -1963,6 +1928,7 @@ Wysokość;367.45 mm
 Wysokość;398.6 mm
 Wysokość;386.87 mm
 Wysokość;426.6 mm
+Wysokość;369.5 mm
 Wysokość;425.2 mm
 Wysokość;370.7 mm
 Wysokość;370.69 mm
@@ -1983,7 +1949,6 @@ Wysokość;366.36 mm
 Wysokość;365.81 mm
 Wysokość;362.5 mm
 Wysokość;369 mm
-Wysokość;363 mm
 Wysokość;366.17 mm
 Wysokość;367.12 mm
 Wysokość;369.35 mm
@@ -1997,10 +1962,10 @@ Wysokość;319.5 mm
 Wysokość;332 mm
 Wysokość;201.2 mm
 Wysokość;342 mm
-Wysokość;418.2 mm
 Wysokość;416.7 mm
 Wysokość;406.5 mm
 Wysokość;428.5 mm
+Wysokość;340 mm
 Wysokość;339.85 mm
 Wysokość;402 mm
 Wysokość;381 mm
@@ -2024,6 +1989,7 @@ Wysokość;364.94 mm
 Wysokość;396.7 mm
 Wysokość;29.538 cm
 Wysokość;33.161 cm
+Wysokość;324.21 mm
 Wysokość;370.87 mm
 Wysokość;35.163 cm
 Wysokość;427 mm
@@ -2042,6 +2008,7 @@ Wysokość;352 mm
 Wysokość;41.004 cm
 Wysokość;47.554 cm
 Wysokość;365.95 mm
+Wysokość;53.415 cm
 Wysokość;424.8 mm
 Wysokość;392.33 mm
 Wysokość;367.4 mm
@@ -2058,22 +2025,24 @@ Wysokość;351.5 mm
 Wysokość;361.5 mm
 Wysokość;329 mm
 Wysokość;385 mm
+Wysokość;354.5 mm
 Wysokość;526.5 mm
 Wysokość;399.5 mm
 Wysokość;400 mm
 Wysokość;435 mm
+Wysokość;479.5 mm
 Wysokość;393.5 mm
 Wysokość;394.5 mm
 Wysokość;401 mm
 Wysokość;422.5 mm
 Wysokość;455.5 mm
 Wysokość;439.5 mm
+Wysokość;431 mm
 Wysokość;415 mm
 Wysokość;435.5 mm
 Wysokość;374 mm
 Wysokość;23.55 cm
 Wysokość;323.7 mm
-Wysokość;334.8 mm
 Wysokość;363.5 mm
 Wysokość;367.6 mm
 Wysokość;420.9 mm
@@ -2102,6 +2071,7 @@ Wysokość;327.1 mm
 Wysokość;368.2 mm
 Wysokość;321.6 mm
 Wysokość;361.9 mm
+Wysokość;361.6 mm
 Wysokość;424.7 mm
 Wysokość;424.5 mm
 Wysokość;359.8 mm
@@ -2116,17 +2086,16 @@ Szerokość;321.35 mm
 Szerokość;357.8 mm
 Szerokość;299 mm
 Szerokość;313 mm
-Szerokość;358 mm
 Szerokość;310.5 mm
 Szerokość;358.5 mm
 Szerokość;295.4 mm
 Szerokość;295.3 mm
 Szerokość;344.72 mm
+Szerokość;358 mm
 Szerokość;321.9 mm
 Szerokość;358.7 mm
 Szerokość;297.4 mm
 Szerokość;315.6 mm
-Szerokość;306.9 mm
 Szerokość;359.4 mm
 Szerokość;322 mm
 Szerokość;313.5 mm
@@ -2142,7 +2111,6 @@ Szerokość;399 mm
 Szerokość;361.9 mm
 Szerokość;317.7 mm
 Szerokość;317.5 mm
-Szerokość;359.5 mm
 Szerokość;301.7 mm
 Szerokość;298.7 mm
 Szerokość;211 mm
@@ -2173,7 +2141,6 @@ Szerokość;65 mm
 Szerokość;100 mm
 Szerokość;43 mm
 Szerokość;69.9 mm
-Szerokość;23.7 mm
 Szerokość;23.67 mm
 Szerokość;32.5 mm
 Szerokość;80.15 mm
@@ -2188,18 +2155,17 @@ Szerokość;70 mm
 Szerokość;220 mm
 Szerokość;2.2 cm
 Szerokość;22.8 mm
-Szerokość;69.8 mm
 Szerokość;85 mm
 Szerokość;100.2 mm
-Szerokość;22.15 mm
-Szerokość;59 mm
 Szerokość;75 mm
 Szerokość;79 mm
 Szerokość;30.15 mm
+Szerokość;22.15 mm
 Szerokość;70.1 mm
 Szerokość;21.3 mm
 Szerokość;54.03 cm
 Szerokość;540.2 mm
+Szerokość;611 mm
 Szerokość;616.1 mm
 Szerokość;613 mm
 Szerokość;614 mm
@@ -2210,14 +2176,11 @@ Szerokość;565.34 mm
 Szerokość;611.9 mm
 Szerokość;511.4 mm
 Szerokość;492.78 mm
-Szerokość;539.05 mm
 Szerokość;551.4 mm
 Szerokość;539.47 mm
-Szerokość;539 mm
 Szerokość;612.5 mm
 Szerokość;611.8 mm
 Szerokość;612.14 mm
-Szerokość;613.6 mm
 Szerokość;614.6 mm
 Szerokość;613.03 mm
 Szerokość;808.3 mm
@@ -2227,12 +2190,13 @@ Szerokość;612.4 mm
 Szerokość;808.34 mm
 Szerokość;613.8 mm
 Szerokość;730.2 mm
+Szerokość;613.6 mm
 Szerokość;714.8 mm
 Szerokość;817.5 mm
 Szerokość;817.4 mm
 Szerokość;817.45 mm
+Szerokość;623 mm
 Szerokość;357.23 mm
-Szerokość;326.1 mm
 Szerokość;493.9 mm
 Szerokość;496 mm
 Szerokość;537.6 mm
@@ -2261,7 +2225,6 @@ Szerokość;716.2 mm
 Szerokość;539.5 mm
 Szerokość;558 mm
 Szerokość;502 mm
-Szerokość;540.4 mm
 Szerokość;537.4 mm
 Szerokość;533.2 mm
 Szerokość;570.2 mm
@@ -2310,6 +2273,7 @@ Szerokość;65.59 cm
 Szerokość;71.261 cm
 Szerokość;71.26 cm
 Szerokość;1214.9 mm
+Szerokość;60.99 cm
 Szerokość;709.2 mm
 Szerokość;894.26 mm
 Szerokość;610.3 mm
@@ -2319,15 +2283,15 @@ Szerokość;817.7 mm
 Szerokość;968.18 mm
 Szerokość;539.4 mm
 Szerokość;538.4 mm
-Szerokość;611 mm
 Szerokość;612.8 mm
 Szerokość;538.5 mm
 Szerokość;255 mm
 Szerokość;387 mm
-Szerokość;500 mm
 Szerokość;493.5 mm
+Szerokość;500 mm
 Szerokość;517.5 mm
 Szerokość;499 mm
+Szerokość;532.5 mm
 Szerokość;552.5 mm
 Szerokość;540.5 mm
 Szerokość;532 mm
@@ -2340,16 +2304,16 @@ Szerokość;610.5 mm
 Szerokość;610 mm
 Szerokość;672.5 mm
 Szerokość;730 mm
-Szerokość;714 mm
 Szerokość;715 mm
+Szerokość;809.5 mm
 Szerokość;817 mm
 Szerokość;977.5 mm
 Szerokość;709.5 mm
+Szerokość;714 mm
 Szerokość;323.37 mm
 Szerokość;36 cm
 Szerokość;498.3 mm
 Szerokość;539.8 mm
-Szerokość;557.2 mm
 Szerokość;548.7 mm
 Szerokość;688.4 mm
 Szerokość;714.2 mm
@@ -2367,6 +2331,7 @@ Szerokość;610.4 mm
 Szerokość;555.6 mm
 Szerokość;610.2 mm
 Szerokość;492 mm
+Szerokość;539 mm
 Szerokość;536 mm
 Szerokość;609 mm
 Szerokość;637 mm
@@ -2385,6 +2350,7 @@ Szerokość;712.7 mm
 Szerokość;716.1 mm
 Szerokość;813.6 mm
 Szerokość;815.3 mm
+Szerokość;806.6 mm
 Szerokość;1199.5 mm
 Szerokość;1194.7 mm
 Szerokość;547.9 mm
@@ -2401,7 +2367,6 @@ Głębokość;233.3 mm
 Głębokość;212.86 mm
 Głębokość;213.16 mm
 Głębokość;222.75 mm
-Głębokość;250.42 mm
 Głębokość;215 mm
 Głębokość;235.56 mm
 Głębokość;199.4 mm
@@ -2413,7 +2378,6 @@ Głębokość;251 mm
 Głębokość;220.4 mm
 Głębokość;225.8 mm
 Głębokość;224 mm
-Głębokość;208.4 mm
 Głębokość;233.9 mm
 Głębokość;214 mm
 Głębokość;253.5 mm
@@ -2428,7 +2392,6 @@ Głębokość;274 mm
 Głębokość;255.5 mm
 Głębokość;222.5 mm
 Głębokość;226.9 mm
-Głębokość;253.8 mm
 Głębokość;214.6 mm
 Głębokość;206.4 mm
 Głębokość;15.9 mm
@@ -2469,8 +2432,8 @@ Głębokość;8 cm
 Głębokość;20.5 mm
 Głębokość;8 mm
 Głębokość;69.85 mm
-Głębokość;80.15 mm
 Głębokość;13 mm
+Głębokość;80.15 mm
 Głębokość;100.35 mm
 Głębokość;3.5 mm
 Głębokość;10.8 mm
@@ -2479,6 +2442,7 @@ Głębokość;100.5 mm
 Głębokość;2.38 mm
 Głębokość;24.01 cm
 Głębokość;65.5 mm
+Głębokość;76 mm
 Głębokość;38.7 mm
 Głębokość;66.7 mm
 Głębokość;78 mm
@@ -2487,13 +2451,11 @@ Głębokość;41.8 mm
 Głębokość;51.9 mm
 Głębokość;45.5 mm
 Głębokość;36.2 mm
-Głębokość;47.2 mm
 Głębokość;221 mm
 Głębokość;37.6 mm
 Głębokość;50.7 mm
 Głębokość;48.8 mm
 Głębokość;49.2 mm
-Głębokość;51.1 mm
 Głębokość;37.95 mm
 Głębokość;43.9 mm
 Głębokość;102.9 mm
@@ -2507,6 +2469,7 @@ Głębokość;227.4 mm
 Głębokość;52.8 mm
 Głębokość;44.6 mm
 Głębokość;47.5 mm
+Głębokość;51.1 mm
 Głębokość;55.7 mm
 Głębokość;55.3 mm
 Głębokość;55.34 mm
@@ -2539,12 +2502,11 @@ Głębokość;36.5 mm
 Głębokość;59 mm
 Głębokość;12.5 mm
 Głębokość;57 mm
-Głębokość;189.2 mm
 Głębokość;186.5 mm
 Głębokość;191.78 mm
+Głębokość;50 mm
 Głębokość;49.5 mm
 Głębokość;239.65 mm
-Głębokość;50 mm
 Głębokość;56.1 mm
 Głębokość;57.2 mm
 Głębokość;84.95 mm
@@ -2566,6 +2528,7 @@ Głębokość;68 mm
 Głębokość;180 mm
 Głębokość;4.964 cm
 Głębokość;4.969 cm
+Głębokość;48.9 mm
 Głębokość;50.41 mm
 Głębokość;68.6 mm
 Głębokość;5.2 cm
@@ -2591,10 +2554,11 @@ Głębokość;57.1 mm
 Głębokość;30.5 mm
 Głębokość;219 mm
 Głębokość;239.5 mm
-Głębokość;210 mm
 Głębokość;209.5 mm
+Głębokość;210 mm
 Głębokość;252 mm
 Głębokość;197 mm
+Głębokość;236 mm
 Głębokość;52 mm
 Głębokość;245.5 mm
 Głębokość;187.5 mm
@@ -2629,6 +2593,7 @@ Głębokość;156 mm
 Głębokość;41.3 mm
 Głębokość;42.7 mm
 Głębokość;44.2 mm
+Głębokość;76.2 mm
 Głębokość;27.1 mm
 Głębokość;83.6 mm
 Głębokość;128.1 mm
@@ -2647,10 +2612,8 @@ Waga;1.613 kg
 Waga;0.982 kg
 Waga;1.156 kg
 Waga;1.322 kg
-Waga;1.837 kg
 Waga;1.53 kg
 Waga;1.69 kg
-Waga;1.66 kg
 Waga;1.17 kg
 Waga;1.26 kg
 Waga;1.92 kg
@@ -2661,14 +2624,12 @@ Waga;0.99 kg
 Waga;1.34 kg
 Waga;1.36 kg
 Waga;1.19 kg
-Waga;1.22 kg
 Waga;1.37 kg
 Waga;1.4 kg
 Waga;1.77 kg
 Waga;1.38 kg
 Waga;1.79 kg
 Waga;1351 g
-Waga;1.97 kg
 Waga;1.76 kg
 Waga;1.65 kg
 Waga;1.67 kg
@@ -2677,7 +2638,6 @@ Waga;1.12 kg
 Waga;1.32 kg
 Waga;1.42 kg
 Waga;1.21 kg
-Waga;1.88 kg
 Waga;1.06 kg
 Waga;1.18 kg
 Waga;1.56 kg
@@ -2716,18 +2676,16 @@ Waga;136 g
 Waga;31 g
 Waga;46 g
 Waga;0 kg
-Waga;34 g
 Waga;0.025 kg
 Waga;0.034 kg
 Waga;0.03 kg
+Waga;34 g
 Waga;8.2 g
 Waga;146 g
 Waga;42 g
 Waga;35 g
 Waga;67 g
 Waga;69 g
-Waga;71 g
-Waga;32.1 g
 Waga;9.7 g
 Waga;34.9 g
 Waga;40 g
@@ -2760,7 +2718,6 @@ Waga;52 g
 Waga;47 g
 Waga;17 g
 Waga;6.6 g
-Waga;98 g
 Waga;44 g
 Waga;3 g
 Waga;7.4 g
@@ -2790,10 +2747,8 @@ Waga;2.8 kg
 Waga;4.6 kg
 Waga;2.9 kg
 Waga;2.1 kg
-Waga;4.41 kg
 Waga;3.58 kg
 Waga;2.7 kg
-Waga;3.7 kg
 Waga;4.75 kg
 Waga;5.07 kg
 Waga;5.6 kg
@@ -2819,6 +2774,7 @@ Waga;1.95 kg
 Waga;3.37 kg
 Waga;3.21 kg
 Waga;4.4 kg
+Waga;3.7 kg
 Waga;3.34 kg
 Waga;2.46 kg
 Waga;2.87 kg
@@ -2828,6 +2784,7 @@ Waga;4.2 kg
 Waga;5.7 kg
 Waga;4.8 kg
 Waga;3.85 kg
+Waga;4.41 kg
 Waga;4.7 kg
 Waga;4.37 kg
 Waga;4.67 kg
@@ -2837,9 +2794,9 @@ Waga;5.77 kg
 Waga;5.9 kg
 Waga;0.87 kg
 Waga;3.26 kg
-Waga;3.4 kg
 Waga;6.2 kg
 Waga;9.5 kg
+Waga;3.04 kg
 Waga;4.5 kg
 Waga;4.9 kg
 Waga;5.25 kg
@@ -2862,10 +2819,10 @@ Waga;3.35 kg
 Waga;2.26 kg
 Waga;2.6 kg
 Waga;3.11 kg
+Waga;2.82 kg
 Waga;3.78 kg
 Waga;6.03 kg
 Waga;6.61 kg
-Waga;2.82 kg
 Waga;3.39 kg
 Waga;3.81 kg
 Waga;3.52 kg
@@ -2875,6 +2832,7 @@ Waga;7.06 kg
 Waga;5.28 kg
 Waga;7.43 kg
 Waga;590 g
+Waga;3.4 kg
 Waga;4.3 kg
 Waga;5.4 kg
 Waga;5.18 kg
@@ -2882,20 +2840,22 @@ Waga;6.7 kg
 Waga;7.7 kg
 Waga;3.96 kg
 Waga;7.26 kg
+Waga;5.04 kg
 Waga;7.37 kg
 Waga;8.79 kg
 Waga;6.33 kg
 Waga;7.05 kg
 Waga;0.8 kg
 Waga;1.5 kg
+Waga;5.1 kg
 Waga;5.5 kg
 Waga;5.8 kg
 Waga;5 kg
 Waga;6.4 kg
-Waga;5.1 kg
 Waga;5.3 kg
 Waga;8.8 kg
 Waga;8.6 kg
+Waga;9.4 kg
 Waga;13.1 kg
 Waga;860 g
 Waga;7.2 kg
@@ -2951,7 +2911,6 @@ Okres gwarancji (miesiące);36
 Okres gwarancji (miesiące);12
 Okres gwarancji (miesiące);60
 Okres gwarancji (miesiące);120
-Okres gwarancji (miesiące);360
 Okres gwarancji (miesiące);46
 Dokowanie;Nie
 Dokowanie;Tak
@@ -2972,17 +2931,17 @@ Jasność;250 cd/m²
 Jasność;1000 nits
 Jasność;0 cd/m²
 Jasność;400 cd/m²
-Jasność;600 nits
 Jasność;320 cd/m²
 Jasność;450 nits
 Jasność;250 cd/m2
 Jasność;300 cd/m²
 Jasność;200 cd/m²
 Jasność;350 cd/m²
-Jasność;360 cd/m²
 Jasność;600 cd/m²
+Jasność;360 cd/m²
 Jasność;220 cd/m²
 Jasność;350 nits
+Jasność;600 nits
 Jasność;385 cd/m²
 Jasność;255 cd/m²
 Jasność;550 cd/m²
@@ -3011,12 +2970,12 @@ Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz 
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3200 MHz • 3466 MHz • 3600 MHz • 3733 MHz • 3800 MHz • 3866 MHz • 4000 MHz • 4133 MHz • 4200 MHz • 4266 MHz • 4333 MHz • 4400 MHz • 4533 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3200 MHz • 3466 MHz • 3733 MHz • 3800 MHz • 4000 MHz • 4133 MHz • 4200 MHz • 4266 MHz • 4333 MHz • 4400 MHz • 4600 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3600 MHz • 3733 MHz • 3800 MHz • 3866 MHz • 4000 MHz • 4133 MHz • 4266 MHz • 4333 MHz • 4400 MHz • 4533 MHz • 4600 MHz
-Częstotliwość szyny pamięci;3600 MHz • 4000 MHz
 Częstotliwość szyny pamięci;6200 MHz
 Częstotliwość szyny pamięci;6600 MHz
 Częstotliwość szyny pamięci;5333 MHz
 Częstotliwość szyny pamięci;3200 MHz • 4000 MHz • 4266 MHz • 4400 MHz • 5333 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2666 MHz
+Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2666 MHz • 2800 MHz • 2933 MHz • 3200 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3200 MHz • 3466 MHz • 3600 MHz • 3733 MHz • 3800 MHz • 3866 MHz • 4000 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3300 MHz • 3466 MHz • 3600 MHz • 3733 MHz • 3800 MHz • 3866 MHz • 4000 MHz
 Częstotliwość szyny pamięci;4800 MHz • 5600 MHz • 6000 MHz • 6800 MHz
@@ -3026,10 +2985,7 @@ Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2666 MHz • 2800 MHz 
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2666 MHz • 2800 MHz • 3000 MHz • 3200 MHz • 3300 MHz • 3400 MHz • 3466 MHz • 3600 MHz • 3733 MHz • 3866 MHz • 4000 MHz • 4400 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2666 MHz • 2800 MHz • 2933 MHz • 3000 MHz • 3200 MHz • 3466 MHz • 4400 MHz
 Częstotliwość szyny pamięci;4800 MHz • 5000 MHz • 5200 MHz • 5400 MHz • 5600 MHz • 5800 MHz • 6000 MHz • 6200 MHz • 6400 MHz
-Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2666 MHz • 2800 MHz • 2933 MHz • 3000 MHz • 3200 MHz • 3333 MHz • 3400 MHz • 3466 MHz • 3600 MHz • 3733 MHz • 3866 MHz • 4000 MHz • 4266 MHz • 4400 MHz • 4600 MHz • 4800 MHz • 5000 MHz
-Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2666 MHz • 2800 MHz • 2933 MHz • 3200 MHz
 Częstotliwość szyny pamięci;2666 MHz • 2933 MHz
-Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2666 MHz • 2800 MHz • 2933 MHz • 3000 MHz • 3200 MHz
 Częstotliwość szyny pamięci;4800 MHz • 5000 MHz • 5200 MHz • 5400 MHz • 5600 MHz • 5800 MHz • 6000 MHz • 6200 MHz • 6400 MHz • 6600 MHz • 6800 MHz • 7000 MHz
 Częstotliwość szyny pamięci;4800 MHz • 5000 MHz • 5200 MHz • 5400 MHz • 5600 MHz • 5800 MHz • 6000 MHz • 6200 MHz • 6400 MHz • 6600 MHz • 6800 MHz • 7000 MHz • 7200 MHz
 Częstotliwość szyny pamięci;4800 MHz • 5000 MHz • 5200 MHz • 5400 MHz • 5600 MHz • 5800 MHz • 6000 MHz • 6200 MHz • 6400 MHz • 6600 MHz • 6800 MHz • 7000 MHz • 7200 MHz • 7400 MHz • 7600 MHz • 7800 MHz • 8000 MHz • 8200 MHz • 8400 MHz
@@ -3045,11 +3001,9 @@ Częstotliwość szyny pamięci;5600 MHz
 Częstotliwość szyny pamięci;2400 MHz
 Częstotliwość szyny pamięci;4400 MHz
 Częstotliwość szyny pamięci;4000 MHz
-Częstotliwość szyny pamięci;8200 MHz
 Częstotliwość szyny pamięci;7800 MHz
 Częstotliwość szyny pamięci;8000 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3200 MHz • 3333 MHz • 3600 MHz • 4000 MHz • 4400 MHz • 4666 MHz • 5000 MHz
-Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3200 MHz • 3333 MHz • 3600 MHz • 4000 MHz • 4400 MHz
 Częstotliwość szyny pamięci;2400 MHz • 2667 MHz • 2933 MHz • 3200 MHz • 3400 MHz • 3466 MHz • 3600 MHz • 3733 MHz • 3866 MHz • 4000 MHz • 4133 MHz • 4266 MHz • 4400 MHz • 4600 MHz • 4733 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3200 MHz • 3400 MHz • 3466 MHz • 3600 MHz • 3733 MHz • 3866 MHz • 4000 MHz • 4133 MHz • 4266 MHz • 4400 MHz • 4600 MHz • 4733 MHz
 Częstotliwość szyny pamięci;2133 MHz • 2400 MHz • 2667 MHz • 2933 MHz • 3200 MHz • 3333 MHz • 3600 MHz • 4000 MHz • 4400 MHz • 4600 MHz
@@ -3063,7 +3017,6 @@ Częstotliwość szyny pamięci;4400 MHz • 4800 MHz • 5200 MHz
 Częstotliwość szyny pamięci;4000 MHz • 4800 MHz • 5200 MHz • 5400 MHz • 5600 MHz • 5800 MHz • 6000 MHz
 Częstotliwość szyny pamięci;4000 MHz • 4800 MHz • 5200 MHz • 5400 MHz • 5600 MHz • 5800 MHz • 6000 MHz • 6200 MHz • 6400 MHz • 6600 MHz • 6800 MHz • 7000 MHz • 7200 MHz • 7400 MHz • 7600 MHz • 7800 MHz • 7900 MHz • 7950 MHz • 8000 MHz
 Częstotliwość szyny pamięci;3733 MHz
-Częstotliwość szyny pamięci;1866 MHz • 2133 MHz • 2400 MHz • 2667 MHz • 2800 MHz • 2933 MHz • 3000 MHz • 3066 MHz • 3200 MHz • 3466 MHz • 3733 MHz • 3866 MHz • 4000 MHz • 4133 MHz
 Częstotliwość szyny pamięci;1866 MHz • 2133 MHz • 2400 MHz • 2667 MHz • 2800 MHz • 2933 MHz • 3000 MHz • 3066 MHz • 3200 MHz • 3466 MHz • 3600 MHz • 3733 MHz • 3866 MHz • 4000 MHz • 4133 MHz • 4266 MHz • 4400 MHz
 Częstotliwość szyny pamięci;133 MHz
 Częstotliwość szyny pamięci;4800 MHz • 5000 MHz • 5200 MHz • 5400 MHz • 5600 MHz • 5800 MHz • 6000 MHz • 6200 MHz • 6400 MHz • 6600 MHz • 6800 MHz
@@ -3105,6 +3058,7 @@ Akcesoria w zestawie;Przewodnik szybkiej instalacji CD: sterowniki, narzędzia, 
 Akcesoria w zestawie;1 x osłona we/wy 1 x instrukcja obsługi 2 x kable danych SATA 1 x śruba do gniazda M.2
 Akcesoria w zestawie;Instrukcja Obsługi 2 x SATA Data Cables 3 x Screws for M.2 Sockets
 Akcesoria w zestawie;1 x Instrukcja obsługi 2 x Kable do transmisji danych SATA 2 x Anteny ASRock WiFi 2,4/5/6 GHz 2 x Śruby do gniazd M.2 1 x Uchwyt na kartę graficzną
+Akcesoria w zestawie;1 x Instrukcja obsługi 2 x Kable do transmisji danych SATA 1 x Antena ASRock WiFi 2,4/5/6 GHz 3 x Śruby do gniazd M.2 1 x Wspornik dla gniazda M.2 1 x Uchwyt na kartę graficzną
 Akcesoria w zestawie;1 x instrukcja obsługi 2 x kable do transmisji danych SATA 2 x śruby do gniazd M.2 1 x wspornik dla gniazda M.2
 Akcesoria w zestawie;Instrukcja obsługi Osłona we/wy 2 x kable danych SATA 3 x Śruby do gniazd M.2
 Akcesoria w zestawie;Instrukcja obsługi 2 x Kable danych SATA 2 x Śruby do gniazd M.2
@@ -3112,9 +3066,9 @@ Akcesoria w zestawie;Instrukcja obsługi 2 x Kabel danych SATA 4 x Śruby do gni
 Akcesoria w zestawie;Instrukcja obsługi 2 x kable danych SATA 2 x anteny ASRock WiFi 2,4/5/6 GHz 3 x Śruby do gniazd M.2 Dystans do gniazda M.2
 Akcesoria w zestawie;Instrukcja Obsługi 2 x Kabel do transmisji danych SATA 2 x Śruby do gniazda M.2
 Akcesoria w zestawie;Instrukcja Obsługi 2 x Kabel danych SATA 2 x Antena ASRock Wi-Fi 2,4/5/6 GHz 2 x Śruby do gniazda M.2 Dystans dla gniazda M.2
-Akcesoria w zestawie;Instrukcja obsługi 2 x Kabel danych SATA 3 x Śruby do gniazda M.2 Dystans dla gniazda M.2
 Akcesoria w zestawie;Instrukcja obsługi 2 x Kabel danych SATA 2 x Antena ASRock Wi-Fi 2,4/5/6 GHz 3 x Śruby do gniazda M.2 3 x Wsporniki do gniazda M.2
 Akcesoria w zestawie;Instrukcja Obsługi Osłona wejść/wyjść 2 x Kabel danych SATA 3 x Śruby do gniazda M.2
+Akcesoria w zestawie;1 x Instrukcja obsługi 1 x Osłona we/wy 2 x Kable danych SATA 1 x Śruba do gniazda M.2
 Akcesoria w zestawie;Skrócona instrukcja instalacji Płyta CD ze wsparciem Osłona we/wy 2 x kable danych SATA 1 x śruba do gniazda M.2
 Akcesoria w zestawie;Instrukcja użytkownika Płyta CD I/O Shield Kabel SATA x 2 Montaż for M.2 x 3
 Akcesoria w zestawie;Skrócona instrukcja instalacji, płyta CD z obsługą, osłona I / O 2 x kable danych SATA 3 x śruby do gniazd M.2 1 x Standoff dla gniazda M.2
@@ -3135,8 +3089,8 @@ Akcesoria w zestawie;Kable 2 kable SATA 6 Gb/s Różne 1 x osłona we / wy 1 x M
 Akcesoria w zestawie;Instrukcja obsługi 2 x kabel SATA 6Gb/s DVD Naklejka TUF karta certyfikacyjna TUF Pakiet śrub M.2 SSD
 Akcesoria w zestawie;Kable: 2 kable SATA 6 Gb/s Inne: 1 x ruchoma antena ASUS Wi-Fi 1 x naklejka TUF GAMING 2 pakiety gumowe M.2 1 x pakiet śrub do dysku SSD M.2 Dokumentacja: 1 x karta certyfikacyjna TUF 1 x instrukcja obsługi
 Akcesoria w zestawie;2 kable SATA 6 Gb/s 1 x antena ASUS WiFi Q 1 x naklejka TUF GAMING 2 pakiety gumowe M.2 1 x pakiet śrub do dysku SSD M.2 1 x karta certyfikacyjna TUF 1 x skrócona instrukcja obsługi
-Akcesoria w zestawie;Szybki przewodnik
 Akcesoria w zestawie;Szybki przewodnik Rejestracja gwarancji AORUS Metalowa naklejka
+Akcesoria w zestawie;Szybki przewodnik
 Akcesoria w zestawie;Szybki przewodnik Rejestracja gwarancji Wspornik zapobiegający zwisaniu Instrukcja instalacji wspornika zapobiegającego zwisaniu Jeden zasilacz 16-pinowy na dwa 8-pinowe
 Akcesoria w zestawie;Przewodnik Jeden zasilacz 16-pinowy na dwa 8-pinowe
 Akcesoria w zestawie;Dysk SSD Kabel USB typu-A-C Kabel USB typu-C-C
@@ -3164,7 +3118,8 @@ Akcesoria w zestawie;Kabel HDMI 1.5 Kabel USB-C na C/A 1.8 Kabel zasilający C13
 Akcesoria w zestawie;Kabel HDMI 1,5 m
 Akcesoria w zestawie;Kabel HDMI Kabel Displayport Kabel zasilający
 Akcesoria w zestawie;Kabel HDMI 1.5 Kabel USB-C na C 1.8
-Akcesoria w zestawie;Raport wstępnej kalibracji kolorów Kabel Micro HDMI do HDMI Zasilacz Skrócona instrukcja obsługi Przejściówka z USB typu C na A. Kabel USB-C Kabel USB-C do A. Karta gwarancyjna Karta powitalna
+Akcesoria w zestawie;Studio Display z szybą ze szkła nanostrukturalnego i podstawka z regulacją pochylenia oraz wysokości Przewód Thunderbolt (1 m) Ściereczka do czyszczenia szkła nanostrukturalnego
+Akcesoria w zestawie;Studio Display z szybą ze szkła nanostrukturalnego i uchwyt mocujący VESA Przewód Thunderbolt (1 m) Ściereczka do czyszczenia szkła nanostrukturalnego
 Akcesoria w zestawie;Kabel HDMI Zasilacz Kabel zasilający Skrócona instrukcja obsługi Karta gwarancyjna
 Akcesoria w zestawie;Kabel HDMI Przewód audio Kabel zasilający Skrócona instrukcja obsługi Kabel USB 2.0 Kabel VGA Karta gwarancyjna
 Akcesoria w zestawie;Kabel VGA(opcjonalny) Kabel audio(opcjonalny) Zasilacz Kabe DisplayPort (opcjonalny) Podręcznik użytkownika Kabe HDMI (opcjonalny) Karta gwarancyjna
@@ -3212,11 +3167,12 @@ Akcesoria w zestawie;Monitor Kabel zasilający Kabel HDMI Kabel DP Kabel USB Ins
 Akcesoria w zestawie;"Monitor;  Karta gwarancyjna;  Informacje o produkcie;  Arkusz szybkiej instalacji; 1 przewód USB-C;  Przewód zasilania sieciowego"
 Akcesoria w zestawie;Kable: zasilający, USB, HDMI Pozostałe: skrócona instrukcja obsługi, instrukcja bezpieczeństwa
 Akcesoria w zestawie;Instrukcje skrócona instrukcja obsługi, instrukcja bezpieczeństwa Adapter AC
+Akcesoria w zestawie;Kabel zasilający Kabel HDMI Skrócona instrukcja obsługi Instrukcja bezpieczeństwa
 Akcesoria w zestawie;Skrócona instrukcja obsługi,  Instrukcja bezpieczeństwa
 Akcesoria w zestawie;Kable zasilający  Instrukcje skrócona instrukcja obsługi, instrukcja bezpieczeństwa Pozostałe adapter ACO słona na kable
 Akcesoria w zestawie;Kabel zasilający Kabel USB Kabel HDMI Skrócona instrukcja obsługi Instrukcja bezpieczeństwa Osłona na kable
-Akcesoria w zestawie;Kabel zasilający Kabel HDMI Skrócona instrukcja obsługi Instrukcja bezpieczeństwa
 Akcesoria w zestawie;Kabel zasilający Kabel USB Kabel DP Skrócona instrukcja obsługi Instrukcja bezpieczeństwa
+Akcesoria w zestawie;Kabel zasilający Kabel DVI Kabel Audio Skrócona instrukcja obsługi Instrukcja bezpieczeństwa
 Akcesoria w zestawie;Kable: zasilający, USB, HDMI, DP Pozostałe: skrócona instrukcja obsługi, instrukcja bezpieczeństwa
 Akcesoria w zestawie;Kable: zasilający, HDMI Pozostałe: skrócona instrukcja obsługi, instrukcja bezpieczeństwa
 Akcesoria w zestawie;Kabel zasilający Kabel USB Kabel HDMI Kabel DP Skrócona instrukcja obsługi Instrukcja bezpieczeństwa
@@ -3232,8 +3188,8 @@ Akcesoria w zestawie;Kabel zasilający Kabel HDMI Kabel USB-C Skrócona instrukc
 Akcesoria w zestawie;Kabel zasilający Kabel HDMI Kabel DP Kabel USB-C Skrócona instrukcja obsługi Instrukcja bezpieczeństwa
 Akcesoria w zestawie;Kable: zasilający, USB, HDMI, DP  Instrukcje: skrócona instrukcja obsługi, instrukcja bezpieczeństwa
 Akcesoria w zestawie;Zasilacz Kabel USB Kabel HDMI Kabel DisplayPort Instrukcja
-Akcesoria w zestawie;Kable: zasilający, USB, HDMI, DP Pozostałe:  skrócona instrukcja obsługi, instrukcja bezpieczeństwa Pilot: tak (baterie w zestawie)
 Akcesoria w zestawie;Kabel zasilania Kabel HDMI Kabel DP Skrócona instrukcja obsługi Instrukcja bezpieczeństwa
+Akcesoria w zestawie;Kabel zasilania Kabel USB Kabel HDMI Kabel DP Kabel USB-C Skrócona instrukcja obsługi Instrukcja bezpieczeństwa
 Akcesoria w zestawie;Monitor Kable: zasilający, USB, HDMI, DP Skrócona instrukcja obsługi, instrukcja bezpieczeństwa Pilot (baterie w zestawie)
 Akcesoria w zestawie;Kabel zasilający,  Kabel USB,  Kabel HDMI,  Kabel DP, Skrócona instrukcja obsługi,  Instrukcja bezpieczeństwa.
 Akcesoria w zestawie;Kable: zasilający, USB, HDMI, Audio, DP Instrukcje: skrócona instrukcja obsługi, instrukcja bezpieczeństwa Pozostałe: AC adapter Osłona na kable
@@ -3242,7 +3198,6 @@ Akcesoria w zestawie;1x kabel zasilający (1,8 m) 1x kabel USB-C na USB-C (1,8 m
 Akcesoria w zestawie;Kabel zasilający 1,8 m Kabel HDMI 1,8 m Instrukcja obsługi
 Akcesoria w zestawie;Skrócona instrukcja obsługi Instrukcja bezpieczeństwa Kabel zasilający Kabel DisplayPort Kabel USB-A -> USB-B
 Akcesoria w zestawie;Kabel HDMI Kabel USB-A - USB-B
-Akcesoria w zestawie;Monitor z podstawą 1x kabel zasilający (1,8 m) 1x kabel HDMI (1,8 m) 1x Śruba Podręcznik szybkiej obsługi Broszura gwarancyjna (na QSG)
 Akcesoria w zestawie;Monitor z podstawą Kabel zasilający 1,8 m Kabel DP 1,8 m Kabel USB Typ A - USB Typ B 1,8 m Instrukcja
 Akcesoria w zestawie;Monitor z podstawą Kabel zasilający 1,8 m Kabel DP 1,8 m Kabel HDMI Instrukcja
 Akcesoria w zestawie;Monitor z podstawą Kabel zasilający 1,8 m Kabel USB Typ C - USB Typ C 1,8 m Instrukcja
@@ -3290,6 +3245,7 @@ Akcesoria w zestawie;Kabel HDMI Kabel USB 3.0
 Akcesoria w zestawie;Przewód zasilania 1,5 m Kabel HDMI
 Akcesoria w zestawie;Przewód zasilania 1.5 m Kabel HDMI Kabel Display port
 Akcesoria w zestawie;Kabel HDMI Instrukcja obsługi Płyta instalacyjna
+Akcesoria w zestawie;Przewodu zasilania - 1,5 m Kabel HDMI Kabel USB 3.0 Płyta instalacyjna
 Akcesoria w zestawie;Przewód zasilania (1,5m) Kabel Thunderbolt 4 Pilot Kamera Pogo Gender
 Akcesoria w zestawie;Kabel HDMI Płyta instalacyjna Instrukcja obsługi
 Akcesoria w zestawie;Kabel zasilający 1.5 m Kabel HDMI Kabel USB typu C
@@ -3309,7 +3265,6 @@ Informacje o gwarancji;2 lata Next Business Day
 Informacje o gwarancji;3 lata gwarancji - Next Business Day
 Informacje o gwarancji;24 msc d2d
 Informacje o gwarancji;On-Site, (na miejscu u Klienta), CO2 Offset 0.5 ton
-Informacje o gwarancji;On-site (na miejscu u Klienta), Premier TP (przez 12 miesięcy)
 Informacje o gwarancji;1YR Premier Support + 3YRS OS
 Informacje o gwarancji;3 lata Onsite
 Informacje o gwarancji;On-site, (na miejscu u Klienta)
@@ -3331,7 +3286,6 @@ Dodatkowe oprogramowanie;Wersja próbna pakietu Microsoft Office
 Dodatkowe oprogramowanie;Microsoft Office 30-dniowa wersja próbna
 Dodatkowe oprogramowanie;Microsoft Office wersja próbna
 Dodatkowe oprogramowanie;Microsoft Office - 30-dniowa wersja próbna McAfee - 30-dniowa wersja próbna
-Dodatkowe oprogramowanie;Microsoft Office - wersja próbna  McAfee 30-dniowa wersja próbna
 Dodatkowe oprogramowanie;Microsoft Office 30-dniowa wersja próbna McAfee 30-dniowa wersja próbna
 Typ matrycy;TFT WVA
 Typ matrycy;TFT IPS
@@ -3348,13 +3302,14 @@ Typ matrycy;IPS / LED
 Typ matrycy;VA
 Typ matrycy;TFT LCD
 Typ matrycy;TFT MVA
+Typ matrycy;Retina
 Typ matrycy;Fast IPS
 Typ matrycy;IPS Black
 Typ matrycy;SS IPS
 Typ matrycy;D-LED
+Typ matrycy;AH-IPS
 Typ matrycy;TN LED
 Typ matrycy;ADS-IPS
-Typ matrycy;AH-IPS
 Typ matrycy;nanoIPS
 Typ matrycy;W-LED
 Typ matrycy;LCD
@@ -3363,9 +3318,9 @@ Liczba wolnych gniazd pamięci;2
 Wielkość pamięci VRAM;2 GB
 Wielkość pamięci VRAM;8 GB
 Wielkość pamięci VRAM;4 GB
-Wielkość pamięci VRAM;16 GB
 Wielkość pamięci VRAM;6 GB
 Wielkość pamięci VRAM;1 GB
+Wielkość pamięci VRAM;16 GB
 Wielkość pamięci VRAM;12 GB
 Wielkość pamięci VRAM;16 KB
 Materiał obudowy;Aluminium
@@ -3383,7 +3338,6 @@ Dźwięk;Dwa głośniki stereo (głośnik wysokotonowy + głośnik niskotonowy),
 Dźwięk;Cztery głośniki z dyskretnym wzmacniaczem
 Dźwięk;Dwa głośniki stereo
 Dźwięk;Stereo speakers, 2W x2, Dolby Audio
-Dźwięk;Stereo speakers, 2W x2, Dolby Atmos
 Dźwięk;Stereo speakers 2W x2 Dolby Audio Premium
 Dźwięk;High Definition (HD) Audio Realtek ALC3287 codec Stereo speakers 2W x2 Dolby Audio
 Dźwięk;High Definition (HD) Audio, Realtek ALC3287 codec Głośniki stereo, 2W x2, Dolby Audio
@@ -3402,7 +3356,6 @@ Pozostałe informacje o pamięci RAM;16 GB pamięci RAM LPDDR5-6400 MHz (na pły
 Pozostałe informacje o pamięci RAM;16 GB DDR5-5200 MHz RAM (2 x 8 GB)
 Pozostałe informacje o pamięci RAM;16 GB DDR4-3200 MHz RAM (2 x 8 GB)
 Pozostałe informacje o pamięci RAM;16 GB LPDDR5-6400 MHz RAM (onboard)
-Pozostałe informacje o pamięci RAM;8 GB lutowane DDR4-3200 + 8 GB SO-DIMM DDR4-3200 Do 40 GB (8 GB lutowane + 32 GB SO-DIMM) DDR4-3200
 Pozostałe informacje o pamięci RAM;8 GB lutowane DDR4-3200 Jedna pamięć przylutowana do płyty systemowej, jedna pamięć DDR4 SO-DIMM gniazdo, obsługujące dwa kanały Do 16 GB (8 GB lutowane + 8 GB SO-DIMM) DDR4-3200
 Pozostałe informacje o pamięci RAM;8 GB lutowane DDR4-3200 + 8 GB SO-DIMM DDR4-3200 Jedna pamięć przylutowana do płyty systemowej, jedna pamięć DDR4 SO-DIMM gniazdo, obsługujące dwa kanały Do 16 GB (8 GB lutowane + 8 GB SO-DIMM) DDR4-3200
 Pozostałe informacje o pamięci RAM;8 GB lutowane DDR4-3200 Jedna pamięć przylutowana do płyty systemowej, jedno gniazdo DDR4 SO-DIMM, obsługa dwukanałowa Do 16 GB (8 GB lutowane + 8 GB SO-DIMM) w ofercie DDR4-3200
@@ -3613,7 +3566,6 @@ Typ gniazda;Intel socket LGA 1200
 Typ gniazda;Intel socket LGA 1700
 Taktowanie bazowe;3600 Mhz
 Taktowanie bazowe;3.2GHz
-Taktowanie bazowe;3.1GHz
 Taktowanie bazowe;3,8 GHz
 Taktowanie bazowe;3,6 GHz
 Taktowanie bazowe;3,9 GHz
@@ -3624,10 +3576,8 @@ Taktowanie bazowe;2.50 GHz
 Taktowanie bazowe;2900 Mhz
 Taktowanie bazowe;4.1 GHz
 Taktowanie bazowe;3.2 GHz
-Taktowanie bazowe;3,4
 Taktowanie w trybie turbo;4200 Mhz
 Taktowanie w trybie turbo;4.1GHz
-Taktowanie w trybie turbo;4.3GHz
 Taktowanie w trybie turbo;4,0 GHz
 Taktowanie w trybie turbo;4,2 GHz
 Taktowanie w trybie turbo;4,4 GHz
@@ -3641,12 +3591,10 @@ Taktowanie w trybie turbo;4.40 GHz
 Taktowanie w trybie turbo;4300 Mhz
 Taktowanie w trybie turbo;4.8 GHz
 Taktowanie w trybie turbo;5.2 GHz
-Taktowanie w trybie turbo;4,6
 Odblokowany mnożnik;Tak
 Odblokowany mnożnik;Nie
 Pamięć cache;32 MB
 Pamięć cache;16 MB
-Pamięć cache;64 MB
 Pamięć cache;6 MB
 Pamięć cache;35 MB
 Pamięć cache;36 MB
@@ -3715,8 +3663,9 @@ Chipset;AMD Promontory B450
 Chipset;AMD B550
 Chipset;MD B550
 Chipset;AMD PRO565
-Chipset;Intel B560
 Chipset;AMD B650
+Chipset;Intel B660
+Chipset;Intel H470
 Chipset;Intel H610
 Chipset;AMD X570
 Chipset;AMD X670
@@ -3725,32 +3674,28 @@ Chipset;GeForce RTX 3050
 Chipset;GeForce RTX 4060 Ti
 Chipset;GeForce RTX 4070
 Chipset;GeForce RTX 4070 Ti
-Chipset;GeForce RTX 4080
 Chipset;Radeon RX 560
 Chipset;GeForce RTX 4060
 Chipset;GeForce GTX 1650
 Chipset;AMD B650 Chipset
-Chipset;Intel B660 Chipset
 Chipset;H510
 Chipset;Intel H510
-Chipset;Intel H610 Chipset
 Chipset;Intel Z370
 Chipset;Intel Z790 Chipset
-Chipset;B550
 Chipset;GeForce RTX 3060
+Chipset;GeForce RTX 4080
 Chipset;Radeon RX 7600
 Chipset;Intel B760 Express Chipset
 Chipset;Intel RTP-H (700)/B760
 Chipset;Intel H410 Express Chipset
 Chipset;Intel H470 Express Chipset
-Chipset;Intel H610 Express Chipset
 Chipset;Intel Z590 Express Chipset
 Chipset;Intel Z690 Express Chipset
 Chipset;Intel Z790 Express Chipset
 Chipset;Intel Z790 Express
 Chipset;Radeon RX 6400
 Chipset;Radeon RX 6750 XT
-Chipset;Chipset AMD  B450
+Chipset;Intel B560
 Chipset;INTEL Z790
 Chipset;INTEL B760
 Chipset;Intel H410
@@ -3840,17 +3785,17 @@ Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line O
 Złącza zewnętrzne;1 x D-Sub • 1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x Głośnik centralny / Subwoofer • 1 x HDMI • 1 x Line In • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 2 x USB 2.0 • 4 x USB 3.1
 Złącza zewnętrzne;1 x COM RS-232 • 1 x D-Sub • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 2 x USB 2.0 • 4 x USB 3.0
-Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 2 x USB 3.0 • 4 x USB 2.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x Przycisk BIOS Flash • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x SMA • 2 x USB 3.0 • 6 x USB 2.0
 Złącza zewnętrzne;1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x Przycisk BIOS Flash • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x SMA • 2 x USB 3.0 • 6 x USB 2.0
+Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line Out (przód) • 1 x MIC • 1 x Przycisk BIOS Flash • 1 x RJ-45 • 1 x S/PDIF • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x SMA • 2 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x Przycisk BIOS Flash • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x USB 3.0 • 4 x USB 2.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x Przycisk USB BIOS Flashback • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x SMA • 2 x USB 2.0 • 3 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x Przycisk USB BIOS Flashback • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x SMA • 2 x USB 3.0 • 4 x USB 2.0
+Złącza zewnętrzne;1 x DisplayPort • 1 x Głośnik centralny / Subwoofer • 1 x HDMI • 1 x Line In • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 2 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x USB 2.0 • 5 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x SMA • 2 x USB 2.0 • 5 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 1 x USB 3.1 Type-C • 3 x USB 3.0 • 4 x USB 2.0
-Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x USB 2.0 • 3 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x SMA • 2 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x D-Sub • 1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x USB 2.0 • 3 x USB 3.0
 Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x Głośnik centralny / Subwoofer • 1 x Line In • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 2 x USB 3.1 • 4 x USB 2.0
@@ -3869,7 +3814,6 @@ Złącza zewnętrzne;1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1
 Złącza zewnętrzne;1 x DVI-D • 1 x Głośnik centralny / Subwoofer • 1 x HDMI • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x USB 2.0 • 4 x USB 3.1
 Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x Przycisk BIOS Flash • 1 x RJ-45 • 6 x USB 3.1
 Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 2 x USB 3.1 Type-C • 4 x USB 3.0
-Złącza zewnętrzne;1 x D-Sub • 1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x USB 2.0 • 2 x USB 3.1
 Złącza zewnętrzne;1 x D-Sub • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 2 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x D-Sub • 1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 2 x USB 2.0 • 2 x USB 3.0
 Złącza zewnętrzne;1 x D-Sub • 1 x HDMI • 1 x PS/2 Klawiatura/Mysz Combo • 2 x USB 3.1 Type-C • 4 x USB 2.0
@@ -3883,12 +3827,10 @@ Złącza zewnętrzne;1 x DisplayPort • 1 x Głośnik centralny / Subwoofer •
 Złącza zewnętrzne;1 x DisplayPort • 1 x Głośnik centralny / Subwoofer • 1 x Głośnik tylny • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 1 x S/PDIF • 2 x USB 3.1 • 2 x USB 3.1 Type-C • 4 x USB 3.0
 Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x Głośnik centralny / Subwoofer • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x PS/2 Klawiatura/Mysz Combo • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 2 x USB 2.0 • 4 x USB 3.1
 Złącza zewnętrzne;1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 2 x USB 2.0 • 4 x USB 3.0
-Złącza zewnętrzne;1 x DisplayPort • 1 x Głośnik boczny • 1 x Głośnik tylny • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 1 x S/PDIF • 2 x USB 2.0 • 2 x USB 3.1 • 3 x USB 3.0
 Złącza zewnętrzne;1 x DVI-D • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 4 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x DVI-D • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x RJ-45 • 2 x SMA • 4 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x SMA • 3 x USB 2.0 • 3 x USB 3.0
 Złącza zewnętrzne;1 x HDMI • 1 x Line Out (przód) • 1 x MIC (przód) • 1 x Przycisk Clear CMOS • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 1 x S/PDIF • 1 x USB 3.1 Type-C • 2 x SMA • 4 x USB 2.0 • 4 x USB 3.0 • 4 x USB 3.1
-Złącza zewnętrzne;1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x DisplayPort • 2 x SMA • 2 x USB 3.0 • 4 x USB 2.0
 Złącza zewnętrzne;1 x D-Sub • 1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura/Mysz Combo • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 2 x USB 3.0 • 4 x USB 2.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line Out (przód) • 1 x MIC (przód) • 1 x RJ-45 • 1 x S/PDIF • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x SMA • 4 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line Out (przód) • 1 x MIC (przód) • 1 x RJ-45 • 1 x S/PDIF • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 4 x USB 2.0 • 4 x USB 3.0
@@ -3901,7 +3843,6 @@ Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line O
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 3 x USB 3.0 • 5 x USB 2.0
 Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 2 x USB 3.1 • 4 x USB 2.0
 Złącza zewnętrzne;1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 2 x USB 3.0 • 4 x USB 2.0
-Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 2 x USB 3.0 • 4 x USB 2.0
 Złącza zewnętrzne;1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 1 x USB 3.1 Type-C • 2 x SMA • 2 x USB 3.1 • 4 x USB 2.0 • 6 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line Out (przód) • 1 x MIC (przód) • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 1 x S/PDIF • 2 x SMA • 2 x USB 2.0 • 2 x USB 3.1 Type-C • 4 x USB 3.0 • 4 x USB 3.1
 Złącza zewnętrzne;1 x DisplayPort • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 6 x USB 3.0
@@ -3911,7 +3852,6 @@ Złącza zewnętrzne;1 x DisplayPort • 1 x Line Out (przód) • 1 x MIC (prz�
 Złącza zewnętrzne;1 x DisplayPort • 1 x Line Out (przód) • 1 x MIC (przód) • 1 x Przycisk Clear CMOS • 1 x Przycisk Q-Flash Plus • 1 x RJ-45 • 1 x S/PDIF • 2 x SMA • 3 x USB 3.1 Type-C • 4 x USB 3.0 • 7 x USB 3.1
 Złącza zewnętrzne;1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;1 x DisplayPort • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x RJ-45 • 1 x USB 3.1 • 1 x USB 3.1 Type-C • 2 x SMA • 4 x USB 2.0 • 4 x USB 3.0
-Złącza zewnętrzne;1 x DVI-D • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 2 x USB 2.0 • 4 x USB 3.0
 Złącza zewnętrzne;USB 2.0 x4, USB 3.2 Gen.1 x4, PS/2 x1, złącza audio, RJ45 (LAN) 1 Gbps x1, VGA (D-Sub) x1, HDMI x1
 Złącza zewnętrzne;1 x 6,3 mm jack
 Złącza zewnętrzne;1 x DisplayPort • 1 x Głośnik boczny • 1 x Głośnik tylny • 1 x HDMI • 1 x Przycisk BIOS Flash • 1 x Przycisk Clear CMOS • 1 x RJ-45 • 1 x S/PDIF • 2 x USB 3.1 Type-C • 4 x USB 3.0 • 4 x USB 3.1
@@ -3922,6 +3862,7 @@ Złącza zewnętrzne;1 x USB 3.2 Gen 2x2 (1 x USB Type-C®), 3 x USB 3.2 Gen 2 (
 Złącza zewnętrzne;1 x PS/2 combo, 1 x HDMI, 1x DVI-D, 2x USB 2.0, 1 x LAN, 2x USB 3.2 Gen2, 2x USB 3.0, 1 x USB 3.1 Gen2 Type-C, 3 x Audio
 Złącza zewnętrzne;2 x PS/2, 1 x DVI-D, 1 x D-SUB,  4 x USB 2.0, 2 x USB 3.2 Gen1, 1 x RJ-45 LAN, HD Audio Jacks
 Złącza zewnętrzne;1 x PS/2 combo, 1 x DVI-D, 1 x HDMI, 1 x LAN, 2x USB 2.0, 2 x USB 3.1 Gen 1, 2x USB 3.1 Gen2, 6x audio
+Złącza zewnętrzne;1 x D-Sub • 1 x DVI-D • 1 x HDMI • 1 x Line In • 1 x Line Out • 1 x MIC • 1 x PS/2 Klawiatura • 1 x PS/2 Myszka • 1 x RJ-45 • 2 x USB 3.0 • 4 x USB 2.0
 Złącza zewnętrzne;1 x PS/2 combo, 1 x HDMI, 1 x DisplayPort, 1 x port LAN (RJ45), 4 x Port USB 3.2 Gen 1, 1 x Port USB 3.2 Gen 2, 1 x USB-C 3.2 Gen 2, 6 x Audio Jack
 Złącza zewnętrzne;DVI-D x1, HDMI x1, RJ45 (LAN) x1, USB 3.1 Gen. 1 x4, USB 2.0 x2, PS/2 x2, Audio jack x3
 Multi-GPU;CrossFire
@@ -4124,7 +4065,6 @@ Taktowanie pamięci;16 Gbps
 Taktowanie pamięci;18 Gbps
 Taktowanie pamięci;19.5 Gbps
 Taktowanie pamięci;17 Gbps
-Taktowanie pamięci;6008 MHz
 Taktowanie pamięci;5010 MHz
 Taktowanie pamięci;6.8 Gbps
 Taktowanie pamięci;16000Mhz
@@ -4138,7 +4078,6 @@ Taktowanie pamięci;20000 MHz
 Taktowanie pamięci;15 Gbps
 Taktowanie pamięci;21000 MHz
 Taktowanie pamięci;23 Gbps
-Taktowanie pamięci;7000 MHz
 Taktowanie pamięci;5400 MHz
 Low Profile;Nie
 Chłodzenie chipsetu;Aktywne
@@ -4251,13 +4190,13 @@ Wymiary;24.4 x 24.4 cm
 Wymiary;30.5 cm x 22.4 cm
 Wymiary;23.0 cm x 20.1 cm
 Wymiary;23 x 20.1 cm
-Wymiary;19.7 x 18.8 cm
 Wymiary;24.4 x 22.6 cm
+Wymiary;24.4 cm x 24.4 cm
 Wymiary;19.1 cm x 18.8 cm
+Wymiary;23.1 x 19.8 cm
 Wymiary;22 x 19.3 cm
 Wymiary;30.5 cm x 22.9 cm
 Wymiary;30.5 x 24.4 cm 8 Layer PCB
-Wymiary;18.4 x 11.1 x 3.6 cm
 Wymiary;15  x 6.9  x2.64   cm
 Wymiary;200 x 123 x 38 mm
 Wymiary;227.2 x 123.24 x 49.6 mm
@@ -4265,24 +4204,20 @@ Wymiary;62,4 x 139 x 300 mm
 Wymiary;51,13 x 133,94 x 267 mm
 Wymiary;305 x 138 x 65 mm
 Wymiary;63 x 139 x 301 mm
-Wymiary;72,6 x 150 x 348,2 mm
 Wymiary;242 x 128 x 40 mm
 Wymiary;300 x 120 x 50 mm
 Wymiary;21.2 x 12.1 x 4 cm
 Wymiary;30.5 cm x 23.4 cm
 Wymiary;24.4 cm x 24 cm
 Wymiary;22.6  cm x 22.1  cm
-Wymiary;30.5cm x 24.4cm
 Wymiary;22.6cm x 21.1cm
 Wymiary;22.6cm x 20.3cm
-Wymiary;23.4 cm x 20.3 cm
 Wymiary;30.5 x 23.4 cm
 Wymiary;30.5 cm x 24.4 cm
 Wymiary;30,5 cm x 24,4 cm
 Wymiary;24.4  cm x 24.4  cm
 Wymiary;30,5 x 24,4 cm
 Wymiary;57,3 x 7 x 133 mm
-Wymiary;135 x 7 x 35 mm
 Wymiary;162 x 117 mm
 Wymiary;249,9 x 114,9 x 49,7 mm
 Wymiary;169,9 x 124,1 x 38,8 mm
@@ -4290,7 +4225,6 @@ Wymiary;328,9 x 141,1 x 62,5 mm
 Wymiary;213 x 120 x 41 mm
 Wymiary;L=282 W=117 H=41 mm
 Wymiary;198 x 121 x 39 mm
-Wymiary;281 x 114 x 38 mm
 Wymiary;299 x 128 x 56 mm
 Wymiary;281 x 114 x 40 mm
 Wymiary;50 x 117 x 281 mm
@@ -4302,23 +4236,21 @@ Wymiary;261 x 126 x 50 mm
 Wymiary;57,6 x 130 x 300 mm
 Wymiary;70,6 x 153 x 342 mm
 Wymiary;342 x 150 x 70 mm
-Wymiary;L=282 W=113 H=41 mm
+Wymiary;300 x 130 x 57.6 mm
 Wymiary;50 x 115 x 282 mm
 Wymiary;302 x 130 x 56 mm
 Wymiary;24.4cm x 20.5cm
 Wymiary;24.4 x 17.4 cm
 Wymiary;24.4 x 24.4cm
-Wymiary;24.4 cm x 24.4 cm
 Wymiary;30.5 x 24.4cm
-Wymiary;24.4 x 17.4cm
 Wymiary;23 x 22.5 cm
 Wymiary;305 x 244 mm
 Wymiary;24.4 x 22.5 cm
 Wymiary;244 x 244 mm
 Wymiary;22.6cm x 18.5cm
 Wymiary;22.6 x 18.5 cm
-Wymiary;23.0 x 21.5 cm
 Wymiary;30.5 x 26.9 cm
+Wymiary;30.5cm x 24.4cm
 Wymiary;30.5cm x 25.9cm
 Wymiary;30.5 x 26.0 cm
 Wymiary;30.5 x 26 cm
@@ -4344,7 +4276,6 @@ Wymiary;308 x 120 x 43 mm
 Wymiary;178 x 111 x 38 mm
 Wymiary;39 x 112 x 172 mm
 Wymiary;249 x 132 x 52 mm
-Wymiary;23,6 x 20,0 cm
 Wymiary;243.84 x 243.84 mm
 Wymiary;243.84 x 304.8 mm
 Wymiary;24.384 x 30.48 cm
@@ -4383,7 +4314,6 @@ Wymiary;13,3 x 3 x 0,4 cm
 Wymiary;44,07 x 107,1 x 240 mm
 Wymiary;320 x 134.85 x 61.57 mm
 Wymiary;280 x 128.75 x 52.57 mm
-Wymiary;112 x 39 x 158 mm
 Wymiary;104.5 × 39.5 × 12 mm
 Wymiary;120.5 × 75 × 13 mm
 Wymiary;126 × 79 × 13 mm
@@ -4397,7 +4327,6 @@ Wymiary;326×136,2×42,5 mm
 Wymiary;361.5×140×42.5 mm
 Wymiary;361,5×140×42,5 mm
 Wymiary;445,4×140×42,5 mm
-Wymiary;450 x 142 x 33
 Wymiary;444 x 19,7 x 4,8
 Wymiary;453×210×45 mm
 Wymiary;474(L)*195(W)*32(H) mm
@@ -4589,7 +4518,6 @@ Wielkośc dysku;"2.5"""
 Wielkośc dysku;"M.2 / 2.5"""
 Interfejs dysku;SATA
 Interfejs dysku;USB 3.0/USB 3.1 gen 1 • microUSB 3.0
-Interfejs dysku;USB 3.0/USB 3.1 gen 1/USB 3.2 gen 1 • microUSB 3.0
 Interfejs dysku;USB 3.1/USB 3.1 gen 2/USB 3.2 gen 2
 Interfejs dysku;PCI-Express
 Interfejs dysku;SATA III - 6 Gb/s
@@ -4616,15 +4544,14 @@ Szczegółowe dane o interfejsach dysków/napędów;4 x SATA3 6.0 Gb/s Connector
 Szczegółowe dane o interfejsach dysków/napędów;4 x SATA3 6.0 Gb/s Connectors, support RAID (RAID 0, RAID 1 and RAID 10), NCQ, AHCI and Hot Plug1 x Ultra M.2 Socket, supports M Key type 2242/2260/2280 M.2 SATA3 6.0 Gb/s module and M.2 PCI Express module up to Gen3 x4
 Szczegółowe dane o interfejsach dysków/napędów;RAID 0, RAID 1 and RAID 10
 Szczegółowe dane o interfejsach dysków/napędów;Procesor: 1 x gniazdo Ultra M.2 (M2_1, klucz M), obsługuje tryby typu 2242/2260/2280 SATA3 6,0 Gb/s i PCIe Gen3x4 (32 Gb/s) Chipset: 4 złącza SATA3 6,0 Gb/s Obsługuje dyski SSD NVMe jako dyski rozruchowe Obsługuje zestaw ASRock U.2
-Szczegółowe dane o interfejsach dysków/napędów;4 x SATA3 6.0 Gb/s Connectors, support Intel Rapid Storage Technology 18, NCQ, AHCI and Hot Plug
+Szczegółowe dane o interfejsach dysków/napędów;RAID 0, RAID 1, RAID 5 and RAID 10
 Szczegółowe dane o interfejsach dysków/napędów;CPU: 1 x Hyper M.2 Socket (M2_1, Key M), obsługuje 2280 PCIe Gen4x4 (64 Gb/s) Chipset: 1 x Hyper M.2 Socket (M2_2, Key M), obsługuje 2280 PCIe Gen4x4 (64 Gb/s) 4 x złącza SATA3 6.0 Gb/s
 Szczegółowe dane o interfejsach dysków/napędów;CPU: 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode* Chipset: 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode* 4 x SATA3 6.0 Gb/s Connectors
-Szczegółowe dane o interfejsach dysków/napędów;CPU: 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2242/2260/2280 PCIe Gen4x4 (64 Gb/s) mode Chipset: 1 x Hyper M.2 Socket (M2_2, Key M), supports type 2280 PCIe Gen4x4 (64 Gb/s) mode 4 x SATA3 6.0 Gb/s Connectors
 Szczegółowe dane o interfejsach dysków/napędów;CPU: 1 x Hyper M.2 Socket (M2_1, Key M), supports type 2260/2280 PCIe Gen4x4 (64 Gb/s) mode Chipset: 1 x Ultra M.2 Socket (M2_2, Key M), supports type 2260/2280 SATA3 6.0 Gb/s & PCIe Gen3x4 (32 Gb/s) modes 4 x SATA3 6.0 Gb/s Connectors
+Szczegółowe dane o interfejsach dysków/napędów;Chipset: 1 x gniazdo Ultra M.2 (M2_1, klucz M), obsługuje tryby 2260/2280 SATA3 6,0 Gb/s i PCIe Gen3x4 (32 Gb/s) 4 złącza SATA3 6,0 Gb/s
 Szczegółowe dane o interfejsach dysków/napędów;Obsługuje procesory Intel Core 13. i 12. generacji oraz nowej generacji (LGA1700) Konstrukcja fazy zasilania 6+1+1 Obsługuje technologię hybrydową Intel Obsługuje technologię Intel Turbo Boost Max 3.0
 Szczegółowe dane o interfejsach dysków/napędów;Raid 0, 1, 10
 Szczegółowe dane o interfejsach dysków/napędów;Obsługa Raid 0, 1, 10
-Szczegółowe dane o interfejsach dysków/napędów;RAID 0/1/5/10.
 Szczegółowe dane o interfejsach dysków/napędów;RAID 0, RAID 1, and RAID 10
 Szczegółowe dane o interfejsach dysków/napędów;Procesor: 1 x złącze M.2 (gniazdo 3, Key M, obsługa SSD typu 22110/2280 PCIe 4.0 x4/x2) (M2A_CPU) Chipset: 1 x złącze M.2 (gniazdo 3, Key M, obsługa SSD typu 2280 PCIe 4.0 x4/x2) (M2P_SB) 4 złącza SATA 6 Gb/s
 Szczegółowe dane o interfejsach dysków/napędów;3 x M.2 22110 4 x SATA 6Gb/s
@@ -4632,7 +4559,6 @@ Szczegółowe dane o interfejsach dysków/napędów;Procesor: 1 x złącze M.2 (
 Szczegółowe dane o interfejsach dysków/napędów;3 x M.2 22110 4 x SATA 6Gb/s
 Szczegółowe dane o interfejsach dysków/napędów;1 x M.2 22110 1 x M.2 2280 4 x SATA 6Gb/s
 Szczegółowe dane o interfejsach dysków/napędów;1 x M.2 connector (Socket 3, M key, type 2280 SATA and PCIe 3.0 x4/x2 SSD support) 2 x SATA 6Gb/s connectors RAID 0, RAID 1, and RAID5 support for NVMe SSD storage devices RAID 0, RAID 1, and RAID5 support for SATA storage devices
-Szczegółowe dane o interfejsach dysków/napędów;Złącze M.2 (gniazdo 3, klucz M, obsługa SSD typu 2280/2260 PCIe 3.0 x4/x2) 4 złącza SATA 6 Gb/s
 Szczegółowe dane o interfejsach dysków/napędów;RAID 0, RAID 1, RAID 10
 Szczegółowe dane o interfejsach dysków/napędów;RAID 0, RAID 1, RAID 5, and RAID 10
 Szczegółowe dane o interfejsach dysków/napędów;CPU: 1 x M.2 connector (Socket 3, M key, type 22110/2280 PCIe 4.0 x4/x2 SSD support) (M2A_CPU) Chipset: 2 x M.2 connectors (Socket 3, M key, type 2280 PCIe 4.0 x4/x2 SSD support) (M2Q_SB, M2P_SB) 6 x SATA 6Gb/s connectors
@@ -4691,7 +4617,6 @@ Karta dźwiękowa;Realtek ALC4080
 Karta dźwiękowa;Realtek ALC4080 Intel 2.5Gb Ethernet
 Karta dźwiękowa;ROG SupremeFX 7.1 Surround Sound High Definition Audio CODEC ALC4080
 Karta dźwiękowa;Realtek ALC S1200A 7.1 Surround Sound High Definition Audio CODEC Supports : Jack-detection, Multi-streaming, Front Panel Jack-retasking, up to 24-Bit/192kHz playback
-Karta dźwiękowa;Realtek ALC1200 codec Obsługa High Definition Audio Ilość kanałów audio 2/4/5.1/7.1 Wsparcie dla S/PDIF Out
 Karta dźwiękowa;Realtek audio codec Obsługa High Definition Audio Ilość kanałów audio 2/4/5.1/7.1
 Karta dźwiękowa;Realtek Audio CODEC High Definition Audio 2/4/5.1/7.1-channel
 Karta dźwiękowa;Kodek Realtek ALC887
@@ -4702,11 +4627,9 @@ Karta dźwiękowa;Realtek Audio CODEC High Definition Audio 2/4/5.1/7.1-channel 
 Karta dźwiękowa;Realtek Audio CODEC High Definition Audio 2/4/5.1/7.1-channel Obsługa S/PDIF Out
 Karta dźwiękowa;Realtek ALC887
 Karta dźwiękowa;Kodek audio Realtek Dźwięk wysokiej jakości 2/4/5.1/7.1-kanałowy * Funkcjonalność gniazda audio można zmienić za pomocą oprogramowania audio. Aby skonfigurować dźwięk 7.1-kanałowy, przejdź do oprogramowania audio w celu ustawienia dźwięku.
-Karta dźwiękowa;Realtek Audio CODEC High Definition Audio 2/4/5.1/7.1-channel *Funkcjonalność gniazda audio można zmienić za pomocą oprogramowania audio. Aby skonfigurować dźwięk 7.1-kanałowy, przejdź do oprogramowania audio w celu ustawienia dźwięku.
 Karta dźwiękowa;KODEK Realtek Audio Dźwięk wysokiej jakości 2/4/5,1/7.1-kanałowy
 Karta dźwiękowa;Kodek Realtek ALC1220-VB * Wyjście liniowe na panelu przednim obsługuje dźwięk DSD. Układ DAC ESS ES9118 Wsparcie dla DTS:X Ultra Dźwięk wysokiej jakości 2/4/5,1-kanałowy Obsługa wyjścia S/PDIF
 Karta dźwiękowa;Realtek Audio CODEC High Definition Audio 2/4/5.1/7.1-channel Port S/PDIF Out
-Karta dźwiękowa;Kodek Realtek  ALC892 7.1-kanałowy dźwięk wysokiej rozdzielczości
 Karta dźwiękowa;Kodek Realtek ALC892
 Karta dźwiękowa;Realtek ALC4080 Codec 7.1-Channel High Performance Audio Wyjście S/PDIF Obsługuje odtwarzanie do 32-bitów/384 kHz na przednim panelu
 Karta dźwiękowa;Realtek ALC4080 Codec 7.1-Channel USB High Performance Audio Wyjście S/PDIF Obsługuje odtwarzanie do 32-bitów/384 kHz na przednim panelu
@@ -4715,17 +4638,18 @@ Karta dźwiękowa;Realtek ALC897 Codec 7.1-Channel High Definition Audio Support
 Karta dźwiękowa;Realtek ALC897 Codec 7.1-Channel High Definition Audio
 Karta dźwiękowa;Realtek ALC897 Codec7.1-Channel High Definition Audio
 Karta dźwiękowa;Kodek Realtek ALC897 7.1-kanałowy dźwięk wysokiej rozdzielczości Obsługuje wyjście S/PDIF
+Karta dźwiękowa;Realtek ALC897 Codec7.1-Channel High Definition AudioSupports S/PDIF output
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Gigabit LAN 10/100/1000 Mb/s Realtek 8111H
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • PCIE x1 Gigabit LAN 10/100/1000 Mb/s Realtek RTL8111H Supports Wake-On-LAN Supports Lightning/ESD Protection Supports Energy Efficient Ethernet 802.3az Supports PXE
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • PCIE x1 Gigabit LAN 10/100/1000 Mb/s Realtek RTL8111H Obsługuje funkcję Wake-On-LAN Obsługuje ochronę przed wyładowaniami atmosferycznymi/ESD Obsługuje energooszczędny Ethernet 802.3az Obsługuje PXE
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • PCIE x1 Gigabit LAN 10/100/1000 Mb/s Realtek RTL8111H Wake-On-LAN Lightning/ESD Protection Energy Efficient Ethernet 802.3az PXE
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • PCIE x1 Gigabit LAN 10/100/1000 Mb/s Realtek RTL8111H Supports Wake-On-LAN Supports Lightning/ESD Protection Supports Energy Efficient Ethernet 802.3az Supports PXE  • WiFi 802.11b/g/n
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • PCIE x1 Gigabit LAN 10/100/1000 Mb/s Realtek RTL8111H Supports Wake-On-LAN Supports Lightning/ESD Protection Supports Energy Efficient Ethernet 802.3az Supports PXE  • Wi-Fi 802.11a/b/g/n/ac
-Interfejs sieciowy;1 x 10/100/1000 Mbit/s • PCIE x1 Gigabit LAN 10/100/1000 Mb/s 1 x Realtek RTL8111H Obsługuje funkcję Wake-on-LAN Obsługuje ochronę odgromową/ESD Obsługuje energooszczędny Ethernet 802.3az Obsługuje PXE
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • 2.5 Gigabit LAN 10/100/1000/2500 Mb/s Killer E3100G Supports Killer LAN Software
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Gigabit LAN 10/100/1000 Mb/s Realtek RTL8111H
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s
+Interfejs sieciowy;1 x 10/100/1000 Mbit/s • PCIE x1 Gigabit LAN 10/100/1000 Mb/s 1 x Realtek RTL8111H Obsługuje funkcję Wake-on-LAN Obsługuje ochronę odgromową/ESD Obsługuje energooszczędny Ethernet 802.3az Obsługuje PXE
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Gigabit LAN 10/100/1000 Mb/s Giga PHY Intel I211AT Supports Wake-On-LAN Supports Lightning/ESD Protection Supports Energy Efficient Ethernet 802.3az Supports PXE
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Gigabit LAN 10/100/1000 Mb / s Giga PHY Intel I211AT Obsługuje Wake-On-LAN Obsługuje ochronę Lightning / ESD Obsługuje energooszczędny Ethernet 802.3az Obsługuje PXE
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Gigabit LAN 10/100/1000 Mb/s Giga PHY Intel I219V Supports Wake-On-LAN Supports Lightning/ESD Protection Supports Energy Efficient Ethernet 802.3az Supports UEFI PXE
@@ -4742,28 +4666,24 @@ Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Bluetooth • Intel 2.5Gb Eth
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Bluetooth • Intel 2.5Gb Ethernet ASUS LANGuard  • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Realtek RTL8111H 1Gb Ethernet TUF LANGuard
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Realtek RTL8125B 2.5Gb Ethernet TUF LANGuard
-Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Bluetooth • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Realtek 2.5Gb Ethernet TUF LANGuard
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Bluetooth • Ethernet: Realtek 2.5Gb Ethernet TUF LANGuard Komunikacja bezprzewodowa: Wi-Fi 6 2x2 Wi-Fi 6 (802.11 a/b/g/n/ac/ax) Supports 2.4/5GHz frequency band Bluetooth v5.2  • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • 1 x Realtek 2.5Gb Ethernet TUF LANGuard
 Interfejs sieciowy;Bluetooth • Wi-Fi 6E 2x2 Wi-Fi 6E (802.11 a/b/g/n/ac/ax) Supports 2.4/5/6GHz frequency band Bluetooth v5.3 1 x Intel 2.5Gb Ethernet TUF LANGuard  • Wi-Fi 802.11a/b/g/n/ac/ax
-Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Realtek 2.5GbE LAN chip (2.5 Gbit/1 Gbit/100 Mbit)
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Realtek GbE LAN chip (10/100/1000 Mbit)
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Bluetooth • Intel Wi-Fi AC 3168 WiFi 802.11a/b/g/n/ac, supporting 2.4/5 GHz Dual-Band Bluetooth 4.2 Support for 11ac wireless standard and up to 433 Mbps data rate  • Wi-Fi 802.11a/b/g/n/ac
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Realtek GbE LAN chip (1000 Mbit/100 Mbit)
-Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Bluetooth • Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps) • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Realtek GbE LAN chip (1 Gbps/100 Mbps/10 Mbps)
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • LAN: Realtek RTL8125 Komunikacja bezprzewodowa: AMD 2x2 WIFI 6E RZ608(MT7921K)  • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • LAN: Realtek RTL8125
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • LAN: Realtek RTL8125WiFi: AMD 2x2 WIFI 6E RZ608(MT7921K) • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • LAN: Realtek RTL8125
-Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Realtek GbE LAN chip (1 Gbps/100 Mbps)
+Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Bluetooth • Realtek 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps) • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Bluetooth • Intel 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps) Intel Wi-Fi 6E AX210   • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Realtek GbE LAN chip (1 Gbit/100 Mbit)
 Interfejs sieciowy;1 x 10Gbit/s 10GBase-T • Bluetooth • Marvell AQtion AQC113C 10GbE LAN chip Intel Wi-Fi 6E AX210  • Wi-Fi 802.11a/b/g/n/ac/ax
 Interfejs sieciowy;1 x 10Gbit/s 10GBase-T • Marvell AQtion AQC113C 10GbE LAN chip (10 Gbps/5 Gbps/2.5 Gbps/1 Gbps/100 Mbps)
-Interfejs sieciowy;1 x 10/100/1000 Mbit/s • 1 x kontroler Gigabit LAN Realtek  8111H
 Interfejs sieciowy;1 x 10/100/1000 Mbit/s • Bluetooth • Realtek 8111HN Gigabit LAN • Wi-Fi 802.11a/b/g/n/ac
 Interfejs sieciowy;Nie
 Interfejs sieciowy;1 x 10/100/1000/2500 Mbit/s • Bluetooth • Intel 2.5Gbps LAN • Wi-Fi 802.11a/b/g/n/ac/ax
@@ -4785,8 +4705,8 @@ Porty USB do wyprowadzenia z płyty;5
 Porty USB do wyprowadzenia z płyty;7
 Porty USB do wyprowadzenia z płyty;6
 Porty USB do wyprowadzenia z płyty;8
-Porty USB do wyprowadzenia z płyty;4
 Porty USB do wyprowadzenia z płyty;10
+Porty USB do wyprowadzenia z płyty;4
 Porty USB do wyprowadzenia z płyty;3
 Porty USB do wyprowadzenia z płyty;9
 Porty USB do wyprowadzenia z płyty;1
@@ -4800,7 +4720,6 @@ Funkcje specjalne;Rock-Solid Durability: 5+1+1 Power Phase ASRock Intel 4-Layer 
 Funkcje specjalne;Software ASRock A-Tuning ASRock XFast LAN UEFI ASRock Full HD UEFI ASRock Instant Flash ASRock Easy RAID Installer
 Funkcje specjalne;ASRock Super Alloy Premium 50A Power Choke Sapphire Black PCB High Density Glass Fabric PCB 2oz Copper PCB ASRock Hyper M.2 (PCIe Gen4x4) ASRock Full Spike Protection (for all USB, Audio, LAN Ports) ASRock Live Update & APP Shop
 Funkcje specjalne;ASRock Super Alloy Premium 50A Power Choke Sapphire Black PCB High Density Glass Fabric PCB ASRock Hyper M.2 (PCIe Gen4x4) ASRock Full Spike Protection (for all USB, Audio, LAN Ports) ASRock Live Update & APP Shop
-Funkcje specjalne;Rock-Solid Durability: 5+1+1 Power Phase  ASRock Intel 4-Layer Memory POOL (Planes on Outer Layers) Technology EZ Update: ASRock Auto Driver Installer
 Funkcje specjalne;Solidna jak Skała: 5+1+1 Power Phase Aktualizacje EZ: Automatyczny Instalator Sterowników ASRock
 Funkcje specjalne;ASRock Super Alloy- Sapphire Black PCB- High Density Glass Fabric PCBASRock Full Spike Protection (for all USB, Audio, LAN Ports)ASRock Live Update & APP Shop
 Funkcje specjalne;Software ASRock Polychrome SYNC ASRock Key Master ASRock XFast LAN UEFI ASRock Full HD UEFI ASRock Instant Flash ASRock Easy RAID Installer
@@ -4810,7 +4729,6 @@ Funkcje specjalne;Wsparcie dla APP Center Obsługa @ BIOS EasyTune Fast Boot Obs
 Funkcje specjalne;Wsparcie dla Centrum aplikacji @BIOS EasyTune WŁ./WYŁ. Ładowanie Fuzja RGB Inteligentna kopia zapasowa Przeglądarka informacji o systemie Wsparcie dla Q-Flash Plus Wsparcie dla Q-Flash Wsparcie dla instalacji Xpress
 Funkcje specjalne;Obsługa GIGABYTE Control Center (GCC) Obsługa Q-Flash Obsługa Q-Flash Plus
 Funkcje specjalne;Wsparcie dla Centrum sterowania Gigabyte (GCC) Wsparcie dla Q-Flash Wsparcie dla Q-Flash Plus
-Funkcje specjalne;Wsparcie dla APP Center Obsługa @ BIOS  Ambient LED EasyTune Smart Backup System Information Viewer Obsługa Q-Flash Wsparcie dla Xpress Install
 Funkcje specjalne;Support for GIGABYTE Control Center (GCC) Obsługa Q-Flash Support for Q-Flash Plus Support for Smart Backup
 Bios;128 MB AMI UEFI Legal BIOS z obsługą GUI
 Bios;1 x 256 Mbit flash Korzystanie z licencjonowanego AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
@@ -4821,8 +4739,8 @@ Bios;"256Mb AMI UEFI Legal BIOS with GUI support Supports ""Plug and Play"" ACPI
 Bios;"256 MB AMI UEFI Legal BIOS z obsługą GUI Obsługuje ""Plug and Play"" Zdarzenia budzące zgodność z ACPI 5.1 Obsługuje jumperfree Obsługa SMBIOS 2.3 CPU, CPU VDDCR_SOC, DRAM, +1.8VSB, Voltage Multi-adjustment"
 Bios;"256Mb AMI UEFI Legal BIOS with GUI support Supports ""Plug and Play"" ACPI 5.1 compliance wake up events Supports jumperfree SMBIOS 2.3 support CPU, CPU VDDCR_SOC, DRAM, VDDP Voltage Multi-adjustment"
 Bios;Legalny BIOS AMI UEFI 128Mb z obsługą GUI Obsługuje Plug and Play Zdarzenia budzące zgodność z ACPI 5.1 Obsługuje bez zworek Obsługa SMBIOS 2.3 Procesor VDDCR_SOC, DRAM, VDDP Regulacja napięcia
-Bios;128Mb AMI UEFI Legal BIOS with multilingual GUI support ACPI 6.0 Compliant wake up events SMBIOS 2.7 Support CPU Core/Cache, CPU GT, VCCSA, DRAM, VCCIO, CPU Standby, VCCIN AUX Voltage Multi-adjustment
 Bios;256Mb AMI UEFI Legal BIOS with GUI support
+Bios;- 128Mb AMI UEFI Legal BIOS with multilingual GUI support - ACPI 6.0 Compliant wake up events - SMBIOS 2.7 Support - CPU Core/Cache, CPU GT, DRAM, VDD_IMC, VCCIN AUX, +1.05V PROC, +0.82V PCH, +1.05V PCH Voltage Multi-adjustment
 Bios;128Mb AMI UEFI Legal BIOS z obsługą GUI
 Bios;128Mb AMI UEFI Legal BIOS with GUI support
 Bios;128Mb AMI UEFI Legal BIOS with multilingual GUI support ACPI 6.0 Compliant wake up events SMBIOS 2.7 Support DRAM, PCH 1.05V Voltage Multi-adjustment
@@ -4838,12 +4756,10 @@ Bios;256 MbFlash ROM, UEFI AMI BIOS
 Bios;256 Mb  Flash ROM, UEFI AMI BIOS
 Bios;192 (128+64) Mb Flash ROM, UEFI AMI Bios
 Bios;1 x 128 Mbit flash Use of licensed AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
-Bios;1 x 256 Mbit flash Korzysta z licencjonowanego AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
 Bios;1 x 256 Mbit flash Use of licensed AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
 Bios;1 x 256 Mbit flash Korzystanie z licencjonowanego systemu BIOS AMI UEFI PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
 Bios;1 x 128 Mbit flash Korzystanie z licencjonowanego systemu AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
 Bios;1 x 256 Mbit flash Korzystanie z licencjonowanego systemu AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
-Bios;1 x 128 Mbit flash Korzysta z licencji AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
 Bios;1 x 256 Mbit flash Licencja AMI UEFI BIOS PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
 Format płyty;micro ATX
 Format płyty;ATX
@@ -4859,6 +4775,7 @@ Oprogramowanie;Software: ASRock Motherboard Utility (A-Tuning) ASRock Polychrome
 Oprogramowanie;Oprogramowanie: ASRock Motherboard Utility (A-Tuning) ASRock XFast LAN UEFI: ASRock Full HD UEFI ASRock Instant Flash
 Oprogramowanie;ASRock Motherboard Utility (A-Tuning) ASRock Dragon 2.5G LAN Software ASRock Polychrome SYNC* *Te narzędzia można pobrać z Live Update & APP Shop.
 Oprogramowanie;Software ASRock Motherboard Utility (Phantom Gaming Tuning) Killer Control Center ASRock Polychrome SYNC* UEFI ASRock Full HD UEFI ASRock Auto Driver Installer ASRock Instant Flash
+Oprogramowanie;Software ASRock Motherboard Utility (A-Tuning) ASRock Dragon 2.5G LAN Software ASRock Polychrome SYNC* UEFI ASRock Full HD UEFI ASRock Auto Driver Installer ASRock Instant Flash
 Oprogramowanie;Software ASRock Motherboard Utility (Phantom Gaming Tuning) ASRock Phantom Gaming LAN Software ASRock Polychrome SYNC UEFI ASRock Full HD UEFI ASRock Auto Driver Installer ASRock Instant Flash
 Oprogramowanie;Oprogramowanie Narzędzie płyty głównej ASRock (A-Tuning) ASRock XFast LAN UEFI ASRock Full HD UEFI Instalator sterownika automatycznego ASRock Natychmiastowy Flash ASRock
 Oprogramowanie;Oprogramowanie Narzędzie płyty głównej ASRock (A-Tuning) Oprogramowanie ASRock Dragon 2.5G LAN* UEFI ASRock Full HD UEFI Instalator sterownika automatycznego ASRock Natychmiastowy Flash ASRock
@@ -4870,7 +4787,6 @@ Oprogramowanie;ASRock Motherboard Utility (Funkcja Phantom Gaming Tuning) ASRock
 Oprogramowanie;Software ASRock Motherboard Utility (Phantom Gaming Tuning) Killer Control Center ASRock Polychrome SYNC* UEFI ASRock EZ Mode ASRock Full HD UEFI ASRock My Favorites in UEFI ASRock Auto Driver Installer ASRock Instant Flash ASRock Easy RAID Installer
 Oprogramowanie;Software ASRock Motherboard Utility (A-Tuning) ASRock Dragon 2.5G LAN Software ASRock Polychrome SYNC* UEFI ASRock EZ Mode ASRock Full HD UEFI ASRock My Favorites in UEFI ASRock Auto Driver Installer ASRock Instant Flash ASRock Easy RAID Installer
 Oprogramowanie;ASRock Motherboard Utility (Phantom Gaming Tuning) ASRock Polychrome SYNC ASRock XFast LAN
-Oprogramowanie;Norton Internet Security (wersja OEM) Realtek 8125 Gaming LAN Bandwidth Control Utility
 Oprogramowanie;Norton Internet Security (wersja OEM) LAN bandwidth management software
 Oprogramowanie;Norton Internet Security (wersja OEM)  Oprogramowanie do zarządzania przepustowością sieci LAN
 Oprogramowanie;Norton Internet Security (wersja OEM) Realtek 8118 Gaming LAN Narzędzie kontroli przepustowości
@@ -4917,16 +4833,16 @@ Złącza dostępne na płycie;1 x 4pin 12V zasilanie
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 8pin 12V zasilanie • 1 x Port szeregowy • 1 x Przedni panel audio • 1 x TPM • 2 x USB 2.0/1.1 • 2 x USB 3.0
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin 12V zasilanie • 1 x 4pin wentylator procesora • 1 x Czujnik otwarcia obudowy • 1 x Port szeregowy • 1 x Przedni panel audio • 1 x TPM • 1 x USB 3.1 • 2 x 4pin wentylator obudowy • 2 x USB 2.0/1.1
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin 12V zasilanie • 1 x 4pin wentylator procesora • 1 x Przedni panel audio • 1 x TPM • 1 x USB 3.0 • 2 x USB 2.0/1.1
-Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 4pin wentylator procesora chłodzenie cieczą • 1 x 8pin 12V zasilanie • 1 x Przedni panel audio • 1 x TPM • 1 x USB 2.0/1.1 • 1 x USB 3.0
+Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4-pin wentylator chłodzenia cieczą • 1 x 4pin wentylator procesora • 1 x Przedni panel audio • 1 x TPM • 1 x Thunderbolt • 1 x USB C • 2 x 8pin 12V zasilanie • 2 x USB 2.0/1.1 • 2 x USB 3.0
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 8pin 12V zasilanie • 1 x Przedni panel audio • 1 x TPM • 1 x USB 3.0 • 2 x USB 2.0/1.1 • 3 x 4pin wentylator obudowy chłodzenie cieczą
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 8pin 12V zasilanie • 1 x Przedni panel audio • 1 x TPM • 1 x Thunderbolt • 1 x USB C • 2 x USB 2.0/1.1 • 2 x USB 3.0 • 3 x 4pin wentylator obudowy chłodzenie cieczą
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator obudowy • 1 x 4pin wentylator procesora • 1 x 8pin 12V zasilanie • 1 x Czujnik otwarcia obudowy • 1 x Przedni panel audio • 1 x TPM • 1 x USB 2.0/1.1 • 1 x USB 3.1
+Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 4pin wentylator procesora chłodzenie cieczą • 1 x 8pin 12V zasilanie • 1 x Port szeregowy • 1 x Przedni panel audio • 1 x TPM • 1 x USB 3.0 • 2 x USB 2.0/1.1
+Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 4pin wentylator procesora chłodzenie cieczą • 1 x 8pin 12V zasilanie • 1 x Przedni panel audio • 1 x TPM • 1 x USB 2.0/1.1 • 1 x USB 3.0
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 8pin 12V zasilanie • 1 x Port szeregowy • 1 x Przedni panel audio • 1 x TPM • 1 x Thunderbolt • 1 x USB 2.0/1.1 • 2 x USB 3.0 • 8 x SATA III 6Gb/s
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 8pin 12V zasilanie • 1 x Port szeregowy • 1 x Przedni panel audio • 1 x TPM • 1 x Thunderbolt • 1 x USB 2.0/1.1 • 2 x 4pin wentylator procesora • 2 x USB 3.1 • 3 x 4pin wentylator obudowy
-Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4-pin wentylator chłodzenia cieczą • 1 x 4pin wentylator procesora • 1 x Przedni panel audio • 1 x TPM • 1 x Thunderbolt • 1 x USB C • 2 x 8pin 12V zasilanie • 2 x USB 2.0/1.1 • 2 x USB 3.0
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4-pin wentylator chłodzenia cieczą • 1 x 4pin wentylator procesora • 1 x Przedni panel audio • 1 x TPM • 1 x Thunderbolt • 1 x USB 2.0/1.1 • 1 x USB C • 2 x 8pin 12V zasilanie • 2 x USB 3.0
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4-pin wentylator chłodzenia cieczą • 1 x 4pin wentylator procesora • 1 x Przedni panel audio • 1 x TPM • 1 x Thunderbolt • 1 x USB 3.0 • 1 x USB C • 2 x 8pin 12V zasilanie • 2 x USB 2.0/1.1
-Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 3pin wentylator procesora • 1 x 8pin 12V zasilanie • 1 x Przedni panel audio • 1 x System panel • 1 x TPM • 1 x Zworka Clear CMOS • 2 x M.2 • 2 x USB 2.0/1.1 • 2 x USB 3.0 • 4 x SATA III 6Gb/s
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 8pin 12V zasilanie • 1 x Przedni panel audio • 1 x Przycisk Q-Flash Plus • 1 x System panel • 1 x TPM • 1 x USB 2.0/1.1 • 1 x USB 3.0 • 1 x Zworka Clear CMOS • 2 x M.2 • 4 x SATA III 6Gb/s
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 8pin 12V zasilanie • 1 x Port szeregowy • 1 x Przedni panel audio • 1 x TPM • 1 x USB 2.0/1.1 • 1 x USB 3.0 • 1 x Zworka Clear CMOS • 2 x M.2 • 4 x SATA III 6Gb/s
 Złącza dostępne na płycie;1 x 24pin ATX zasilanie • 1 x 4pin wentylator procesora • 1 x 8pin 12V zasilanie • 1 x Czujnik otwarcia obudowy • 1 x TPM • 1 x USB 3.0 • 1 x USB 3.1 • 2 x M.2 • 2 x USB 2.0/1.1 • 3 x 4pin wentylator obudowy • 4 x SATA III 6Gb/s
@@ -5040,7 +4956,6 @@ Zintegrowana karta graficzna;Radeon Graphics VEGA
 Zintegrowana karta graficzna;Radeon™ Graphics
 Zintegrowana karta graficzna;AMD Radeon Vega 8
 Zintegrowana karta graficzna;Brak
-Zintegrowana karta graficzna;nie
 Kolor podświetlenia;RGB (zmiana koloru)
 Kolor podświetlenia;RGB
 Kolor podświetlenia;Multikolor
@@ -5082,12 +4997,10 @@ Pojemność dysku;1000 GB
 Pojemność dysku;128 GB
 Pojemność dysku;2048 GB
 Pojemność dysku;250 GB
-Pojemność dysku;3.84 TB
-Pojemność dysku;7.68 TB
 Pojemność dysku;4000 GB
-Pojemność dysku;1024 GB
 Pojemność dysku;4096 GB
 Pojemność dysku;20000 GB
+Pojemność dysku;3.84 TB
 Pojemność dysku;240 KB
 Pojemność dysku;1920 GB
 Pojemność dysku;480 KB
@@ -5125,6 +5038,7 @@ Pozostałe parametry;Maksymalna rozdzielczość: 7680 x 4320 Ilość monitorów:
 Pozostałe parametry;Temperatura pracy: 0 - 70°C Temperatura przechowywania: -45 - 85°C
 Pozostałe parametry;Kości pamięci 3D TLC NAND flash Temperatura pracy 0 - 70°C Temperatura przechowywania -45 - 85°C MTBF 2 000 000 godzin
 Pozostałe parametry;Kości pamięci - 3D TLC NAND flash Temperatura przechowywania -45 - 85°C Temperatura pracy - 0 - 70°C MTBF - 2 000 000 godzin
+Pozostałe parametry;Kości pamięci - 3D TLC NAND flash MTBF - 2 000 000 godzin Temperatura pracy - 0 - 70°C Temperatura przechowywania - 45 - 85°C
 Pozostałe parametry;Kości pamięci - 3D TLC NAND flash Temperatura przechowywania - 45 - 85°C Temperatura pracy - 0 - 70°C MTBF - 2 000 000 godzin
 Pozostałe parametry;Wstecznie kompatybilny z USB 3.0 oraz 2.0.
 Pozostałe parametry;Pamięć flash: 3D NAND Temperatura pracy: 0°C ~ 70°C Temperatura przechowywania: -40°C ~ 85°
@@ -5144,7 +5058,6 @@ Pozostałe parametry;Waga: 105 gm Wymiary: 7 x 133 x 426 mm
 Pozostałe parametry;Częstotliwość podstawowa: PC5-38400 (4800 MHz) Testowany profil częstotliwości 1: PC5-49600 (6200 MHz)
 Pozostałe parametry;Waga: 96 gm Wymiary: 7 x 136 x 444 mm
 Pozostałe parametry;Wmiary radiatora: 126 x 33.2 x 13.4 mm Waga: 72.6 g Wymiary podkładki termicznej: 96 x 22 x 1 mm Waga: 5.2 g Wymiary opakowania: 170 x 77 x 24mm Waga opakowania: 102 g Przewodność cieplna podkładki termicznej: 1.5W/mk
-Pozostałe parametry;Odporność na wodę/kurz: IP 65
 Pozostałe parametry;Certyfikacja: CE, BSMI, KC, VCCI, C-tick, FCC, IC, UL, TUV, CB, EAC
 Pozostałe parametry;Całkowita liczba zapisanych bajtów (TB) 450 Średni czas bezawaryjnej pracy (MTBF, w godz.) 1,8 mln Rescue Data Recovery Services (usługi odzyskiwania danych) (lata) 3 Ograniczona gwarancja (lata) 5
 Pozostałe parametry;Wymagania systemowe: Komputer z gniazdami M.2 obsługującymi interfejs Pcle i jednym z następujących systemów operacyjnych: Windows 8.1/ Windows 10/ Windows 11
@@ -5154,6 +5067,7 @@ Pozostałe parametry;Wymagania systemowe: Komputery z gniazdami M. 2 z interfej
 Pozostałe parametry;Certyikaty: CE, FCC, Green dot, WEEE, RoHS
 Pozostałe parametry;TT RGB PLUS Software TT AI Voice Control Amazon Alexa Sync with Razer Chroma Lighting
 Pozostałe parametry;Czas reakcji (GTG): 4 ms
+Pozostałe parametry;Czas reakcji (GTG): 5 ms
 Pozostałe parametry;MPRT: 1ms (VRB)
 Pozostałe parametry;Czas reakcji min (GTG): 0.5 ms
 Pozostałe parametry;Czas reakcji min. (GTG): 0.5 ms
@@ -5161,6 +5075,7 @@ Pozostałe parametry;Pochylenie: -5° do 23°
 Pozostałe parametry;Pochylanie: -5~35° Regulacja wysokości: 150mm Obrót: 180 stopni
 Pozostałe parametry;Pochylanie -5/23 stopni Obrót: -30/30 stopni Regulacja wysokości: 150 mm Częstotliwość sygnału cyfrowego w pionie: HDMI: 48~144Hz (HDMI) / DP: 48~170Hz Częstotliwość sygnału cyfrowego w poziomie: HDMI: 30~230kHz / 30~255kHz
 Pozostałe parametry;Obrót 30° 2° Pochylenie ­3.5° 1.5° ~ 21.5° 1.5° Regulacja wysokości 130mm
+Pozostałe parametry;Kamera Kamera 12 MP z obiektywem ultraszeroko­kątnym i polem widzenia 122° Przysłona /2,4 Centrum uwagi
 Pozostałe parametry;Pochylenie: +20° ~ -5° Częstotliwość sygnału cyfrowego:  DP : 250kHz~250kHz(H) / 48Hz ~ 170Hz(V)(OverClocking) HDMI : 30kHz to 223kHz(H) / 48Hz~144Hz (V)
 Pozostałe parametry;Częstotliwość odświeżania (maks.): 144 Hz Głośniki stereo: 2 W x 2 stereo RMS Tryb oszczędzania energii: 100-240 V , 50/60 Hz
 Pozostałe parametry;Pochylenie: +20° ~ -5° Regulacja wysokości: 0 ~ 100 mm
@@ -5173,9 +5088,11 @@ Pozostałe parametry;Regulacja pozycji ekranu: Odchylenie Kąt pochylenia: -5/+2
 Pozostałe parametry;Regulacja pozycji ekranu: Wysokość, pivot (obrót), pokrętło, odchylenie Kąt pochylenia: -5/+21 stopni Kąt obrotu: 60 stopni
 Pozostałe parametry;Regulacja pozycji ekranu: Wysokość, pivot (obrót), pokrętło, odchylenie Kąt pochylenia: -5/+21 stopni Kąt obrotu: 60 stopni Regulacja wysokości: 150 mm
 Pozostałe parametry;Kąt pochylenia: -5°/+21° Kąt obrotu: -30° - 30° Regulacja wysokości: 150 mm
+Pozostałe parametry;Regulacja pozycji ekranu: Wysokość, pokrętło, odchylenie Kąt pochylenia: -5/+21 stopni Kąt obrotu: 90 stopni Regulacja wysokości: 150 mm
 Pozostałe parametry;Czas reakcji MPRT: 2ms
 Pozostałe parametry;Dane Możliwość zabezpieczenia linką (Kensington Lock) Konstrukcja ZeroFrame Wbudowany HUB USB Uchwyt na kable Przełącznik KVM Black Stabilizer Crosshair Moc głośników 2 x 3W
 Pozostałe parametry;Możliwość zabezpieczenia linką (Kensington Lock) Konstrukcja ZeroFrame Wbudowany HUB USB Uchwyt na kable Przełącznik KVM Black Stabilizer Crosshair Moc głośników 2 x 3W
+Pozostałe parametry;"Zakres regulacji: pochył Kąt pochylenia: 22° w górę; 4° w dół"
 Pozostałe parametry;"Redukcja niebieskiego światła Flicker free Regulacja wysokości: 130 mm Rotacja (funkcja PIVOT): 90° Obrót stopy: 90°; 45° w lewo; 45° w prawo Kąt pochylenia: 22° w górę; 5° w dół"
 Pozostałe parametry;"Regulacja wysokości: 150mm Rotacja (funkcja PIVOT): 90° Kąt pochylenia: 23° w górę; 5° w dół"
 Pozostałe parametry;Pobór mocy max. 122 W
@@ -5227,7 +5144,6 @@ Prędkość zapisu;2350 MB/s
 Prędkość zapisu;2900 MB/s
 Prędkość zapisu;300 MB/s
 Prędkość zapisu;1200 MB/s
-Prędkość zapisu;2400 MB/s
 Prędkość zapisu;3000 MB/s
 Prędkość zapisu;3700 MB/s
 Prędkość zapisu;460 MB/s
@@ -5237,10 +5153,8 @@ Prędkość zapisu;430 MB/s
 Prędkość zapisu;2600 MB/s
 Prędkość zapisu;6700 MB/s
 Prędkość zapisu;3500 MB/s
-Prędkość zapisu;3900 MB/s
 Prędkość zapisu;4800 MB/s
 Prędkość zapisu;5550 MB/s
-Prędkość zapisu;4000 MB/s
 Prędkość zapisu;8500 MB/s
 Prędkość zapisu;6850 MB/s
 Prędkość zapisu;4400 MB/s
@@ -5253,6 +5167,7 @@ Prędkość zapisu;3800 MB/s
 Prędkość zapisu;360 MB/s
 Prędkość zapisu;950 MB/s
 Prędkość zapisu;400 MB/s
+Prędkość zapisu;480 MB/s
 Prędkość zapisu;5500 MB/s
 Prędkość zapisu;1650 MB/s
 Prędkość zapisu;3200 MB/s
@@ -5260,14 +5175,15 @@ Prędkość zapisu;1700 MB/s
 Prędkość zapisu;4200 MB/s
 Prędkość zapisu;6500 MB/s
 Prędkość zapisu;530 MB/s
-Prędkość zapisu;600 MB/s
+Prędkość zapisu;3900 MB/s
 Prędkość zapisu;2100 MB/s
 Prędkość zapisu;1300 MB/s
 Prędkość zapisu;20000 MB/s
 Prędkość zapisu;540 MB/s
+Prędkość zapisu;2400 MB/s
 Prędkość zapisu;6300 MB/s
 Prędkość zapisu;550 MB/s
-Prędkość zapisu;480 MB/s
+Prędkość zapisu;445 MB/s
 Prędkość zapisu;4700 MB/s
 Prędkość zapisu;3600 MB/s
 Prędkość zapisu;6400 MB/s
@@ -5277,12 +5193,11 @@ Prędkość zapisu;5650 MB/s
 Prędkość zapisu;1100 MB/s
 Prędkość zapisu;2500 MB/s
 Prędkość zapisu;4100 MB/s
-Prędkość zapisu;5100 MB/s
-Prędkość zapisu;6900 MB/s
 Prędkość zapisu;380 MB/s
 Prędkość zapisu;420 MB/s
 Prędkość zapisu;750 MB/s
 Prędkość zapisu;440 MB/s
+Prędkość zapisu;4000 MB/s
 Prędkość zapisu;4150 MB/s
 Prędkość odczytu;2000 MB/s
 Prędkość odczytu;1900 MB/s
@@ -5306,7 +5221,6 @@ Prędkość odczytu;510 MB/s
 Prędkość odczytu;540 MB/s
 Prędkość odczytu;530 MB/s
 Prędkość odczytu;4800 MB/s
-Prędkość odczytu;4950 MB/s
 Prędkość odczytu;9500 MB/s
 Prędkość odczytu;11700 MB/s
 Prędkość odczytu;12400 MB/s
@@ -5330,10 +5244,7 @@ Prędkość odczytu;7500 MB/s
 Prędkość odczytu;5200 MB/s
 Prędkość odczytu;4500 MB/s
 Prędkość odczytu;450 MB/s
-Prędkość odczytu;1600 MB/s
 Prędkość odczytu;6900 MB/s
-Prędkość odczytu;7450 MB/s
-Prędkość odczytu;6700 MB/s
 Prędkość odczytu;6800 MB/s
 Prędkość odczytu;3400 MB/s
 Prędkość odczytu;2200 MB/s
@@ -5375,8 +5286,8 @@ TBW;640 TB
 TBW;0 KB
 TBW;250 TB
 TBW;700 TB
-TBW;1800 TB
 TBW;256 MB
+TBW;120 TB
 TBW;2400 TB
 TBW;170 GB
 TBW;1400 TB
@@ -5384,29 +5295,28 @@ TBW;660 TB
 TBW;330 TB
 TBW;100 TB
 TBW;3504 TB
-TBW;7008 TB
-TBW;14016 TB
-TBW;1 TB
 TBW;2000 TB
 TBW;4000 TB
 TBW;4 TB
-TBW;800 TB
 TBW;1600 TB
 TBW;3200 TB
-TBW;120 TB
 TBW;240 TB
 TBW;1500 TB
 TBW;3000 TB
+TBW;84 TB
 TBW;168 TB
 TBW;336 TB
 TBW;480 TB
 TBW;960 TB
 TBW;50 TB
 TBW;60 TB
+TBW;800 TB
 TBW;2000 GB
-TBW;40 TB
+TBW;1 TB
+TBW;7008 TB
 TBW;438 TB
 TBW;876 TB
+TBW;14016 TB
 TBW;125 TB
 TBW;1.097 TB
 TBW;491 TB
@@ -5434,12 +5344,9 @@ Ilość operacji odczytu IOPS (maks.);360 K
 Ilość operacji odczytu IOPS (maks.);160 K
 Ilość operacji odczytu IOPS (maks.);290 K
 Ilość operacji odczytu IOPS (maks.);210 K
-Ilość operacji odczytu IOPS (maks.);300 K
 Ilość operacji odczytu IOPS (maks.);3900 K
 Ilość operacji odczytu IOPS (maks.);0 K
-Ilość operacji odczytu IOPS (maks.);580 K
 Ilość operacji odczytu IOPS (maks.);850 K
-Ilość operacji odczytu IOPS (maks.);620 K
 Ilość operacji odczytu IOPS (maks.);530 K
 Ilość operacji odczytu IOPS (maks.);450 K
 Ilość operacji odczytu IOPS (maks.);600 K
@@ -5450,10 +5357,11 @@ Ilość operacji odczytu IOPS (maks.);148 K
 Ilość operacji odczytu IOPS (maks.);75500 K
 Ilość operacji odczytu IOPS (maks.);350 K
 Ilość operacji odczytu IOPS (maks.);94 K
-Ilość operacji odczytu IOPS (maks.);900 K
 Ilość operacji odczytu IOPS (maks.);1000 K
 Ilość operacji odczytu IOPS (maks.);82 K
 Ilość operacji odczytu IOPS (maks.);81 K
+Ilość operacji odczytu IOPS (maks.);300 K
+Ilość operacji odczytu IOPS (maks.);900 K
 Ilość operacji odczytu IOPS (maks.);95 K
 Ilość operacji odczytu IOPS (maks.);30 K
 Ilość operacji odczytu IOPS (maks.);50 K
@@ -5462,9 +5370,7 @@ Ilość operacji odczytu IOPS (maks.);110 K
 Ilość operacji odczytu IOPS (maks.);50000 K
 Ilość operacji odczytu IOPS (maks.);220 K
 Ilość operacji odczytu IOPS (maks.);280 K
-Ilość operacji odczytu IOPS (maks.);480 K
 Ilość operacji odczytu IOPS (maks.);98 K
-Ilość operacji odczytu IOPS (maks.);1100 K
 Ilość operacji odczytu IOPS (maks.);480000 K
 Ilość operacji odczytu IOPS (maks.);1490 K
 Ilość operacji odczytu IOPS (maks.);560 K
@@ -5493,7 +5399,6 @@ Ilość operacji zapisu IOPS (maks.);240 K
 Ilość operacji zapisu IOPS (maks.);230 K
 Ilość operacji zapisu IOPS (maks.);3800 K
 Ilość operacji zapisu IOPS (maks.);0 K
-Ilość operacji zapisu IOPS (maks.);800 K
 Ilość operacji zapisu IOPS (maks.);780 K
 Ilość operacji zapisu IOPS (maks.);1000 K
 Ilość operacji zapisu IOPS (maks.);700 K
@@ -5502,8 +5407,6 @@ Ilość operacji zapisu IOPS (maks.);1390 K
 Ilość operacji zapisu IOPS (maks.);135 K
 Ilość operacji zapisu IOPS (maks.);76800 K
 Ilość operacji zapisu IOPS (maks.);78 K
-Ilość operacji zapisu IOPS (maks.);59 K
-Ilość operacji zapisu IOPS (maks.);34 K
 Ilość operacji zapisu IOPS (maks.);900 K
 Ilość operacji zapisu IOPS (maks.);400 K
 Ilość operacji zapisu IOPS (maks.);88 K
@@ -5517,14 +5420,12 @@ Ilość operacji zapisu IOPS (maks.);50 K
 Ilość operacji zapisu IOPS (maks.);540 K
 Ilość operacji zapisu IOPS (maks.);300 K
 Ilość operacji zapisu IOPS (maks.);30000 K
+Ilość operacji zapisu IOPS (maks.);800 K
 Ilość operacji zapisu IOPS (maks.);500 K
 Ilość operacji zapisu IOPS (maks.);260 K
 Ilość operacji zapisu IOPS (maks.);250 K
 Ilość operacji zapisu IOPS (maks.);180 K
-Ilość operacji zapisu IOPS (maks.);1550 K
 Ilość operacji zapisu IOPS (maks.);15 K
-Ilość operacji zapisu IOPS (maks.);29 K
-Ilość operacji zapisu IOPS (maks.);200 K
 Ilość operacji zapisu IOPS (maks.);750000 K
 Ilość operacji zapisu IOPS (maks.);1500 K
 Ilość operacji zapisu IOPS (maks.);90 K
@@ -5547,7 +5448,6 @@ Całkowita pojemność pamięci;64 GB
 Całkowita pojemność pamięci;48 GB
 Całkowita pojemność pamięci;32768 MB
 Całkowita pojemność pamięci;8192 MB
-Całkowita pojemność pamięci;64 KB
 Całkowita pojemność pamięci;128 GB
 Całkowita pojemność pamięci;16 MB
 Całkowita pojemność pamięci;96 GB
@@ -5562,8 +5462,8 @@ CAS Latency;CL14
 CAS Latency;CL40
 CAS Latency;CL9
 CAS Latency;CL11
-CAS Latency;CL15
 CAS Latency;CL18
+CAS Latency;CL15
 CAS Latency;CL36
 CAS Latency;CL32
 CAS Latency;CL30
@@ -5571,8 +5471,8 @@ CAS Latency;CL42
 CAS Latency;CL46
 CAS Latency;CL48
 CAS Latency;CL10
-CAS Latency;CL34
 CAS Latency;CL17
+CAS Latency;CL34
 CAS Latency;CL28
 CAS Latency;CL20
 CAS Latency;CL38
@@ -5602,16 +5502,13 @@ Obsługiwane standardy;DirectX 12
 Obsługiwane standardy;DirectX 11.1
 Obsługiwane standardy;DirectX 11.1 • OpenGL 4.3
 Obsługiwane standardy;DirectX 12 Ultimate • OpenGL 4.6
-Obsługiwane standardy;DirectX 12 • OpenGL 4.5
 Obsługiwane standardy;OpenGL 4.6
-Obsługiwane standardy;DirectX 12 Ultimate • OpenGL 4.6 • Vulkan 1.3
 Obsługiwane standardy;OpenGL 4.5
 Obsługiwane standardy;DirectX 12 Ultimate • OpenGL 4.6 • Vulkan RT APIs
 Obsługiwane standardy;DirectX 12 Ultimate • OpenGL 4.6 • Vulkan 1.3 • Vulkan RT APIs
 Obsługiwane standardy;DirectX 12 • OpenGL 4.6
 Obsługiwane standardy;DirectX 12 Ultimate • OpenGL 4.3 • Vulkan 1.3 • Vulkan RT APIs
 Obsługiwane standardy;DirectX 12 Ultimate
-Obsługiwane standardy;DirectX 12 • OpenGL 4.5 • Vulkan 1.0
 Wersja;Box
 Wersja;Attach
 Wersja;Physical Pack
@@ -5629,7 +5526,6 @@ Taktowanie rdzenia;2065 MHz
 Taktowanie rdzenia;2276 MHz
 Taktowanie rdzenia;2169 MHz
 Taktowanie rdzenia;2213 MHz
-Taktowanie rdzenia;1278 MHz
 Taktowanie rdzenia;902 MHz
 Taktowanie rdzenia;2595 MHz
 Taktowanie rdzenia;2655 MHz
@@ -5659,14 +5555,12 @@ Taktowanie rdzenia;1320 MHz
 Taktowanie rdzenia;1830 MHz
 Taktowanie rdzenia;1920 MHz
 Taktowanie rdzenia;2205 MHz
+Taktowanie rdzenia;1410 MHz
 Taktowanie rdzenia;2310 Hz
-Taktowanie rdzenia;1206 MHz
 Taktowanie rdzenia;860 MHz
 Kod procesora;YD3200C5FHBOX
 Kod procesora;Ryzen 3 4300G
-Kod procesora;100-100000031BOX
 Kod procesora;Ryzen 5 4600G
-Kod procesora;Ryzen 5 5500
 Kod procesora;Ryzen 5 5600
 Kod procesora;100-100000252BOX
 Kod procesora;Ryzen 5 5600X
@@ -5686,7 +5580,6 @@ Kod procesora;Ryzen 9 7900X3D
 Kod procesora;Ryzen 9 7950X
 Kod procesora;Ryzen 9 7950X3D
 Kod procesora;AMD EPYC 7262
-Kod procesora;i3-10100
 Kod procesora;i3-10100 F
 Kod procesora;Intel Core i3-10105
 Kod procesora;Core i3-12100
@@ -5706,12 +5599,9 @@ Kod procesora;i5-13600 KF
 Kod procesora;Core i5-14600K
 Kod procesora;Core i5-14600KF
 Kod procesora;i7-11700
-Kod procesora;Core i7-12700
-Kod procesora;BX8071512700K
+Kod procesora;Core i7-12700 F
 Kod procesora;BX8071512700KF
 Kod procesora;Intel Core i7-13700
-Kod procesora;Core i7-13700 K
-Kod procesora;i7-13700 KF
 Kod procesora;Intel Core i7-13700F
 Kod procesora;Core i9-12900
 Kod procesora;Core i9-12900 F
@@ -5723,7 +5613,6 @@ Kod procesora;Intel Core i9-13900
 Kod procesora;i9-13900 K
 Kod procesora;i9-13900 KF
 Kod procesora;Intel Core i9-13900F
-Kod procesora;Intel Core i9-14900KF
 Kod procesora;AMD Ryzen 5 4500
 Cache L2;2 MB
 Cache L2;3 MB
@@ -5735,7 +5624,6 @@ Cache L2;16 MB
 Cache L2;5 MB
 Cache L2;7.5 MB
 Cache L2;20 MB
-Cache L2;24 MB
 Cache L2;14 MB
 Cache L2;32 MB
 Dodatkowe chłodzenie;Tak
@@ -5745,7 +5633,6 @@ Taktowanie rdzenia (Boost);2310 MHz
 Taktowanie rdzenia (Boost);2599 MHz
 Taktowanie rdzenia (Boost);2475 MHz
 Taktowanie rdzenia (Boost);2520 MHz
-Taktowanie rdzenia (Boost);1531 MHz
 Taktowanie rdzenia (Boost);1852 MHz
 Taktowanie rdzenia (Boost);2595 MHz
 Taktowanie rdzenia (Boost);2625 MHz
@@ -5760,7 +5647,6 @@ Taktowanie rdzenia (Boost);1837 Hz
 Taktowanie rdzenia (Boost);2655 MHz
 Taktowanie rdzenia (Boost);2505 MHz
 Taktowanie rdzenia (Boost);2640 MHz
-Taktowanie rdzenia (Boost);2490 MHz
 Taktowanie rdzenia (Boost);2755 MHz
 Taktowanie rdzenia (Boost);1620 MHz
 Taktowanie rdzenia (Boost);2565 MHz
@@ -5768,20 +5654,20 @@ Taktowanie rdzenia (Boost);2321 MHz
 Taktowanie rdzenia (Boost);2600 MHz
 Taktowanie rdzenia (Boost);2685 MHz
 Taktowanie rdzenia (Boost);2460 MHz
+Taktowanie rdzenia (Boost);1590 MHz
 Taktowanie rdzenia (Boost);2610 Hz
-Taktowanie rdzenia (Boost);1750 MHz
 Taktowanie rdzenia (Boost);1807 MHz
 Taktowanie rdzenia (Boost);2475 Hz
+VGA (D-Sub) ilość;1
 Rdzenie CUDA;384
 Rdzenie CUDA;2560
 Rdzenie CUDA;4352
 Rdzenie CUDA;5888
 Rdzenie CUDA;7680
-Rdzenie CUDA;9728
 Rdzenie CUDA;3072
 Rdzenie CUDA;896
 Rdzenie CUDA;3584
-VGA (D-Sub) ilość;1
+Rdzenie CUDA;9728
 Interfejsy na tylnym panelu;1 x D-Sub • 1 x HDMI • 1 x PS/2 Klawiatura/Mysz Combo • 2 x USB 3.1 Type-C • 4 x USB 2.0
 Pasuje do;Platformy Intel® X99  i 100 Series
 Pasuje do;Platforma Intel 100 Series
@@ -5794,17 +5680,16 @@ Liczba gniazd DDR2;1
 Liczba gniazd DDR3L;1
 Prędkość obrotowa;4200 obr/min
 Certyfikaty;CE,  BSMI,  KC,  VCCI,  C-tick,  FCC,  IC,  UL,  TUV,  CB,  EAC
-Certyfikaty;CE, BSMI, KC, VCCI, C-tick, FCC, IC, UL, TUV, CB, EAC, UKCA, BIS, RoHS 2
 Certyfikaty;MPR II
 Certyfikaty;AMD FreeSync Premium
 Certyfikaty;MPR III
 Certyfikaty;CE • EAC • FCC Class A • RoHS • WEEE
 Certyfikaty;CB • CE • EAC • RoHS
 Certyfikaty;CE • EAC • TUV
-Certyfikaty;CB • CE • EAC • ISO 9241-307 • TUV • WHQL
 Certyfikaty;CE • Energy Star • FCC Class B • ISO 9241-307 • RoHS • TCO • TUV
 Certyfikaty;CE • RoHS
 Certyfikaty;EAC • RoHS • TUV
+Certyfikaty;CB • CE • EAC • ISO 9241-307 • TUV • WHQL
 Certyfikaty;EAC • TUV
 Certyfikaty;CB • CE • EAC
 Certyfikaty;CB
@@ -5812,6 +5697,7 @@ Certyfikaty;WHQL
 Certyfikaty;RoHS
 Certyfikaty;Energy Star • TCO • WEEE
 Certyfikaty;CB • EPEAT • WEEE • WHQL
+Certyfikaty;Energy Star
 Certyfikaty;Calman Verified • TUV
 Certyfikaty;TUV
 Certyfikaty;EPEAT • Energy Star • TCO • TUV
@@ -5829,7 +5715,6 @@ Certyfikaty;EPEAT • Energy Star • TCO
 Certyfikaty;EPEAT • TCO • TUV
 Certyfikaty;CE • TUV
 Certyfikaty;EPEAT • TCO
-Certyfikaty;Energy Star
 Certyfikaty;EPEAT • Energy Star • RoHS • TCO
 Certyfikaty;Energy Star • TCO
 Certyfikaty;RoHS • TUV
@@ -5845,6 +5730,7 @@ Certyfikaty;BSMI • CB • CCC • CE • CEL • EAC • Energy Star • ISO 9
 Certyfikaty;CE • EAC • ErP • REACH • TCO • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • ErP • RoHS • WEEE
 Certyfikaty;CE • RoHS • WEEE
+Certyfikaty;CE • EAC • Energy Star • ErP • PSE • REACH • RoHS • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • Energy Star • ErP • PSE • RoHS • TCO • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • Energy Star • PSE • REACH • RoHS • TCO • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • Energy Star • ErP • PSE • REACH • RoHS • TCO • TUV • UKCA • VCCI • WEEE
@@ -5853,10 +5739,10 @@ Certyfikaty;CE • Energy Star • ErP • PSE • RoHS • TUV • UKCA • VCC
 Certyfikaty;CCC • CE • CU • UL/C-UL or CSA
 Certyfikaty;CE • EAC • ErP • REACH • RoHS • TUV • UKCA • WEEE
 Certyfikaty;CB • CE • Energy Star • RoHS • TCO • TUV • VCCI
+Certyfikaty;CE • EAC • ErP • REACH • RoHS • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • ErP • PSE • REACH • RoHS • TCO • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • ErP • PSE • REACH • RoHS • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • Energy Star • ErP • REACH • RoHS • TCO • TUV • UKCA • VCCI • WEEE
-Certyfikaty;CE • EAC • Energy Star • ErP • PSE • REACH • RoHS • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • Energy Star • ErP • PSE • REACH • RoHS • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • ErP • PSE • REACH • RoHS • TUV • VCCI • WEEE
 Certyfikaty;CE • CU • PSE • TUV • VCCI
@@ -5871,7 +5757,6 @@ Certyfikaty;CE • EAC • Energy Star • PSE • TCO • TUV • VCCI
 Certyfikaty;CE • EAC • ErP • RoHS • TCO • TUV • WEEE
 Certyfikaty;CE • EAC • ErP • PSE • RoHS • TUV • VCCI • WEEE
 Certyfikaty;CU • EAC • ErP • PSE • REACH • RoHS • TUV • UKCA • VCCI • WEEE
-Certyfikaty;CE • EAC • ErP • PSE • RoHS • TUV • WEEE
 Certyfikaty;CE • ErP • PSE • REACH • RoHS • TUV • UKCA • VCCI • WEEE
 Certyfikaty;CE • EAC • REACH • RoHS • UKCA • UL/C-UL or CSA • VCCI • WEEE
 Certyfikaty;EPEAT • Energy Star • RoHS • TUV
@@ -5921,7 +5806,6 @@ Certyfikaty;CE
 Certyfikaty;TCO • TUV
 Certyfikaty;UL/C-UL or CSA
 Certyfikaty;FCC Class A
-Wymagania środowiskowe;Tempertura pracy: 0°C - 60°C Temperatura przechowywania: -40°C - 85°C Wilgotność: 5% - 95% bez kondensacji
 Długość przewodu;1.5 m
 Długość przewodu;1,8 m
 Długość przewodu;135 cm
@@ -5944,6 +5828,7 @@ Format ekranu;16:9
 Częstotliwość odświeżania;75 Hz
 Częstotliwość odświeżania;100 Hz
 Częstotliwość odświeżania;1000 Hz
+Częstotliwość odświeżania;180 Hz
 Częstotliwość odświeżania;160 Hz
 Częstotliwość odświeżania;165 Hz
 Częstotliwość odświeżania;60 Hz
@@ -5952,7 +5837,6 @@ Częstotliwość odświeżania;170 Hz
 Częstotliwość odświeżania;144 MHz
 Częstotliwość odświeżania;155 Hz
 Częstotliwość odświeżania;360 Hz
-Częstotliwość odświeżania;180 Hz
 Częstotliwość odświeżania;300 Hz
 Częstotliwość odświeżania;175 Hz
 Częstotliwość odświeżania;380 Hz
@@ -6036,28 +5920,28 @@ Kąt widzenia poziomy;0 °
 Kąt widzenia pionowy;178 °
 Kąt widzenia pionowy;160 °
 Kąt widzenia pionowy;170 °
+Kąt widzenia pionowy;17 °
 Kąt widzenia pionowy;65 °
-Kąt widzenia pionowy;179 °
 Kąt widzenia pionowy;596 °
 Kąt widzenia pionowy;0 °
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI
 Gniazda we/wy;1 x Audio out • 1 x DisplayPort • 1 x HDMI
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 2 x HDMI
+Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 2 x HDMI
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x HDMI
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x USB (Type B) • 1 x USB (Type C) • 2 x USB 2.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x BNC (Video) • 1 x HDMI • 1 x mini-VGA
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x HDMI • 1 x USB 2.0 Serwisowe • 2 x 3,5 mm minijack • 2 x BNC (Video)
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x BNC Composite • 1 x HDMI
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x Audio out • 1 x HDMI
-Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DisplayPort • 2 x HDMI • 4 x USB 3.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x Audio in • 1 x Audio out • 1 x DVI • 1 x HDMI
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x Audio in • 1 x DVI • 1 x HDMI
-Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DisplayPort • 2 x HDMI
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x Audio in • 1 x Audio out • 1 x DisplayPort • 2 x HDMI
-Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DVI • 1 x DisplayPort • 1 x HDMI • 4 x USB 3.0
-Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 2 x HDMI
-Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x Audio in • 1 x HDMI
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x DVI • 1 x DisplayPort • 1 x HDMI • 2 x 3,5 mm minijack • 4 x USB 3.1
+Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DVI • 1 x DisplayPort • 1 x HDMI • 4 x USB 3.0
+Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DisplayPort • 2 x HDMI • 4 x USB 3.0
+Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x Audio in • 1 x HDMI
+Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DisplayPort • 2 x HDMI
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x USB (Type C) • 4 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x HDMI • 1 x USB (Type C) • 4 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x USB (Type B) • 2 x DisplayPort • 2 x HDMI • 4 x USB 3.0
@@ -6071,8 +5955,8 @@ Gniazda we/wy;1 x DisplayPort • 2 x HDMI • 2 x USB 2.0 • 3 x USB 3.0
 Gniazda we/wy;1 x DisplayPort • 1 x HDMI • 2 x 3,5 mm minijack • 4 x USB 3.1
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 2 x HDMI • 4 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x USB (Type C) • 2 x HDMI • 4 x USB 3.0
+Gniazda we/wy;1 x Thunderbolt 3 • 3 x USB (Type C)
 Gniazda we/wy;1 x HDMI • 2 x USB (Type C)
-Gniazda we/wy;1 x micro HDMI • 2 x USB (Type C)
 Gniazda we/wy;1 x mini HDMI • 3 x USB (Type C)
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x Audio in • 1 x DisplayPort • 1 x HDMI • 2 x USB 2.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type C) • 2 x DisplayPort • 4 x USB 3.0
@@ -6130,6 +6014,7 @@ Gniazda we/wy;1 x 15-pin D-Sub • 1 x DisplayPort • 1 x HDMI • 5 x USB 3.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x DisplayPort • 1 x HDMI • 1 x USB (Type C) • 4 x USB 3.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x DisplayPort • 1 x HDMI • 4 x USB 3.0
 Gniazda we/wy;1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type C) • 2 x DisplayPort • 4 x USB 3.0
+Gniazda we/wy;1 x 15-pin D-Sub • 1 x DVI • 1 x DisplayPort • 1 x HDMI • 1 x USB (Type B) • 4 x USB 3.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x DVI • 1 x DisplayPort • 1 x HDMI • 5 x USB 3.0
 Gniazda we/wy;1 x DisplayPort • 1 x HDMI • 5 x USB 3.0
 Gniazda we/wy;1 x DisplayPort • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type C) • 4 x USB 3.0
@@ -6145,6 +6030,7 @@ Gniazda we/wy;1 x Audio out • 1 x HDMI • 1 x RJ-45 LAN • 2 x DisplayPort �
 Gniazda we/wy;1 x Audio out • 1 x HDMI • 1 x RJ-45 LAN • 2 x DisplayPort • 3 x USB (Type C) • 5 x USB 3.1
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x HDMI • 1 x RJ-45 LAN • 2 x DisplayPort • 3 x USB (Type C) • 5 x USB 3.1
 Gniazda we/wy;1 x Audio out • 1 x DisplayPort • 2 x HDMI • 4 x USB (Type C) • 5 x USB 3.1
+Gniazda we/wy;1 x 3,5 mm minijack • 1 x HDMI • 1 x USB (Type B) • 2 x DisplayPort • 4 x USB 3.0
 Gniazda we/wy;1 x Audio out • 1 x DisplayPort • 1 x RJ-45 LAN • 2 x HDMI • 4 x USB (Type C) • 5 x USB 3.1
 Gniazda we/wy;1 x 3,5 mm minijack • 2 x DisplayPort • 2 x HDMI • 2 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x USB (Type C) • 2 x HDMI • 3 x USB 3.0
@@ -6158,6 +6044,7 @@ Gniazda we/wy;1 x RJ-45 LAN • 1 x mini HDMI • 2 x USB 2.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 2 x USB 3.0
 Gniazda we/wy;1 x HDMI • 1 x RJ-45 LAN • 1 x RS-232 (COM) • 4 x USB 2.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 2 x USB 2.0
+Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DVI • 1 x HDMI
 Gniazda we/wy;1 x Audio out • 1 x DisplayPort • 1 x HDMI • 4 x USB 3.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x USB 2.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 3 x USB 3.0
@@ -6171,15 +6058,15 @@ Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DisplayPort • 1
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DVI • 1 x DisplayPort • 1 x HDMI
 Gniazda we/wy;1 x Audio out • 1 x DisplayPort • 1 x HDMI • 2 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x HDMI • 1 x USB (Type C) • 2 x DisplayPort • 2 x RJ-45 LAN • 2 x USB 3.0
+Gniazda we/wy;1 x 3,5 mm minijack • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type C) • 2 x DisplayPort • 2 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x USB (Type B) • 2 x HDMI • 2 x USB 3.0
+Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type C) • 3 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 2 x DisplayPort • 2 x HDMI • 2 x USB 2.0 • 2 x USB 3.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x Audio out • 1 x DisplayPort • 1 x HDMI
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x DisplayPort • 1 x HDMI • 1 x USB (Type B) • 4 x USB 3.0
-Gniazda we/wy;1 x 3,5 mm minijack • 1 x HDMI • 1 x USB (Type B) • 2 x DisplayPort • 4 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x USB 3.0 (Type B) • 3 x USB 3.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x DisplayPort • 1 x HDMI • 1 x USB 3.0 (Type B) • 4 x USB 3.0
 Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x USB (Type B) • 4 x USB 3.0
-Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type C) • 3 x USB 3.0
 Gniazda we/wy;1 x DisplayPort • 1 x HDMI • 1 x USB (Type C) • 4 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type B) • 1 x USB (Type C) • 4 x USB 3.0
 Gniazda we/wy;1 x DisplayPort • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type B) • 2 x Thunderbolt 4 • 4 x USB 3.0
@@ -6220,9 +6107,11 @@ Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x USB 2
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x USB 2.0 • 3 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type C) • 2 x DisplayPort • 3 x USB 3.0
 Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x USB (Type C) • 3 x USB 3.0
+Gniazda we/wy;1 x 15-pin D-Sub • 1 x 3,5 mm minijack • 1 x Audio in • 1 x DisplayPort • 1 x HDMI • 1 x USB (Type B) • 2 x USB 2.0 • 2 x USB 3.0
 Gniazda we/wy;1 x Thunderbolt 4 • 1 x mini-DisplayPort • 3 x USB (Type C)
 Gniazda we/wy;1 x USB (Type C) • 2 x HDMI • 3 x USB 2.0
 Gniazda we/wy;1 x micro HDMI • 1 x mini-DisplayPort • 2 x USB (Type C)
+Gniazda we/wy;1 x 3,5 mm minijack • 1 x DisplayPort • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type B) • 1 x USB (Type C) • 2 x USB 3.0
 Gniazda we/wy;1 x DisplayPort • 1 x HDMI • 1 x micro HDMI • 3 x USB 3.0
 Gniazda we/wy;1 x HDMI • 1 x RJ-45 LAN • 1 x RS-232 (COM) • 1 x USB 2.0 • 2 x 3,5 mm minijack
 Gniazda we/wy;1 x Audio in/out • 1 x HDMI • 1 x RJ-45 LAN • 1 x USB (Type C) • 2 x DisplayPort • 2 x USB 3.0
@@ -6232,6 +6121,7 @@ Pivot;Nie
 Pivot;Tak
 Pobór mocy;30 W
 Pobór mocy;14 W
+Pobór mocy;21 W
 Pobór mocy;17 W
 Pobór mocy;22 W
 Pobór mocy;26 W
@@ -6240,7 +6130,6 @@ Pobór mocy;15 W
 Pobór mocy;20 W
 Pobór mocy;16 W
 Pobór mocy;18 W
-Pobór mocy;25 W
 Pobór mocy;17.96 W
 Pobór mocy;19 W
 Pobór mocy;28 W
@@ -6262,7 +6151,6 @@ Pobór mocy;10 W
 Pobór mocy;11.03 W
 Pobór mocy;23.34 W
 Pobór mocy;16.7 W
-Pobór mocy;21 W
 Pobór mocy;13.99 W
 Pobór mocy;12.35 W
 Pobór mocy;40 W
@@ -6294,6 +6182,8 @@ Pobór mocy;74.5 W
 Pobór mocy;105 W
 Pobór mocy;25.9 W
 Pobór mocy;11 W
+Pobór mocy;25 W
+Pobór mocy;86 W
 Pobór mocy;121 W
 Pobór mocy;38 W
 Pobór mocy;118 W
@@ -6313,6 +6203,7 @@ Pobór mocy;74 W
 Pobór mocy;220 W
 Pobór mocy;240 W
 Pobór mocy;290 W
+Pobór mocy;85 W
 Pobór mocy;91 W
 Pobór mocy;245 W
 Pobór mocy;17.5 W
@@ -6326,13 +6217,14 @@ Pobór mocy;12 W
 Pobór mocy;13 W
 Pobór mocy;0.5 W
 Pobór mocy;16.5 W
-Pobór mocy;45 W
+Pobór mocy;56 W
 Pobór mocy;43 W
 Pobór mocy;49 W
 Pobór mocy;5.16 W
 Pobór mocy;24.5 W
 Pobór mocy;51 W
 Pobór mocy;148 W
+Pobór mocy;45 W
 Pobór mocy;153 W
 Pobór mocy;193.7 W
 Pobór mocy;103 W
@@ -6363,8 +6255,10 @@ Pobór mocy;46.3 W
 Pobór mocy;27.7 W
 Pobór mocy;26.1 W
 Pobór mocy;33.2 W
+Pobór mocy;200 W
 Waga z podstawą;4.7 kg
 Waga z podstawą;4.12 kg
+Waga z podstawą;3.9 kg
 Waga z podstawą;3.3 kg
 Waga z podstawą;4.8 kg
 Waga z podstawą;6.93 kg
@@ -6372,8 +6266,8 @@ Waga z podstawą;7.96 kg
 Waga z podstawą;3.4 kg
 Waga z podstawą;5.3 kg
 Waga z podstawą;3.2 kg
+Waga z podstawą;4.63 kg
 Waga z podstawą;3.6 kg
-Waga z podstawą;5.41 kg
 Waga z podstawą;7.5 kg
 Waga z podstawą;5.81 kg
 Waga z podstawą;5 kg
@@ -6382,8 +6276,8 @@ Waga z podstawą;4.74 kg
 Waga z podstawą;5.2 kg
 Waga z podstawą;5.89 kg
 Waga z podstawą;7.78 kg
+Waga z podstawą;6.3 kg
 Waga z podstawą;0.95 kg
-Waga z podstawą;0.74 kg
 Waga z podstawą;2.72 kg
 Waga z podstawą;2.3 kg
 Waga z podstawą;5.31 kg
@@ -6408,6 +6302,7 @@ Waga z podstawą;8.9 kg
 Waga z podstawą;3.5 kg
 Waga z podstawą;6.8 kg
 Waga z podstawą;5.1 kg
+Waga z podstawą;3.84 kg
 Waga z podstawą;5.7 kg
 Waga z podstawą;7.2 kg
 Waga z podstawą;6.6 kg
@@ -6425,8 +6320,10 @@ Waga z podstawą;2.94 kg
 Waga z podstawą;3.04 kg
 Waga z podstawą;2.9 kg
 Waga z podstawą;3.85 kg
+Waga z podstawą;4.53 kg
 Waga z podstawą;4.86 kg
 Waga z podstawą;7.55 kg
+Waga z podstawą;0 kg
 Waga z podstawą;9.2 kg
 Waga z podstawą;4.83 kg
 Waga z podstawą;5.56 kg
@@ -6442,30 +6339,28 @@ Waga z podstawą;6.61 kg
 Waga z podstawą;11.13 kg
 Waga z podstawą;10.36 kg
 Waga z podstawą;11.9 kg
+Waga z podstawą;7.24 kg
 Waga z podstawą;10.22 kg
 Waga z podstawą;8.2 kg
 Waga z podstawą;7.39 kg
 Waga z podstawą;5.08 kg
 Waga z podstawą;8.52 kg
 Waga z podstawą;3 kg
+Waga z podstawą;2.6 kg
 Waga z podstawą;3.1 kg
 Waga z podstawą;2.8 kg
 Waga z podstawą;4.2 kg
-Waga z podstawą;3.9 kg
 Waga z podstawą;4.9 kg
 Waga z podstawą;5.6 kg
 Waga z podstawą;6.7 kg
 Waga z podstawą;3.7 kg
 Waga z podstawą;4.4 kg
-Waga z podstawą;6.3 kg
 Waga z podstawą;6.9 kg
-Waga z podstawą;11.3 kg
 Waga z podstawą;7.9 kg
 Waga z podstawą;14.9 kg
 Waga z podstawą;4.5 kg
 Waga z podstawą;9 kg
 Waga z podstawą;0.6 kg
-Waga z podstawą;4.1 kg
 Waga z podstawą;7.3 kg
 Waga z podstawą;7.6 kg
 Waga z podstawą;6.05 kg
@@ -6474,13 +6369,11 @@ Waga z podstawą;5.5 kg
 Waga z podstawą;5.61 kg
 Waga z podstawą;5.85 kg
 Waga z podstawą;2.95 kg
-Waga z podstawą;2.6 kg
 Waga z podstawą;2.61 kg
 Waga z podstawą;2.79 kg
 Waga z podstawą;3.43 kg
 Waga z podstawą;3.8 kg
 Waga z podstawą;3.14 kg
-Waga z podstawą;0 kg
 Waga z podstawą;3.03 kg
 Waga z podstawą;3.07 kg
 Waga z podstawą;3.78 kg
@@ -6516,17 +6409,19 @@ Waga z podstawą;15.3 kg
 Waga z podstawą;4.64 kg
 Waga z podstawą;6.4 kg
 Waga z podstawą;7.4 kg
+Waga z podstawą;8.1 kg
 Waga z podstawą;14.6 kg
+Waga z podstawą;12.6 kg
 Waga z podstawą;12.9 kg
 Waga z podstawą;2.7 kg
 Waga z podstawą;6.2 kg
-Etykieta energetyczna;Pobierz
 Regulacja wysokości;Nie
 Regulacja wysokości;Tak
+Etykieta energetyczna;Pobierz
 Kontrast dynamiczny;100 000 000:1
 Kontrast dynamiczny;20 000 000:1
-Kontrast dynamiczny;80 000 000:1
 Kontrast dynamiczny;50 000 000:1
+Kontrast dynamiczny;80 000 000:1
 Kontrast dynamiczny;Mega Contrast
 Kontrast dynamiczny;1 000 000:1
 Kontrast dynamiczny;10 000 000:1
@@ -6562,16 +6457,14 @@ Obszar widzialny w pionie;296 mm
 Obszar widzialny w pionie;336 mm
 Obszar widzialny w pionie;334 mm
 Obszar widzialny w pionie;268.11 mm
-Obszar widzialny w pionie;527.04 mm
 Obszar widzialny w pionie;293.32 mm
 Obszar widzialny w pionie;296.46 mm
-Obszar widzialny w pionie;336.312 mm
+Obszar widzialny w pionie;527.04 mm
 Obszar widzialny w pionie;335.664 mm
 Obszar widzialny w pionie;293.2848 mm
 Obszar widzialny w pionie;296.352 mm
 Obszar widzialny w pionie;697.306 mm
 Obszar widzialny w pionie;96.8 mm
-Obszar widzialny w pionie;174 mm
 Obszar widzialny w pionie;193.62 mm
 Obszar widzialny w pionie;260.28 mm
 Obszar widzialny w pionie;293.28 mm
@@ -6605,27 +6498,30 @@ Obszar widzialny w pionie;296.4 mm
 Obszar widzialny w pionie;336.1 mm
 Obszar widzialny w pionie;135.4 mm
 Obszar widzialny w pionie;193.59 mm
+Obszar widzialny w pionie;260 mm
 Obszar widzialny w pionie;260.3 mm
 Obszar widzialny w pionie;268.1 mm
-Obszar widzialny w pionie;260 mm
 Obszar widzialny w pionie;256.4 mm
+Obszar widzialny w pionie;286.4 mm
 Obszar widzialny w pionie;302.6 mm
 Obszar widzialny w pionie;338.7 mm
 Obszar widzialny w pionie;335.3 mm
 Obszar widzialny w pionie;336.3 mm
 Obszar widzialny w pionie;335.6 mm
+Obszar widzialny w pionie;336.5 mm
+Obszar widzialny w pionie;178 mm
 Obszar widzialny w pionie;341.3 mm
 Obszar widzialny w pionie;392.9 mm
-Obszar widzialny w pionie;392.7 mm
 Obszar widzialny w pionie;392.3 mm
 Obszar widzialny w pionie;529.42 mm
-Obszar widzialny w pionie;336.5 mm
 Obszar widzialny w pionie;267.7 mm
+Obszar widzialny w pionie;392.7 mm
 Obszar widzialny w pionie;267.8 mm
 Obszar widzialny w pionie;296.3 mm
 Obszar widzialny w pionie;338.76 mm
 Obszar widzialny w pionie;283.8 mm
 Obszar widzialny w pionie;392.2 mm
+Obszar widzialny w pionie;336.312 mm
 Obszar widzialny w pionie;393 mm
 Obszar widzialny w pionie;521.4 mm
 Obszar widzialny w pionie;0 mm
@@ -6636,6 +6532,7 @@ Obszar widzialny w pionie;387.72 mm
 Obszar widzialny w pionie;305.856 mm
 Obszar widzialny w pionie;302.62 mm
 Obszar widzialny w pionie;596.736 mm
+Obszar widzialny w pionie;336.314 mm
 Obszar widzialny w pionie;337.1 mm
 Obszar widzialny w pionie;335.232 mm
 Obszar widzialny w pionie;339.2 mm
@@ -6644,17 +6541,15 @@ Obszar widzialny w poziomie;597 mm
 Obszar widzialny w poziomie;598 mm
 Obszar widzialny w poziomie;797 mm
 Obszar widzialny w poziomie;476.64 mm
-Obszar widzialny w poziomie;296.46 mm
 Obszar widzialny w poziomie;521.28 mm
 Obszar widzialny w poziomie;527.04 mm
-Obszar widzialny w poziomie;597.888 mm
+Obszar widzialny w poziomie;296.46 mm
 Obszar widzialny w poziomie;1193.472 mm
 Obszar widzialny w poziomie;521.3952 mm
 Obszar widzialny w poziomie;526.848 mm
 Obszar widzialny w poziomie;596.736 mm
 Obszar widzialny w poziomie;392.234 mm
 Obszar widzialny w poziomie;344.22 mm
-Obszar widzialny w poziomie;309.37 mm
 Obszar widzialny w poziomie;344.21 mm
 Obszar widzialny w poziomie;478.656 mm
 Obszar widzialny w poziomie;478.66 mm
@@ -6672,6 +6567,7 @@ Obszar widzialny w poziomie;698.4 mm
 Obszar widzialny w poziomie;309.31 mm
 Obszar widzialny w poziomie;708.48 mm
 Obszar widzialny w poziomie;543.168 mm
+Obszar widzialny w poziomie;309.37 mm
 Obszar widzialny w poziomie;488.16 mm
 Obszar widzialny w poziomie;552.96 mm
 Obszar widzialny w poziomie;697.31 mm
@@ -6697,14 +6593,16 @@ Obszar widzialny w poziomie;543.7 mm
 Obszar widzialny w poziomie;535.4 mm
 Obszar widzialny w poziomie;596.2 mm
 Obszar widzialny w poziomie;597.8 mm
+Obszar widzialny w poziomie;178 mm
 Obszar widzialny w poziomie;620.9 mm
-Obszar widzialny w poziomie;698.1 mm
 Obszar widzialny w poziomie;697.3 mm
 Obszar widzialny w poziomie;941.18 mm
 Obszar widzialny w poziomie;476 mm
+Obszar widzialny w poziomie;698.1 mm
 Obszar widzialny w poziomie;476.1 mm
 Obszar widzialny w poziomie;533.45 mm
 Obszar widzialny w poziomie;672.8 mm
+Obszar widzialny w poziomie;597.888 mm
 Obszar widzialny w poziomie;698 mm
 Obszar widzialny w poziomie;293.3 mm
 Obszar widzialny w poziomie;0 mm
@@ -6719,6 +6617,7 @@ Obszar widzialny w poziomie;543.744 mm
 Obszar widzialny w poziomie;335.664 mm
 Obszar widzialny w poziomie;800.1 mm
 Obszar widzialny w poziomie;1191.936 mm
+Obszar widzialny w poziomie;1196.7 mm
 Obszar widzialny w poziomie;1196 mm
 Plamka matrycy;0.275 mm
 Plamka matrycy;0.311 mm
@@ -6737,18 +6636,19 @@ Plamka matrycy;0.1554 mm
 Plamka matrycy;0.18159 mm
 Plamka matrycy;0.23175 mm
 Plamka matrycy;0.179 mm
-Plamka matrycy;0.16 mm
 Plamka matrycy;0.249 mm
 Plamka matrycy;0.272 mm
 Plamka matrycy;0.27 mm
 Plamka matrycy;0.233 mm
 Plamka matrycy;0.231 mm
 Plamka matrycy;0.331 mm
+Plamka matrycy;0.16 mm
 Plamka matrycy;0.277 mm
 Plamka matrycy;0.363 mm
 Plamka matrycy;0.2829 mm
 Plamka matrycy;0.161 mm
 Plamka matrycy;0.254 mm
+Plamka matrycy;0.274 mm
 Plamka matrycy;0.216 mm
 Plamka matrycy;0.3108 mm
 Plamka matrycy;0.2325 mm
@@ -6756,6 +6656,7 @@ Plamka matrycy;0.1815 mm
 Plamka matrycy;0.23 mm
 Plamka matrycy;0.264 mm
 Plamka matrycy;94 mm
+Plamka matrycy;0.2832 mm
 Plamka matrycy;0.1845 mm
 Plamka matrycy;0.293 mm
 Plamka matrycy;0.2727 mm
@@ -6768,6 +6669,7 @@ Plamka matrycy;0.31 mm
 Plamka matrycy;0.1692 mm
 Plamka matrycy;0.17925 mm
 Plamka matrycy;0.247 mm
+Plamka matrycy;0.265 mm
 Plamka matrycy;0.257 mm
 Plamka matrycy;0.206 mm
 Plamka matrycy;0.283 mm
@@ -6777,7 +6679,6 @@ Plamka matrycy;0.273 mm
 Plamka matrycy;0.245 mm
 Plamka matrycy;0.182 mm
 Plamka matrycy;0.205 mm
-Plamka matrycy;0.274 mm
 Plamka matrycy;0.2789 mm
 Plamka matrycy;0.2628 mm
 Plamka matrycy;0.2479 mm
@@ -6787,16 +6688,14 @@ Plamka matrycy;0 mm
 Plamka matrycy;0.36375 mm
 Plamka matrycy;0.26925 mm
 Plamka matrycy;0.2124 mm
-Plamka matrycy;0.2832 mm
 Plamka matrycy;0.28 mm
-Plamka matrycy;0.282 mm
 Kontrast statyczny;1 000:1
-Kontrast statyczny;4 000:1
 Kontrast statyczny;3 000:1
+Kontrast statyczny;4 000:1
 Kontrast statyczny;1 200:1
-Kontrast statyczny;700:1
 Kontrast statyczny;100 000:1
 Kontrast statyczny;1 300:1
+Kontrast statyczny;700:1
 Kontrast statyczny;800:1
 Kontrast statyczny;1 500 000:1
 Kontrast statyczny;2 000:1
@@ -6829,14 +6728,15 @@ Częstotliwość pozioma min.;70 kHz
 Częstotliwość pozioma min.;53 kHz
 Częstotliwość pozioma min.;56 kHz
 Częstotliwość pozioma max.;110 kHz
+Częstotliwość pozioma max.;199.8 kHz
 Częstotliwość pozioma max.;110.6 kHz
 Częstotliwość pozioma max.;317 kHz
 Częstotliwość pozioma max.;249.2 kHz
 Częstotliwość pozioma max.;85 kHz
 Częstotliwość pozioma max.;83 kHz
 Częstotliwość pozioma max.;30 kHz
-Częstotliwość pozioma max.;200 kHz
 Częstotliwość pozioma max.;255 kHz
+Częstotliwość pozioma max.;200 kHz
 Częstotliwość pozioma max.;250 kHz
 Częstotliwość pozioma max.;160 kHz
 Częstotliwość pozioma max.;114 kHz
@@ -6872,6 +6772,7 @@ Częstotliwość pozioma max.;352 kHz
 Częstotliwość pozioma max.;151 kHz
 Częstotliwość pozioma max.;320 kHz
 Częstotliwość pozioma max.;135 kHz
+Częstotliwość pozioma max.;185 kHz
 Częstotliwość pozioma max.;245 kHz
 Częstotliwość pozioma max.;225 kHz
 Częstotliwość pozioma max.;140.7 kHz
@@ -6923,6 +6824,7 @@ Częstotliwość pionowa max.;70 Hz
 Częstotliwość pionowa max.;0 Hz
 Częstotliwość pionowa max.;61 Hz
 Wysokość z podstawą;414.1 mm
+Wysokość z podstawą;446 mm
 Wysokość z podstawą;452.2 mm
 Wysokość z podstawą;475 mm
 Wysokość z podstawą;431 mm
@@ -6933,13 +6835,11 @@ Wysokość z podstawą;429.96 mm
 Wysokość z podstawą;454.7 mm
 Wysokość z podstawą;377.2 mm
 Wysokość z podstawą;388.11 mm
-Wysokość z podstawą;504.61 mm
 Wysokość z podstawą;540.1 mm
-Wysokość z podstawą;421 mm
+Wysokość z podstawą;513 mm
 Wysokość z podstawą;384.4 mm
 Wysokość z podstawą;528.6 mm
 Wysokość z podstawą;464.6 mm
-Wysokość z podstawą;544.5 mm
 Wysokość z podstawą;518 mm
 Wysokość z podstawą;450.4 mm
 Wysokość z podstawą;480.4 mm
@@ -6948,15 +6848,15 @@ Wysokość z podstawą;561.1 mm
 Wysokość z podstawą;375.3 mm
 Wysokość z podstawą;227.4 mm
 Wysokość z podstawą;482.44 mm
-Wysokość z podstawą;513 mm
 Wysokość z podstawą;412.96 mm
 Wysokość z podstawą;386.6 mm
+Wysokość z podstawą;544.5 mm
 Wysokość z podstawą;394.5 mm
 Wysokość z podstawą;653.5 mm
 Wysokość z podstawą;399.4 mm
 Wysokość z podstawą;404.55 mm
+Wysokość z podstawą;478 mm
 Wysokość z podstawą;127.66 mm
-Wysokość z podstawą;204.4 mm
 Wysokość z podstawą;361.8 mm
 Wysokość z podstawą;359 mm
 Wysokość z podstawą;404 mm
@@ -7018,13 +6918,15 @@ Wysokość z podstawą;368.96 mm
 Wysokość z podstawą;38.417 cm
 Wysokość z podstawą;384.17 mm
 Wysokość z podstawą;42.035 cm
+Wysokość z podstawą;377.91 mm
 Wysokość z podstawą;458.9 mm
-Wysokość z podstawą;535.2 mm
+Wysokość z podstawą;0 mm
 Wysokość z podstawą;459 mm
 Wysokość z podstawą;481.99 mm
 Wysokość z podstawą;496.11 mm
 Wysokość z podstawą;510.8 mm
 Wysokość z podstawą;534.15 mm
+Wysokość z podstawą;535.2 mm
 Wysokość z podstawą;617.15 mm
 Wysokość z podstawą;618.67 mm
 Wysokość z podstawą;445.89 mm
@@ -7068,21 +6970,22 @@ Wysokość z podstawą;393.5 mm
 Wysokość z podstawą;382.5 mm
 Wysokość z podstawą;343 mm
 Wysokość z podstawą;350.5 mm
-Wysokość z podstawą;400.5 mm
 Wysokość z podstawą;407.5 mm
 Wysokość z podstawą;388 mm
 Wysokość z podstawą;440.5 mm
 Wysokość z podstawą;442 mm
 Wysokość z podstawą;549.5 mm
 Wysokość z podstawą;409.5 mm
+Wysokość z podstawą;406 mm
 Wysokość z podstawą;441.5 mm
 Wysokość z podstawą;435 mm
 Wysokość z podstawą;543.5 mm
+Wysokość z podstawą;398.5 mm
 Wysokość z podstawą;403.5 mm
 Wysokość z podstawą;543 mm
-Wysokość z podstawą;454.5 mm
 Wysokość z podstawą;448.5 mm
 Wysokość z podstawą;579.5 mm
+Wysokość z podstawą;581 mm
 Wysokość z podstawą;422.5 mm
 Wysokość z podstawą;621.5 mm
 Wysokość z podstawą;473 mm
@@ -7094,7 +6997,6 @@ Wysokość z podstawą;348.8 mm
 Wysokość z podstawą;542.8 mm
 Wysokość z podstawą;462.5 mm
 Wysokość z podstawą;504.8 mm
-Wysokość z podstawą;441.8 mm
 Wysokość z podstawą;399.5 mm
 Wysokość z podstawą;390.4 mm
 Wysokość z podstawą;389.3 mm
@@ -7127,7 +7029,6 @@ Wysokość z podstawą;430 mm
 Wysokość z podstawą;484 mm
 Wysokość z podstawą;415 mm
 Wysokość z podstawą;413 mm
-Wysokość z podstawą;0 mm
 Wysokość z podstawą;414 mm
 Wysokość z podstawą;482 mm
 Wysokość z podstawą;510 mm
@@ -7152,18 +7053,20 @@ Wysokość z podstawą;530.8 mm
 Wysokość z podstawą;551.9 mm
 Wysokość z podstawą;518.9 mm
 Wysokość z podstawą;539.2 mm
+Wysokość z podstawą;539 mm
 Wysokość z podstawą;580.5 mm
 Wysokość z podstawą;517 mm
 Wysokość z podstawą;522.3 mm
 Wysokość z podstawą;457.7 mm
+Wysokość z podstawą;561.5 mm
 Wysokość z podstawą;523.1 mm
 Wysokość z podstawą;529.3 mm
 Wysokość z podstawą;685 mm
 Wysokość z podstawą;419.5 mm
 Wysokość z podstawą;366 mm
-Wysokość z podstawą;443 mm
 Wysokość z podstawą;521.2 mm
 Głębokość z podstawą;240.1 mm
+Głębokość z podstawą;196 mm
 Głębokość z podstawą;175 mm
 Głębokość z podstawą;240 mm
 Głębokość z podstawą;232 mm
@@ -7172,10 +7075,9 @@ Głębokość z podstawą;226.5 mm
 Głębokość z podstawą;238.7 mm
 Głębokość z podstawą;170 mm
 Głębokość z podstawą;162.94 mm
-Głębokość z podstawą;227.36 mm
 Głębokość z podstawą;186.8 mm
-Głębokość z podstawą;227.4 mm
 Głębokość z podstawą;200.1 mm
+Głębokość z podstawą;227.4 mm
 Głębokość z podstawą;200 mm
 Głębokość z podstawą;185 mm
 Głębokość z podstawą;244.9 mm
@@ -7187,8 +7089,8 @@ Głębokość z podstawą;275.1 mm
 Głębokość z podstawą;253.8 mm
 Głębokość z podstawą;339.6 mm
 Głębokość z podstawą;250 mm
+Głębokość z podstawą;168 mm
 Głębokość z podstawą;20.71 mm
-Głębokość z podstawą;12 mm
 Głębokość z podstawą;164.4 mm
 Głębokość z podstawą;193 mm
 Głębokość z podstawą;205.9 mm
@@ -7238,9 +7140,10 @@ Głębokość z podstawą;268.02 mm
 Głębokość z podstawą;243.71 mm
 Głębokość z podstawą;171 mm
 Głębokość z podstawą;17.1 cm
+Głębokość z podstawą;209.46 mm
 Głębokość z podstawą;188.29 mm
-Głębokość z podstawą;217.2 mm
 Głębokość z podstawą;18.944 cm
+Głębokość z podstawą;0 mm
 Głębokość z podstawą;246 mm
 Głębokość z podstawą;179.57 mm
 Głębokość z podstawą;190.1 mm
@@ -7258,6 +7161,7 @@ Głębokość z podstawą;179.6 mm
 Głębokość z podstawą;23 cm
 Głębokość z podstawą;23.317 cm
 Głębokość z podstawą;269.14 mm
+Głębokość z podstawą;19.01 cm
 Głębokość z podstawą;207 mm
 Głębokość z podstawą;251.21 mm
 Głębokość z podstawą;136.75 mm
@@ -7269,6 +7173,7 @@ Głębokość z podstawą;76.8 mm
 Głębokość z podstawą;216 mm
 Głębokość z podstawą;190.3 mm
 Głębokość z podstawą;178 mm
+Głębokość z podstawą;192.5 mm
 Głębokość z podstawą;183.5 mm
 Głębokość z podstawą;209.5 mm
 Głębokość z podstawą;221.5 mm
@@ -7287,7 +7192,6 @@ Głębokość z podstawą;245.5 mm
 Głębokość z podstawą;251 mm
 Głębokość z podstawą;210 mm
 Głębokość z podstawą;290 mm
-Głębokość z podstawą;192.5 mm
 Głębokość z podstawą;239.5 mm
 Głębokość z podstawą;96.54 mm
 Głębokość z podstawą;194.7 mm
@@ -7300,7 +7204,6 @@ Głębokość z podstawą;208 mm
 Głębokość z podstawą;234.6 mm
 Głębokość z podstawą;223.1 mm
 Głębokość z podstawą;223 mm
-Głębokość z podstawą;196 mm
 Głębokość z podstawą;21.787 cm
 Głębokość z podstawą;236 mm
 Głębokość z podstawą;229.4 mm
@@ -7312,7 +7215,6 @@ Głębokość z podstawą;233.2 mm
 Głębokość z podstawą;282.6 mm
 Głębokość z podstawą;209 mm
 Głębokość z podstawą;202 mm
-Głębokość z podstawą;0 mm
 Głębokość z podstawą;227 mm
 Głębokość z podstawą;212 mm
 Głębokość z podstawą;235 mm
@@ -7334,14 +7236,16 @@ Głębokość z podstawą;211.4 mm
 Głębokość z podstawą;193.5 mm
 Głębokość z podstawą;192.8 mm
 Głębokość z podstawą;221.3 mm
+Głębokość z podstawą;241 mm
 Głębokość z podstawą;349.7 mm
+Głębokość z podstawą;284.1 mm
 Głębokość z podstawą;236.9 mm
 Głębokość z podstawą;187 mm
 Głębokość z podstawą;181.2 mm
 Głębokość z podstawą;200.2 mm
+Zakrzywienie ekranu;1500 R
 Zakrzywienie ekranu;1000 R
 Zakrzywienie ekranu;0 R
-Zakrzywienie ekranu;1500 R
 Zakrzywienie ekranu;1800 R
 Zakrzywienie ekranu;3800 R
 Wysokość (maks.);544 mm
@@ -7353,6 +7257,7 @@ Wysokość (maks.);516.6 mm
 Wysokość (maks.);534.55 mm
 Wysokość (maks.);591.8 mm
 Wysokość (maks.);408.68 mm
+Wysokość (maks.);0 mm
 Wysokość (maks.);443.76 mm
 Wysokość (maks.);500 mm
 Wysokość (maks.);493 mm
@@ -7366,7 +7271,6 @@ Wysokość (maks.);535 mm
 Wysokość (maks.);602 mm
 Wysokość (maks.);503.8 mm
 Wysokość (maks.);545.4 mm
-Wysokość (maks.);0 mm
 Wysokość (maks.);506.9 mm
 Wysokość (maks.);638 mm
 Wysokość (maks.);508 mm
@@ -7376,6 +7280,7 @@ Akcesoria opcjonalne;"Monitor;  Karta gwarancyjna;  Informacje o produkcie;  
 Akcesoria opcjonalne;Kable: zasilający, USB, HDMI, DP Pozostałe: skrócona instrukcja obsługi, instrukcja bezpieczeństwa
 Akcesoria opcjonalne;Wąski uchwyt ścienny (WB21LMA/B) Uchwyt ścienny (OLW480A/B)  Adapter do uchwytu ściennego (AM-B330S)
 Akcesoria opcjonalne;Możliwość montażu VESA 100
+Wyświetlacz;Wyświetlacz Retina 5K Wyświetlacz Retina 5K o przekątnej 27 cali Rozdzielczość 5120 na 2880 pikseli przy 218 pikselach na cal Jasność 600 nitów Możliwość wyświetlania miliarda kolorów Szeroka gama kolorów (P3) Technologia True Tone
 Częstotliwość;75 Hz
 Pozłacane wtyki;Tak
 Wtyczka kątowa;Nie
@@ -7390,6 +7295,7 @@ Wersja językowa;Polska
 Wersja językowa;Brak danych
 Wersja językowa;Angielska • Polskie napisy
 Wersja językowa;Angielska
+Wersja językowa;Angielska • Polska • Polskie napisy
 Wersja językowa;Wielojęzyczna
 Wersja językowa;Polska • Wielojęzyczna
 Wersja językowa;Polskie napisy
@@ -7437,14 +7343,13 @@ Data premiery;2023-11-06
 Data premiery;2023-09-12
 Data premiery;2023-11-14
 Data premiery;2023-10-17
+Data premiery;2023-09-29
 Data premiery;2023-11-17
 Data premiery;2023-10-24
 Data premiery;2023-09-19
 Data premiery;2023-09-08
 Data premiery;2023-06-23
 Data premiery;2023-09-06
-Data premiery;2023-12-07
-Data premiery;2023-09-29
 Data premiery;2023-10-27
 Data premiery;2023-10-10
 Data premiery;2023-09-21
@@ -7453,14 +7358,15 @@ Data premiery;2023-11-10
 Data premiery;2023-10-19
 Data premiery;2023-11-07
 Data premiery;2023-11-02
+Data premiery;2023-10-06
 Data premiery;2023-10-23
+Data premiery;2023-09-15
 Data premiery;2023-12-31
 Data premiery;2023-11-16
 Data premiery;2021-08-20
 Data premiery;2020-11-12
 Data premiery;2023-10-20
 Data premiery;2022-01-28
-Data premiery;2019-10-08
 Data premiery;2019-11-08
 Data premiery;2022-02-18
 Data premiery;2018-07-18
@@ -7480,19 +7386,18 @@ Platforma;PlayStation 4 • PlayStation 5
 Platforma;PlayStation 4 • PlayStation 4 Pro
 Platforma;Xbox One
 DRM;Epic Games • Steam
-DRM;Origin • Steam
 DRM;Nie
 DRM;Steam
 Gatunek;Sportowa
 Gatunek;Symulator
 Gatunek;Przygodowa • Zręcznościowa
+Gatunek;Przygodowa
 Gatunek;Gra akcji
 Gatunek;Bijatyka • Gra akcji
 Gatunek;Gra akcji • Przygodowa • Zręcznościowa
 Gatunek;Klasyczne RPG
 Gatunek;Piłka nożna • Sportowa
 Gatunek;Bijatyka
-Gatunek;Przygodowa
 Gatunek;Wyścigi
 Gatunek;RPG akcji
 Gatunek;Gra akcji • Inne • Strategiczna • Zręcznościowa
@@ -7501,6 +7406,7 @@ Gatunek;Gra akcji • Strzelanina
 Gatunek;Gra akcji • Strategiczna • Zręcznościowa
 Gatunek;RPG akcji • Strzelanina
 Gatunek;RPG akcji • Strategiczna
+Gatunek;Strzelanina
 Gatunek;Gra akcji • Przygodowa
 Gatunek;Strategiczna
 Gatunek;Przygodowa • RPG akcji
@@ -7528,7 +7434,6 @@ Wymagania sprzętowe;Konsola Xbox One/Xbox Series X
 Wymagania sprzętowe;Konsola Xbox Series X/S
 Wymagania sprzętowe;Konsola Xbox Series X
 Wymagania sprzętowe;System Xbox Series X
-Wymagania sprzętowe;Połączenie z internetem
 Wymagania sprzętowe;Konsola Xbox Series X Gra sieciowa wymaga opłacenia abonamentu Xbox Game Pass Ultimate lub Xbox Live Gold
 Wymagania sprzętowe;Program Norton AntiTrack jest dostępny tylko na komputerach PC z systemem Windows. Microsoft Windows 11 i 10 (poza Windows 11 i 10 w trybie S lub Windows 11 i 10 działającym na procesorach ARM). Obsługiwane przeglądarki: Chrome, Firefox, Edge
 Wymagania sprzętowe;AMD Ryzen 5 - 1600X, Intel Core i7-4790k GPU: AMD RX 470, NVIDIA GTX 780 RAM: 8GB Windows 10 x64
@@ -7540,18 +7445,16 @@ Wymagania sprzętowe;- Konsola PlayStation 4- Gra sieciowa wymaga opłacania abo
 Wymagania sprzętowe;Konsola PlayStation 4 Gra sieciowa wymaga opłacania abonamentu PlayStation Plus.
 Wymagania sprzętowe;Konsola PlayStation 4 Subskrypcja PS Plus wymagana do gry online
 Wymagania sprzętowe;Konsola PlayStation 5 Wymagane są konto i subskrypcja na odpowiedniej platformie (sprzedawane osobno). Nie jest dostępne we wszystkich krajach. Wymagane są stałe połączenie z internetem oraz konto Ubisoft.
-Wymagania sprzętowe;Konsola PlayStation 5 Subskrypcja PS Plus wymagana do gry online
 Wymagania sprzętowe;Konsola Xbox One Gra wymaga subskrypcji Xbox Game Pass Ultimate lub Xbox Live Gold do grania na konsoli
 Wymagania sprzętowe;Konsola Xbox Series X Gra wymaga subskrypcji Xbox Game Pass Ultimate lub Xbox Live Gold do grania na konsoli
 Pre-order / Edycja Kolekcjonerska;gra + 7 pakietów + 2 dodatki
 Pre-order / Edycja Kolekcjonerska;Zawartość w skali Premium: gra + 7 pakietów + 2 dodatki
 Pre-order / Edycja Kolekcjonerska;ZAWARTOŚĆ EDYCJI PREMIEROWEJ: Pełna gra na wybraną platformę na nośniku fizycznym Cyfrowy pakiet Trifecta Lootbag zawierający maskę Venomous Verdigris oraz strój Obsidian Glitz
+Pre-order / Edycja Kolekcjonerska;ZAWARTOŚĆ WYDANIA LIMIDEAD EDITION: Gra na fizycznym nośniku Arkusz naklejek Dwa kartonowe zombiaki Ekskluzywne pudełko na cały zestaw wykonane w technice druku soczewkowego
 Obsługiwany kontroler ruchu;Nie
-Obsługiwany kontroler ruchu;Okulary VR
 Liczba graczy;1-4
-Liczba graczy;1
-Liczba graczy;1-8
 Liczba graczy;1-2
+Liczba graczy;1
 Liczba graczy;1-2 (sieciowa współpraca)
 Liczba graczy;1-2 lokalnie 1-12 sieciowo
 Liczba graczy;1 - 4
