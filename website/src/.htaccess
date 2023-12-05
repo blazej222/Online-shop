@@ -34,7 +34,23 @@ RewriteCond %{HTTP_HOST} ^localhost:8080$
 RewriteRule ^c/([0-9]+)(\-[\.*_a-zA-Z0-9-]*)(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/c/$1$2$3.jpg [L]
 RewriteCond %{HTTP_HOST} ^localhost:8080$
 RewriteRule ^c/([a-zA-Z_-]+)(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/c/$1$2.jpg [L]
-# Images for 8443:
+# AlphaImageLoader for IE and fancybox
+RewriteRule ^images_ie/?([^/]+)\.(jpe?g|png|gif)$ js/jquery/plugins/fancybox/images/$1.$2 [L]
+
+# Dispatcher
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ %{ENV:REWRITEBASE}index.php [NC,L]
+
+
+#Domain: localhost:8443
+RewriteRule . - [E=REWRITEBASE:/]
+RewriteRule ^api(?:/(.*))?$ %{ENV:REWRITEBASE}webservice/dispatcher.php?url=$1 [QSA,L]
+RewriteRule ^upload/.+$ %{ENV:REWRITEBASE}index.php [QSA,L]
+
+# Images
 RewriteCond %{HTTP_HOST} ^localhost:8443$
 RewriteRule ^([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$1$2$3.jpg [L]
 RewriteCond %{HTTP_HOST} ^localhost:8443$
