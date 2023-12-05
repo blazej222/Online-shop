@@ -5,21 +5,31 @@
 #categories{ /* zmiana */
  background-color: #0070C4;
  height: 50px;
- margin-top: 20px;
+ margin-top: 4px;
+ /*font-family: Arial, sans-serif;*/
+}
+
+#search_disappear{
+ visibility: hidden;
 }
 
 #carousel {
- margin-top: -20px;
- overflow: hidden !important;
- position: relative !important;
- margin-left: -10.2vw !important;
- width: 98vw !important; /* Dla pełnej szerokości */
+ z-index: -100;
+
+ /*margin-top: -20px;*/
+ /*overflow: hidden !important;*/
+ /*position: relative !important;*/
+ /*margin-left: -10.2vw !important;*/
+ /*width: 98vw !important; !* Dla pełnej szerokości *!*/
+ /*text-align: center;*/
 }
 
 .carousel-inner {
  height: 30% !important; /* Wysokość 30% szerokości #carousel */
  width: 100% !important; /* Dla pełnej szerokości */
+ /*background-color: black;*/
 }
+
 
 .icon-next{
  margin: 0 !important;
@@ -52,12 +62,16 @@
  margin-right: 40px;
 }
 
-#wrapper {
- margin-top: 25px; /* zmiana */
+#contact-header{
+ font-size: 20px;
 }
 
+
 #header .header-top {
- background-color: #333335; /* zmiana */
+ /*background-color: #333335; !* zmiana *!*/
+ background-image: url('/backgroundimg.jpg');
+ padding-bottom: 7px;
+ padding-top: 7px;
 }
 
 .top-menu .sub-menu {
@@ -73,7 +87,7 @@
 
 .dropdown-item {
  margin-top: 5px; /* zmiana */
- border-left: 1px solid white;
+ border-left: 1px solid #d7d7d7;
  margin-left: -15px;
  margin-right: 10px;
 }
@@ -119,7 +133,7 @@
 }
 
 #_desktop_logo{
- margin-left: 80px;
+margin-left: -20px;
 }
 
 
@@ -130,6 +144,13 @@ margin-left: 0px;
 .category-top-menu {
  color: white !important;
  text-transform: none !important;
+ font-weight: normal !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+ #search_disappear{
+  visibility: visible;
+ }
 }
 
 @media screen and (min-width: 700px) and (max-width: 825px) {
@@ -151,6 +172,10 @@ margin-left: 0px;
 
  .logout{
   font-size: 10px !important;
+ }
+
+ #contact-header {
+  font-size: 12px !important;
  }
 
  .material-icons{
@@ -195,6 +220,10 @@ margin-left: 0px;
   font-size: 11px !important;
  }
 
+ #contact-header {
+  font-size: 13px !important;
+ }
+
  .material-icons{
   font-size: 11px !important;
  }
@@ -217,27 +246,13 @@ margin-left: 0px;
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
  #carousel {
-  margin-top: -20px;
   overflow: hidden !important;
   position: relative !important;
-  margin-left: -49vw !important;
-  width: 97.6vw !important;
+
  }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1080px) {
- #carousel {
-  margin-top: -20px;
-  overflow: hidden !important;
-  position: relative !important;
-  margin-left: -49.7vw !important;
-  width: 98vw !important; /* Dla pełnej szerokości */
- }
 
- #carousel {
-  margin-left: -11vw !important;
- }
-}
 
 @media screen and (min-width: 946px) and (max-width: 1080px) {
  .dropdown-item{
@@ -258,6 +273,10 @@ margin-left: 0px;
 
  .logout{
   font-size: 14px !important;
+ }
+
+ #contact-header {
+  font-size: 16px !important;
  }
 
  .material-icons{
@@ -299,25 +318,21 @@ margin-left: 0px;
   font-size: 16px !important;
  }
 
+ #contact-header {
+  font-size: 18px !important;
+ }
+
+
+
  .logout{
   font-size: 16px !important;
   padding-bottom: 10px !important;
  }
 
- /*#_desktop_user_info{*/
- /* line-height: 1.6 !important; !* nie wiem dlaczego nie działa *!*/
- /* margin-top: 2px;*/
- /* margin-bottom: 2px;*/
- /*}*/
-
  .top-menu .sub-menu {
   width: calc(300px); /* zmiana */
   min-width: calc(300px); /* zmiana */
   margin-left: -30px; /* zmiana */
- }
-
- #carousel {
-  margin-left: -10.8vw !important;
  }
 
 }
@@ -327,12 +342,20 @@ margin-left: 0px;
   font-size: 14px !important;
  }
 
- #carousel {
-  margin-left: -10.7vw !important;
+}
+
+
+@media screen and (min-width: 1600px) and (max-width: 3000px) {
+ .container{
+  width: 65%;
  }
 
+ #_desktop_logo{
+
+ }
 
 }
+
 
 .img-fluid{
  display: block !important;
@@ -350,11 +373,19 @@ margin-left: 0px;
 
 
 #search_widget{
- margin-top: 1px;
+ float: none !important;
+ font-size: 14px;
+ max-width: none;
+ border-radius: 30px;
+}
+
+#search_widget form input{
+ background-color: white;
 }
 
 .search{
- margin-top: 5px;
+ color: black;
+ margin-top: 3px;
 }
 
 
