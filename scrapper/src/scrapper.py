@@ -6,10 +6,11 @@ import time
 from category import *
 import csv
 from config import *
+from datetime import datetime
 
 
 def getPageResponse(URL):
-    print(URL)
+    print((datetime.now()).strftime("%H:%M:%S ") + URL)
     while True:
         try:
             return requests.get(URL)
@@ -94,7 +95,7 @@ saveManufacturers()
 Product.writeFeaturesToCsv()
 
 for product in products: print(product.name)
-print(time.time() + f' Product scrapped: {len(products)}')
+print(f' Product scrapped: {len(products)}')
 
 end = time.time()
 print(end - start)

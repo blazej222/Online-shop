@@ -5,6 +5,7 @@ from time import sleep
 from config import *
 from PIL import Image
 import csv
+from datetime import datetime
 
 BASE_URL = 'https://foxkomputer.pl'
 MAX_RETRIES = 10
@@ -114,7 +115,7 @@ class Product:
 
     @staticmethod
     def _getPageResponse(URL):
-        print(URL)
+        print((datetime.now()).strftime("%H:%M:%S ") + URL)
         retries = 0
         while retries < MAX_RETRIES:
             try:
