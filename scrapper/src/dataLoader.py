@@ -5,6 +5,7 @@ import os
 import io
 import concurrent.futures
 import cv2
+from PIL import Image
 categoriesDir = {}
 featuresIDs = {}
 featureValuesIDs = {}
@@ -162,14 +163,16 @@ def addImage(name, path, productID, secondTry = False):
     try:
         prestashop.add(f'/images/products/{productID}', files=[('image', name, content)])
     except Exception as e:
-        if secondTry:
-            #print("image too large for presta, aborting...")
-            return
-        #print(e)
-        img = cv2.imread(f"{path}/{name}")
-        cv2.imwrite(f"{path}{name}", img, [cv2.IMWRITE_PNG_COMPRESSION, 9])
-        #print(f"Image saved {path}/{name}")
-        addImage(f"{name}", path, productID, True)
+        print(f"{path}/{name} " + e)
+        # if secondTry:
+        #     print("still doesn't work")
+        #     return
+        # img = cv2.imread(f"{path}/{name}")
+        # cv2.imwrite(f"{path}/{name}", img, [cv2.IMWRITE_PNG_COMPRESSION, 9])
+        # im = Image.open(f"{path}/{name}").convert("RGB")
+        # im.save(f"{path}/{name}", "png")
+        # print(f"Image saved {path}/{name}")
+        # addImage(f"{name}", path, productID, True)
 
 
 api_url = 'http://localhost:8080/api'

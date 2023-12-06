@@ -1,3 +1,3 @@
-directory = '../scrapped/'
-api_key = 'DHXYIV2PNQSPGC173MECU45Q4GJB9GGM'
-#directory = 'D:\\Scrapper\\'
+#directory = '../scrapped/'
+api_key = 'VJBDT85UVAD86JWSR7I2RS6XD5I3PH3W'
+directory = 'C:\\Scrapper\\'
