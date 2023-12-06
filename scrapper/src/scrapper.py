@@ -94,7 +94,7 @@ saveManufacturers()
 Product.writeFeaturesToCsv()
 
 for product in products: print(product.name)
-print(f'Product scrapped: {len(products)}')
+print(time.time() + f' Product scrapped: {len(products)}')
 
 end = time.time()
 print(end - start)
