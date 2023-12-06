@@ -40,7 +40,7 @@
 }
 
 #categories-inside{ /* zmiana */
-
+height: 100%;
 }
 
 #language{ /* zmiana */
@@ -78,6 +78,7 @@
  width: calc(320px); /* zmiana */
  min-width: calc(320px); /* zmiana */
  margin-left: -30px; /* zmiana */
+ transition: opacity 0.2s ease, visibility 0.2s ease;
 }
 
 
@@ -90,6 +91,10 @@
  border-left: 1px solid #d7d7d7;
  margin-left: -15px;
  margin-right: 10px;
+}
+
+.dropdown-submenu{
+ border-left: none;
 }
 
 
@@ -139,6 +144,7 @@ margin-left: -20px;
 
 .category-top-menu-under{
 margin-left: 0px;
+ border-left: none;
 }
 
 .category-top-menu {
@@ -156,6 +162,11 @@ margin-left: 0px;
 @media screen and (min-width: 700px) and (max-width: 825px) {
  .dropdown-item{
   font-size: 11px !important;
+ }
+
+ .category-sub-menu{
+  font-size: 8px !important;
+  line-height: 0.7 !important;
  }
 
  .category-top-menu {
@@ -200,8 +211,16 @@ margin-left: 0px;
 }
 
 @media screen and (min-width: 826px) and (max-width: 945px) {
+ .category-sub-menu{
+  line-height: 1 !important;
+ }
+
  .dropdown-item{
   font-size: 11px !important;
+ }
+
+ .category-sub-link{
+  font-size: 8px !important;
  }
 
  .category-top-menu {
@@ -255,8 +274,16 @@ margin-left: 0px;
 
 
 @media screen and (min-width: 946px) and (max-width: 1080px) {
+ .category-sub-menu{
+  line-height: 1.2 !important;
+ }
+
  .dropdown-item{
   font-size: 11px !important;
+ }
+
+ .category-sub-link{
+  font-size: 10px !important;
  }
 
  .category-top-menu {
@@ -298,7 +325,16 @@ margin-left: 0px;
 }
 
 @media screen and (min-width: 1081px) and (max-width: 1230px) {
+
+ .category-sub-menu{
+  line-height: 1.3 !important;
+ }
+
  .dropdown-item{
+  font-size: 12px !important;
+ }
+
+ .category-sub-link{
   font-size: 12px !important;
  }
 
@@ -362,12 +398,16 @@ margin-left: 0px;
  margin: 0 auto !important;
 }
 
-.material-icons{
- color: white;
+.account{
+ color: white !important;
 }
 
 .add,.remove{
  color: black;
+ float: right;
+ margin-top: auto;
+ margin-bottom: auto;
+ margin-right: -10px;
 }
 
 
@@ -386,6 +426,10 @@ margin-left: 0px;
 .search{
  color: black;
  margin-top: 3px;
+}
+
+.category-sub-menu{
+ line-height: 1.5 !important;
 }
 
 
