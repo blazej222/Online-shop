@@ -1,16 +1,17 @@
-from bs4 import BeautifulSoup
-import pandas as pd
-import requests
-from product import Product
-import time
-from category import *
 import csv
+import time
+
+import requests
+from bs4 import BeautifulSoup
+
+from category import *
 from config import *
-from datetime import datetime
+from product import Product
+from utils import *
 
 
 def getPageResponse(URL):
-    print((datetime.now()).strftime("%H:%M:%S ") + URL)
+    println(URL)
     while True:
         try:
             return requests.get(URL)
@@ -46,9 +47,9 @@ while parentCategory != None:
     parentCategories.append(parentCategory)
     parentCategory = parentCategory.findNextSibling()
 for category in categoryDict:
-    print('---------------------------------------')
-    print(category)
-    print('--' + str(categoryDict[category]))
+    println('---------------------------------------')
+    println(category)
+    println('--' + str(categoryDict[category]))
 with open(directory + 'products.csv', 'w', encoding='UTF-8') as f:
     writer = csv.writer(f, delimiter=';', lineterminator="\n")
     headers = ['Product ID', 'Active', 'Name', 'Categories', 'Price tax excluded', 'Tax rules ID', 'Cost price',
@@ -94,8 +95,8 @@ with open(directory + 'products.csv', 'w', encoding='UTF-8') as f:
 saveManufacturers()
 Product.writeFeaturesToCsv()
 
-for product in products: print(product.name)
-print(f' Product scrapped: {len(products)}')
+for product in products: println(product.name)
+println(f' Products scrapped: {len(products)}')
 
 end = time.time()
-print(end - start)
+println(end - start)

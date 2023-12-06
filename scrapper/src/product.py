@@ -1,11 +1,13 @@
-import requests
-from bs4 import BeautifulSoup
+import csv
 import os
 from time import sleep
-from config import *
+
+import requests
 from PIL import Image
-import csv
-from datetime import datetime
+from bs4 import BeautifulSoup
+
+from config import *
+from utils import *
 
 BASE_URL = 'https://foxkomputer.pl'
 MAX_RETRIES = 10
@@ -60,7 +62,7 @@ class Product:
     def _fetchProductAttr(self, mainContainer):
         div = mainContainer.find('div', class_='innerbox tab-content product-attributes zebra')
         if div == None:
-            print("NO SPECS TABLE!")
+            println("NO SPECS TABLE!")
             return
         table = div.find('table', class_='table')
         rows = table.find_all('tr')
@@ -111,11 +113,11 @@ class Product:
                 im = Image.open(f'{directory}/img/{self.id}/{imgName}.png').convert("RGBA")  # webp?
                 im.save(f'{directory}/img/{self.id}/{imgName}.png', "png")
             except Exception as e:
-                print(e)
+                println(e)
 
     @staticmethod
     def _getPageResponse(URL):
-        print((datetime.now()).strftime("%H:%M:%S ") + URL)
+        println(URL)
         retries = 0
         while retries < MAX_RETRIES:
             try:
