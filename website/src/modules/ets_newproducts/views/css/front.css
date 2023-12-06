@@ -1,0 +1,193 @@
+
+a.float-md-right.all_new_products:not(:hover) {
+    color: #777;
+}
+.new_products_list_wrapper  button.slick-arrow {
+    background: transparent;
+    border: none;
+    font-size: 0;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    left: 0;
+    cursor: pointer;
+    outline: none!important;
+    z-index: 1;
+    margin: 0 -15px;
+}
+.home.products.product_list.new_products_list_wrapper.layout-slide .product.slick-slide {
+    min-width: 0!important;
+}
+.product-miniature .thumbnail-container, .product-miniature .highlighted-informations, .product-miniature .product-description {
+    max-width: 100%;
+}
+.new_products_list_section.featured-products .product-miniature {
+    margin: 0;
+    padding: 0 15px;
+}
+.new_products_list_wrapper button.slick-arrow.slick-next {
+    left: auto;
+    right: 0;
+}
+section.new_products_list_section {
+    margin-bottom: 30px;
+}
+.new_products_list_wrapper button.slick-arrow.slick-prev:before {
+    content: "";
+    border-left: 1px solid #666;
+    border-bottom: 1px solid #666;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 10px;
+}
+
+.new_products_list_wrapper button.slick-arrow.slick-next:before {
+    content: "";
+    border-right: 1px solid #666;
+    border-top: 1px solid #666;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 10px;
+    left: auto;
+}
+
+.new_products_list_wrapper button.slick-arrow:hover:before{
+    border-color: #24b9d7!important;
+}
+.new_products_list_section.left_right .products-section-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.new_products_list_section.left_right .product {
+    padding: 0;
+}
+.new_products_list_section.left_right .new_products_list_wrapper button.slick-arrow {
+    margin: 0 -25px;
+}
+.new_products_list_wrapper .product-miniature .highlighted-informations {
+    width: 100%;
+}
+@media (min-width: 0px){
+    .ets_newp_mobile_1 > .product{
+        width: 8.33333%;
+    }
+    .ets_newp_mobile_2 > .product{
+        width: 16.666%;
+    }
+    .ets_newp_mobile_3 > .product{
+        width: 25%;
+    }
+    .ets_newp_mobile_4 > .product{
+        width: 33.33%;
+    }
+    .ets_newp_mobile_5 > .product{
+        width: 41.66667%;
+    }
+    .ets_newp_mobile_6 > .product{
+        width: 50%;
+    }
+    .ets_newp_mobile_7 > .product{
+        width: 58.33333%;
+    }
+    .ets_newp_mobile_8 > .product{
+        width: 66.66667%;
+    }
+    .ets_newp_mobile_9 > .product{
+        width: 75%;
+    }
+    .ets_newp_mobile_10 > .product{
+        width: 83.33333%;
+    }
+    .ets_newp_mobile_11 > .product{
+        width: 91.66667%;
+    }
+    .ets_newp_mobile_12 > .product{
+        width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .ets_newp_tablet_1 > .product{
+        width: 8.33333%;
+    }
+    .ets_newp_tablet_2 > .product{
+        width: 16.666%;
+    }
+    .ets_newp_tablet_3 > .product{
+        width: 25%;
+    }
+    .ets_newp_tablet_4 > .product{
+        width: 33.33%;
+    }
+    .ets_newp_tablet_5 > .product{
+        width: 41.66667%;
+    }
+    .ets_newp_tablet_6 > .product{
+        width: 50%;
+    }
+    .ets_newp_tablet_7 > .product{
+        width: 58.33333%;
+    }
+    .ets_newp_tablet_8 > .product{
+        width: 66.66667%;
+    }
+    .ets_newp_tablet_9 > .product{
+        width: 75%;
+    }
+    .ets_newp_tablet_10 > .product{
+        width: 83.33333%;
+    }
+    .ets_newp_tablet_11 > .product{
+        width: 91.66667%;
+    }
+    .ets_newp_tablet_12 > .product{
+        width: 100%;
+    }
+}
+@media (min-width: 1200px){
+    .ets_newp_desktop_1 > .product{
+        width: 8.33333%;
+    }
+    .ets_newp_desktop_2 > .product{
+        width: 16.666%;
+    }
+    .ets_newp_desktop_3 > .product{
+        width: 25%;
+    }
+    .ets_newp_desktop_4 > .product{
+        width: 33.33%;
+    }
+    .ets_newp_desktop_5 > .product{
+        width: 41.66667%;
+    }
+    .ets_newp_desktop_6 > .product{
+        width: 50%;
+    }
+    .ets_newp_desktop_7 > .product{
+        width: 58.33333%;
+    }
+    .ets_newp_desktop_8 > .product{
+        width: 66.66667%;
+    }
+    .ets_newp_desktop_9 > .product{
+        width: 75%;
+    }
+    .ets_newp_desktop_10 > .product{
+        width: 83.33333%;
+    }
+    .ets_newp_desktop_11 > .product{
+        width: 91.66667%;
+    }
+    .ets_newp_desktop_12 > .product{
+        width: 100%;
+    }
+}

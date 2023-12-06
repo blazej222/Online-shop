@@ -2,3 +2,8 @@ database
 db_dump
 database.zip
 src.zip
+src/img/tmp
+scrapper/scrapped/*
+!scrapper/scrapped/.gitkeep
+website/src/img/p/*
+!/website/src/img/p/.gitkeep

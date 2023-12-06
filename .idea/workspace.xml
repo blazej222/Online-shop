@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="104e94c7-0b4f-4b33-9c46-d5f7f17262cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/website/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/website/src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/img/tmp/fileType" beforeDir="false" afterPath="$PROJECT_DIR$/website/src/img/tmp/fileType" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/src/themes/child_classic/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/src/themes/child_classic/assets/css/custom.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2YoCPEHxk9YreFUklWYUe4SFioZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/theme-new",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="104e94c7-0b4f-4b33-9c46-d5f7f17262cf" name="Changes" comment="" />
+      <created>1701182519987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701182519987</updated>
+      <workItem from="1701182522882" duration="396000" />
+      <workItem from="1701182926571" duration="10671000" />
+      <workItem from="1701353080393" duration="13339000" />
+      <workItem from="1701388653928" duration="1913000" />
+      <workItem from="1701433652979" duration="7496000" />
+      <workItem from="1701514365390" duration="13742000" />
+      <workItem from="1701604664648" duration="2033000" />
+      <workItem from="1701622166377" duration="38000" />
+      <workItem from="1701714774497" duration="2687000" />
+      <workItem from="1701718755477" duration="1728000" />
+      <workItem from="1701797553357" duration="4443000" />
+      <workItem from="1701802160485" duration="5490000" />
+      <workItem from="1701860827948" duration="2901000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
