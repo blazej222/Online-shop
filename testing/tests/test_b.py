@@ -2,7 +2,11 @@
 import pytest
 import time
 import json
+import random
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions
@@ -10,22 +14,29 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestBSearchupaproductandaddarandomonefromthelot():
-  def setup_method(self, method):
-    self.driver = webdriver.Chrome()
-    self.vars = {}
-  
-  def teardown_method(self, method):
-    self.driver.quit()
-  
-  def test_bSearchupaproductandaddarandomonefromthelot(self):
-    self.driver.get("https://prestashop:8443/index.php")
-    self.driver.set_window_size(1936, 1056)
-    self.driver.find_element(By.NAME, "s").click()
-    self.driver.find_element(By.NAME, "s").send_keys("mysze")
-    self.driver.find_element(By.NAME, "s").send_keys(Keys.ENTER)
-    self.driver.find_element(By.CSS_SELECTOR, ".js-product:nth-child(3) img").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart").click()
-    self.driver.close()
-    self.driver.find_element(By.CSS_SELECTOR, ".cart-content-btn > .btn-secondary").click()
-  
+
+class Test:
+    def setup_method(self):
+        options = Options()
+        options.add_experimental_option("detach", True)
+        options.add_argument('--ignore-ssl-errors=yes')
+        options.add_argument('--ignore-certificate-errors')
+        options.add_argument('--allow-insecure-localhost')
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        self.vars = {}
+
+    def teardown_method(self):
+        self.driver.quit()
+
+    def test(self):
+        self.driver.get("https://prestashop:8443/index.php")
+        self.driver.maximize_window()
+        self.driver.find_element(By.NAME, "s").click()
+        self.driver.find_element(By.NAME, "s").send_keys("mysz")
+        self.driver.find_element(By.NAME, "s").send_keys(Keys.ENTER)
+        product_list = self.driver.find_element(By.CSS_SELECTOR, ".products")
+        children = product_list.find_elements(By.CSS_SELECTOR, ".js-product")
+        children[random.randint(0, len(children) - 1)].click()
+        self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart").click()
+        self.driver.implicitly_wait(1)
+        self.driver.find_element(By.CSS_SELECTOR, ".cart-content-btn > .btn-primary").click()

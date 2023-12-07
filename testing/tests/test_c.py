@@ -2,7 +2,11 @@
 import pytest
 import time
 import json
+import random
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions
@@ -10,19 +14,52 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestCDelete3productsfromthecart():
-  def setup_method(self, method):
-    self.driver = webdriver.Chrome()
-    self.vars = {}
-  
-  def teardown_method(self, method):
-    self.driver.quit()
-  
-  def test_cDelete3productsfromthecart(self):
-    self.driver.get("https://prestashop:8443/index.php")
-    self.driver.set_window_size(1936, 1056)
-    self.driver.find_element(By.CSS_SELECTOR, ".header-options:nth-child(2)").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".cart-item:nth-child(1) .col-md-2 .material-icons").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".cart-item:nth-child(1) .col-md-2 .material-icons").click()
-    self.driver.find_element(By.CSS_SELECTOR, ".cart-item:nth-child(1) .col-md-2 .material-icons").click()
-  
+
+class Test:
+    def setup_method(self):
+        options = Options()
+        options.add_experimental_option("detach", True)
+        options.add_argument('--ignore-ssl-errors=yes')
+        options.add_argument('--ignore-certificate-errors')
+        options.add_argument('--allow-insecure-localhost')
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        self.vars = {}
+
+    def teardown_method(self):
+        self.driver.quit()
+
+    def test(self):
+        self.driver.get("https://prestashop:8443/index.php")
+        self.driver.maximize_window()
+        self.driver.find_element(By.CSS_SELECTOR, ".slick-track > .js-product:nth-child(5) img").click()
+        self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart").click()
+        self.driver.implicitly_wait(1)
+        self.driver.find_element(By.CSS_SELECTOR, ".cart-content-btn > .btn-secondary").click()
+        self.driver.find_element(By.CSS_SELECTOR, ".logo").click()
+        self.driver.find_element(By.CSS_SELECTOR, ".slick-track > .js-product:nth-child(8) img").click()
+        self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart").click()
+        element = self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart")
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element).perform()
+        self.driver.implicitly_wait(1)
+        self.driver.find_element(By.CSS_SELECTOR, ".cart-content-btn > .btn-secondary").click()
+        self.driver.find_element(By.CSS_SELECTOR, ".logo").click()
+        self.driver.find_element(By.CSS_SELECTOR, ".slick-track > .js-product:nth-child(7) img").click()
+        self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart").click()
+        element = self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart")
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element).perform()
+        element = self.driver.find_element(By.CSS_SELECTOR, "body")
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element).perform()
+        self.driver.implicitly_wait(1)
+        self.driver.find_element(By.CSS_SELECTOR, ".cart-content-btn > .btn-primary").click()
+        self.driver.implicitly_wait(10)
+        self.driver.find_element(By.CSS_SELECTOR, ".cart-item:nth-child(3) .col-md-2 .material-icons").click()
+        self.driver.implicitly_wait(10)
+        self.driver.find_element(By.CSS_SELECTOR, ".cart-item:nth-child(2) .col-md-2 .material-icons").click()
+        self.driver.implicitly_wait(10)
+        self.driver.find_element(By.CSS_SELECTOR, ".cart-item:nth-child(1) .col-md-2 .material-icons").click()
+        self.driver.implicitly_wait(10)
+
+
