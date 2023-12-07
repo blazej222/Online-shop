@@ -107,7 +107,10 @@ def addProduct(row):
             "id_feature_value": featureValuesIDs[featureValue]
         })
     product_schema["product"]["associations"]["product_features"]["product_feature"] = productFeatures  
-    product_schema["product"]["description"]["language"]["value"] = row['Description']
+    if pd.isnull(row['Description']):
+        product_schema["product"]["description"]["language"]["value"] = ""
+    else:
+        product_schema["product"]["description"]["language"]["value"] = row['Description']
     prodID = prestashop.add("products", product_schema)["prestashop"]["product"]["id"]
     addImages(f"{directory}img/{row['Product ID']}", prodID)    
 def addManufacturers():
@@ -172,7 +175,6 @@ def addImage(name, path, productID, secondTry = False):
         addImage(f"{name}", path, productID, True)
 
 
-api_url = 'http://localhost:8080/api'
 prestashop = prestapyt.PrestaShopWebServiceDict(api_url, api_key)
 category_schema = prestashop.get("categories", options={"schema": "blank"})
 product_schema = prestashop.get("products", options={"schema": "blank"})
