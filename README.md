@@ -33,6 +33,14 @@ For simplicity, this repository contains already generated SSL certificate and k
 
 Before starting shop database.zip must be extracted inside website directory.
 
+You can put this file inside installer directory and run
+
+```
+sh installer.sh
+```
+
+to install automatically.
+
 To start a new instance of the shop use:
 
 ```
