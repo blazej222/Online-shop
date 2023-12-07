@@ -1,3 +1,3 @@
 directory = '../scrapped/'
-api_key = 'VJBDT85UVAD86JWSR7I2RS6XD5I3PH3W'
-# directory = 'C:\\Scrapper\\'
+api_url = 'http://prestashop:8080/api'
+api_key = 'IF2AXLH75F1DL3ZLB2S9AJGZQC83SRDK'
