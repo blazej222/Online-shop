@@ -3,10 +3,8 @@ from config import *
 import concurrent.futures
 import random
 
-api_url = 'http://prestashop:8080/api'
-
 def changeWeight(element):
-    id = element['attrs']['id']
+    id = 1889#element['attrs']['id']
     product_schema = prestashop.get(f"products", id)
     product_schema["product"]["weight"] =  str(float(random.randint(1, 10)))
     del product_schema["product"]["position_in_category"]
