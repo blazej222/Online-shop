@@ -166,7 +166,7 @@ class Test:
         self.driver.find_element(By.ID, "field-phone").click()
         self.driver.find_element(By.ID, "field-phone").send_keys("123456789")
         self.driver.find_element(By.NAME, "confirm-addresses").click()
-        self.driver.find_element(By.ID, "delivery_option_24").click()
+        self.driver.find_element(By.ID, "delivery_option_32").click()
         self.driver.find_element(By.ID, "delivery_message").click()
         self.driver.find_element(By.ID, "delivery_message").send_keys("Proszę nie rozbić.")
         self.driver.find_element(By.NAME, "confirmDeliveryOption").click()
