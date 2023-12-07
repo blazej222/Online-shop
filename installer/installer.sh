@@ -2,7 +2,7 @@
 
 # Nazwa pliku zip
 zip_file="database.zip"
-zip_file2="p.zip"
+zip_file1="p.zip"
 
 # Katalog docelowy
 target_directory="../website/"
