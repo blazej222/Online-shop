@@ -6,7 +6,7 @@ import random
 api_url = 'http://prestashop:8080/api'
 
 def changeWeight(element):
-    id = 1889#element['attrs']['id']
+    id = element['attrs']['id']
     product_schema = prestashop.get(f"products", id)
     product_schema["product"]["weight"] =  str(float(random.randint(1, 10)))
     del product_schema["product"]["position_in_category"]
@@ -18,6 +18,6 @@ def changeWeight(element):
 prestashop = prestapyt.PrestaShopWebServiceDict(api_url, api_key)
 elements = prestashop.get('products')["products"]["product"]#['stock_availables']
 
-with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
     futures = [executor.submit(changeWeight, element) for element in elements]
     concurrent.futures.wait(futures)
