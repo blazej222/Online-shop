@@ -31,6 +31,9 @@ if [ -e "$zip_file1" ]; then
     temp_dir=$(mktemp -d)
     unzip "$zip_file1" -d "$temp_dir"
 
+	# Usuń stary katalog katalog
+	rm -rf "$target_directory1/p"
+	
     # Przenieś rozpakowany folder do katalogu docelowego
     mv "$temp_dir/p" "$target_directory1"
 
