@@ -25,3 +25,4 @@ download/
 # img/
 upload/
 var/logs
+img/tmp
