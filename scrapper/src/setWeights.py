@@ -7,7 +7,7 @@ import random
 def changeWeight(element):
     productID = element['attrs']['id']
     product_schema = prestashop.get(f"products", productID)
-    product_schema["product"]["weight"] = str(float(random.randint(1, 10)))
+    product_schema["product"]["weight"] = str(float(random.randint(1, 5)))
     del product_schema["product"]["position_in_category"]
     del product_schema["product"]["associations"]["combinations"]
     del product_schema["product"]["manufacturer_name"]
