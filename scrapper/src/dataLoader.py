@@ -80,7 +80,7 @@ def addCategory(name, parentID):
 
 
 def addProducts():
-    data = pd.read_csv(directory + 'products.csv', sep=';', header=0)
+    data = pd.read_csv(directory + 'products.csv', sep=';', header=0, lineterminator='\n')
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=no_of_workers) as executor:
         futures = [executor.submit(addProduct, row) for index, row in data.iterrows()]
