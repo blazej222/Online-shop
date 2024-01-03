@@ -4,7 +4,16 @@ services:
     container_name: mysql
     image: mariadb
     user: 1000:1000
-    restart: unless-stopped
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 2
+        window: 140s
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 128M
     environment:
       - MYSQL_ROOT_PASSWORD=root123
     ports:
@@ -22,7 +31,16 @@ services:
     #a2enmod ssl && service apache2 restart && 
     #/bin/sh -c "usermod -u 1000 www-data && exec apache2-foreground" # chown -R 1000:1000 /tmp/data-ps && /tmp/docker_run.sh
     command: /bin/sh /etc/apache2/sites-available/starter.sh
-    restart: unless-stopped
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 2
+        window: 140s
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 256M
     depends_on:
       - mysql
     ports:
