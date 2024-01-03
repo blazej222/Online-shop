@@ -10,6 +10,10 @@ services:
         delay: 5s
         max_attempts: 2
         window: 140s
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 128M
     environment:
       - MYSQL_ROOT_PASSWORD=root123
     ports:
@@ -33,6 +37,10 @@ services:
         delay: 5s
         max_attempts: 2
         window: 140s
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 256M
     depends_on:
       - mysql
     ports:
