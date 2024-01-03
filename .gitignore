@@ -6,3 +6,4 @@ website/src/img/tmp/*
 !/website/src/img/p/.gitkeep
 **/__pycache__/
 **/.venv/
+testing/.idea
