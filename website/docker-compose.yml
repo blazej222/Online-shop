@@ -44,8 +44,10 @@ services:
     depends_on:
       - mysql
     ports:
-      #- 18863:80
+      - 18863:80
       - 18466:443
+      # - 8080:80
+      # - 8443:443
     volumes:
       - ./src:/var/www/html
       - ./apache-config:/etc/apache2/sites-available
