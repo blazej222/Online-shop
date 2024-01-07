@@ -23,10 +23,35 @@ services:
       - ./database:/var/lib/mysql
     networks:
       - prestashop_net
+  memcache:
+    platform: linux/x86_64
+    container_name: memcached
+    image: memcached
+    user: 1000:1000
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 2
+        window: 140s
+      # resources:
+      #   limits:
+      #     cpus: '0.25'
+      #     memory: 128M
+    # environment:
+    #   - MYSQL_ROOT_PASSWORD=root123
+    # ports:
+    #   - 3306:3306
+    # volumes:
+    #   - ./db_dump:/docker-entrypoint-initdb.d
+    #   - ./database:/var/lib/mysql
+    networks:
+      - prestashop_net
+
   prestashop:
     platform: linux/x86_64
     container_name: prestashop
-    image: prestashop/prestashop:1.7.8-apache
+    image: mojapresta
     #exec apache2-foreground
     #a2enmod ssl && service apache2 restart && 
     #/bin/sh -c "usermod -u 1000 www-data && exec apache2-foreground" # chown -R 1000:1000 /tmp/data-ps && /tmp/docker_run.sh
@@ -48,10 +73,41 @@ services:
       - 18466:443
       # - 8080:80
       # - 8443:443
-    volumes:
-      - ./src:/var/www/html
-      - ./apache-config:/etc/apache2/sites-available
+    # volumes:
+    #   - ./src:/var/www/html
+    #   - ./apache-config:/etc/apache2/sites-available
     networks:
       - prestashop_net
+
+  # prestashop:
+  #   platform: linux/x86_64
+  #   container_name: prestashop
+  #   image: prestashop/prestashop:1.7.8-apache
+  #   #exec apache2-foreground
+  #   #a2enmod ssl && service apache2 restart && 
+  #   #/bin/sh -c "usermod -u 1000 www-data && exec apache2-foreground" # chown -R 1000:1000 /tmp/data-ps && /tmp/docker_run.sh
+  #   command: /bin/sh /etc/apache2/sites-available/starter.sh
+  #   deploy:
+  #     restart_policy:
+  #       condition: on-failure
+  #       delay: 5s
+  #       max_attempts: 2
+  #       window: 140s
+  #     # resources:
+  #     #   limits:
+  #     #     cpus: '0.25'
+  #     #     memory: 256M
+  #   depends_on:
+  #     - mysql
+  #   ports:
+  #     - 18863:80
+  #     - 18466:443
+  #     # - 8080:80
+  #     # - 8443:443
+  #   volumes:
+  #     - ./src:/var/www/html
+  #     - ./apache-config:/etc/apache2/sites-available
+  #   networks:
+  #     - prestashop_net
 networks:
   prestashop_net:
