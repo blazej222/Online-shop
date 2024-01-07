@@ -27,6 +27,8 @@ def setStocks(verbose=False):
     reserved_categories.append(findCategoryID('Dyski SSD'))
     reserved_categories.append(findCategoryID('Zestawy mysz + klawiatura'))
     reserved_categories.append(findCategoryID('Płyty główne'))
+    reserved_categories.append(findCategoryID('Torby do laptopów'))
+
 
     if verbose:
         println("Reserved category ids: " + str(reserved_categories))
