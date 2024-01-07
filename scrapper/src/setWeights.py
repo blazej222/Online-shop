@@ -4,9 +4,9 @@ import concurrent.futures
 import random
 
 def changeWeight(element):
-    id = 1889#element['attrs']['id']
+    id = element['attrs']['id']
     product_schema = prestashop.get(f"products", id)
-    product_schema["product"]["weight"] =  str(float(random.randint(1, 10)))
+    product_schema["product"]["weight"] =  str(float(random.randint(1, 5)))
     del product_schema["product"]["position_in_category"]
     del product_schema["product"]["associations"]["combinations"]
     del product_schema["product"]["manufacturer_name"]
