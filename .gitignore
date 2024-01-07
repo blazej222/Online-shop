@@ -1,4 +1,5 @@
 .idea
+.idea/*
 scrapper/scrapped/*
 scrapper/scrapped_reduced/*
 !scrapper/scrapped/.gitkeep
