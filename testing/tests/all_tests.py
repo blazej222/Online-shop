@@ -31,9 +31,9 @@ class Test:
         # self.driver.quit()
 
     def test(self):
-        self.driver.get("https://prestashop:8443/index.php")
+        self.driver.get("https://prestashop:18466/index.php")
         self.driver.maximize_window()
-        element = self.driver.find_element(By.CSS_SELECTOR, "#category-479 > .dropdown-item")
+        element = self.driver.find_element(By.LINK_TEXT, "Laptopy")
         actions = ActionChains(self.driver)
         actions.move_to_element(element).perform()
         self.driver.find_element(By.LINK_TEXT, "Torby do laptopów").click()
@@ -43,7 +43,7 @@ class Test:
         self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart").click()
         self.driver.implicitly_wait(1)
         self.driver.find_element(By.CSS_SELECTOR, ".cart-content-btn > .btn-secondary").click()
-        element = self.driver.find_element(By.CSS_SELECTOR, "#category-490 > .dropdown-item")
+        element = self.driver.find_element(By.LINK_TEXT, "Podzespoły PC")
         actions = ActionChains(self.driver)
         actions.move_to_element(element).perform()
         self.driver.find_element(By.LINK_TEXT, "Dyski SSD").click()
