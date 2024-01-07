@@ -109,7 +109,7 @@ def addProduct(row, schema_file):
     product_schema["product"]["id_tax_rules_group"] = 1
     product_schema["product"]["active"] = 1
     # product_schema["product"]["id_shop_default"] = 1
-    product_schema["product"]["statde"] = 1
+    product_schema["product"]["state"] = 1
     product_schema["product"]["available_for_order"] = 1
     product_schema["product"]["minimal_quantity"] = 0
     product_schema["product"]["show_price"] = 1
