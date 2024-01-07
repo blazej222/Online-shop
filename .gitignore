@@ -4,6 +4,8 @@ scrapper/scrapped/*
 scrapper/scrapped_reduced/*
 !scrapper/scrapped/.gitkeep
 website/src/img/p/*
+website/src/img/tmp/*
 !/website/src/img/p/.gitkeep
 **/__pycache__/
 **/.venv/
+testing/.idea

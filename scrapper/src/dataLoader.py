@@ -190,21 +190,19 @@ def addFeatures():
     feature_dict.write('\n')
     feature_dict.write(str(featureValuesIDs))
     feature_dict.close()
-
+    
     println("Added features")
 
 
 def addImages(path, productID):
     imgs = os.listdir(path)
+
+    # FIXME: is this necessary?
     fd = io.open(path + '/listing.png', "rb")
     content = fd.read()
     fd.close()
-    addImage("listing.png", path, productID)
-    # try:
-    #     prestashop.add(f'/images/products/{productID}', files=[('image', 'cover.png', content)])
-    # except:
-    #     println("upload failed listing " + path)
 
+    addImage("listing.png", path, productID)
     for img in imgs:
         if img != "listing.png":
             addImage(img, path, productID)
@@ -217,10 +215,11 @@ def addImages(path, productID):
         # except Exception as e:
         #     println(e)
         #     println("upload failed " + path+'\\'+img)
+
     println(f"Added images for {path}")
 
 
-def addImage(name, path, productID, secondTry=False):
+def addImage(name, path, productID):
     fd = io.open(path + '/' + name, "rb")
     content = fd.read()
     fd.close()
@@ -229,16 +228,6 @@ def addImage(name, path, productID, secondTry=False):
         # println(f"Added image {path}/{name}")
     except Exception as e:
         println(f"EXCEPTION: {path}/{name} " + e)
-        # if secondTry:
-        #     println("still doesn't work")
-        #     return
-        # img = cv2.imread(f"{path}/{name}")
-        # cv2.imwrite(f"{path}/{name}", img, [cv2.IMWRITE_PNG_COMPRESSION, 9])
-        # im = Image.open(f"{path}/{name}").convert("RGB")
-        # im.save(f"{path}/{name}", "png")
-        # println(f"Image saved {path}/{name}")
-        # addImage(f"{name}", path, productID, True)
-
 
 def main():
     deleteAll('product', 'products')
