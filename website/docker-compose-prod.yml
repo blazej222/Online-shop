@@ -1,0 +1,44 @@
+#This file is designed to bring up environment on production cluster.
+services:
+  memcache:
+    container_name: memcached
+    image: memcached
+    user: 1000:1000
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 2
+        window: 140s
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+    networks:
+      - prestanet
+
+  prestashop:
+    container_name: prestashop
+    image: blazej222/be_184663_prestashop
+    command: /bin/sh /etc/apache2/sites-available/starter.sh
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 2
+        window: 140s
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    ports:
+      - 18863:80
+      - 18466:443
+    networks:
+      - prestanet
+      - admin-mysql_default
+
+networks:
+  prestanet:
+  admin-mysql_default:
+    external: true

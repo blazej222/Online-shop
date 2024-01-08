@@ -25,4 +25,5 @@ download/
 # img/
 upload/
 var/logs
-img/tmp
+img/tmp/*
+!/img/tmp/index.php

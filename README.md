@@ -7,6 +7,8 @@ Prestashop 1.7.8
 
 mariadb (latest)
 
+memcached (latest)
+
 ## Generating SSL certificate
 
 In order to use SSL encryption for prestashop, SSL certificate must be generated using the following commands:
@@ -29,7 +31,7 @@ Generated certificate can be stored in a public version control solution, howeve
 
 For simplicity, this repository contains already generated SSL certificate and key, as no real private data will be transferred at this stage of the project.
 
-## Running shop
+## Running shop locally
 
 Before starting shop database.zip must be extracted inside website directory.
 
@@ -40,6 +42,14 @@ sh installer.sh
 ```
 
 to install automatically.
+
+You also have to create a temporary name resolution for domain `prestashop`.
+
+On linux edit `/etc/hosts` to contain:
+
+```
+prestashop  127.0.0.1
+```
 
 To start a new instance of the shop use:
 
@@ -52,6 +62,28 @@ To stop running instance use:
 ```
 docker compose down
 ```
+
+## Running shop on production cluster
+
+1.Make sure installer folder contains:
+- A file named script.sql containing newest database dump.
+- A file named sshpass containing ssh password for intermediate and swarm server
+
+2.Make sure `website/storage/vpn` contains files required to create connection to vpn network (extensions ovpn,crt,conf,key).
+
+3.Run `installer/setenv.sh` to forward appropriate ports and initialize vpn connection
+
+<font size=7, color=red>**WARNING!!!** </font>
+
+Command listed in next step will execute queries in `script.sql` on production server (database BE_184663). 
+
+This **will** cause data loss on the target database in case of standard presta db dump (`DROP TABLE IF EXISTS`). 
+
+Before running next step make sure both `script.sql` and `sqlloader.sh` have not been tampered with and contain appropriate commands.
+
+4.Run `installer/runprod.sh` to start production server.
+
+
 
 ## Team
 Błażej Szutenberg
