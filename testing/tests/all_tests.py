@@ -27,12 +27,13 @@ class Test:
         self.vars = {}
 
     def teardown_method(self):
-        self.driver.quit()
+        pass
+        # self.driver.quit()
 
     def test(self):
-        self.driver.get("https://prestashop:8443/index.php")
+        self.driver.get("https://prestashop:18466/index.php")
         self.driver.maximize_window()
-        element = self.driver.find_element(By.CSS_SELECTOR, "#category-211 > .dropdown-item")
+        element = self.driver.find_element(By.LINK_TEXT, "Laptopy")
         actions = ActionChains(self.driver)
         actions.move_to_element(element).perform()
         self.driver.find_element(By.LINK_TEXT, "Torby do laptopów").click()
@@ -42,7 +43,7 @@ class Test:
         self.driver.find_element(By.CSS_SELECTOR, ".add-to-cart").click()
         self.driver.implicitly_wait(1)
         self.driver.find_element(By.CSS_SELECTOR, ".cart-content-btn > .btn-secondary").click()
-        element = self.driver.find_element(By.CSS_SELECTOR, "#category-222 > .dropdown-item")
+        element = self.driver.find_element(By.LINK_TEXT, "Podzespoły PC")
         actions = ActionChains(self.driver)
         actions.move_to_element(element).perform()
         self.driver.find_element(By.LINK_TEXT, "Dyski SSD").click()
@@ -132,7 +133,7 @@ class Test:
         self.driver.find_element(By.ID, "field-firstname").click()
         self.driver.find_element(By.ID, "field-firstname").send_keys("Jan")
         self.driver.find_element(By.ID, "field-lastname").send_keys("Kowalski")
-        self.driver.find_element(By.ID, "field-email").send_keys(f"szybkipingwin.{random.randint(0, 10000)}@gmail.com")
+        self.driver.find_element(By.ID, "field-email").send_keys(f"szybkipingwin+{random.randint(0, 10000)}@gmail.com")
         self.driver.find_element(By.ID, "field-password").send_keys("haslo123")
         self.driver.find_element(By.ID, "field-birthday").click()
         self.driver.find_element(By.ID, "field-birthday").send_keys("1970-05-31")
@@ -172,9 +173,13 @@ class Test:
         self.driver.find_element(By.NAME, "confirmDeliveryOption").click()
         self.driver.find_element(By.ID, "payment-option-2").click()
         self.driver.find_element(By.ID, "conditions_to_approve[terms-and-conditions]").click()
+
+        ### Finalize order ###
+
         self.driver.find_element(By.CSS_SELECTOR, ".ps-shown-by-js > .btn").click()
         self.driver.find_element(By.CSS_SELECTOR, ".account > .hidden-sm-down").click()
         self.driver.find_element(By.CSS_SELECTOR, "#order-slips-link .material-icons").click()
         self.driver.find_element(By.CSS_SELECTOR, "ol > li:nth-child(2) span").click()
         self.driver.find_element(By.CSS_SELECTOR, "#history-link .material-icons").click()
         self.driver.find_element(By.CSS_SELECTOR, "tr:nth-child(1) .material-icons").click()
+

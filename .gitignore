@@ -1,5 +1,7 @@
+.idea
 .idea/*
 scrapper/scrapped/*
+scrapper/scrapped_reduced/*
 !scrapper/scrapped/.gitkeep
 website/src/img/p/*
 website/src/img/tmp/*
