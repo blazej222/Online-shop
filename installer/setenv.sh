@@ -11,43 +11,42 @@ init_connections(){
     cd ../../../installer/
 
     #Create tunnel for sql webadmin
-    sshpass -f sshpass ssh -S sockets/webadmin -M -N -f -L 0.0.0.0:5242:student-swarm01.maas:9099 rsww@172.20.83.101 &
-    webadmin_pid=$!
-    echo "Webadmin tunnel created (PID:$webadmin_pid)"
+    sshpass -f sshpass ssh -S sockets/webadmin -M -N -f -L 0.0.0.0:5242:student-swarm01.maas:9099 rsww@172.20.83.101
+    echo "Webadmin tunnel created"
 
     #Create tunnel for sql database
-    sshpass -f sshpass ssh -S sockets/sql -M -N -f -L 0.0.0.0:3306:student-swarm01.maas:3306 rsww@172.20.83.101 &
-    sql_pid=$!
-    echo "SQL tunnel created (PID:$sql_pid)"
+    sshpass -f sshpass ssh -S sockets/sql -M -N -f -L 0.0.0.0:3306:student-swarm01.maas:3306 rsww@172.20.83.101
+    echo "SQL tunnel created"
 
-    #Create tunnel for prestashop websiteB
-    sshpass -f sshpass ssh -S sockets/website -M  -N -f -L 0.0.0.0:5244:student-swarm01.maas:3306 rsww@172.20.83.101 &
-    website_pid=$!
-    echo "Website tunnel created (PID:$website_pid)"
+    #Create tunnel for prestashop website
+    sshpass -f sshpass ssh -S sockets/website -M  -N -f -L 0.0.0.0:18466:student-swarm01.maas:18466 rsww@172.20.83.101
+    echo "Website tunnel created "
+
+    #Create tunnel for prestashop website port 80
+    sshpass -f sshpass ssh -S sockets/websitehttp -M  -N -f -L 0.0.0.0:18863:student-swarm01.maas:18863 rsww@172.20.83.101
+    echo "Website http tunnel created "
+
+    #Create tunnel for prestashop website port 80
+    sshpass -f sshpass ssh -S sockets/ssh -M  -N -f -L 0.0.0.0:5243:student-swarm01.maas:22 rsww@172.20.83.101
+    echo "SSH tunnel created "
 }
 
 close_connections(){
     ssh -S sockets/webadmin -O exit rsww@172.20.83.101
     ssh -S sockets/sql -O exit rsww@172.20.83.101
     ssh -S sockets/website -O exit rsww@172.20.83.101
-    # kill $sql_pid
-    # kill $website_pid
-    # kill $webadmin_pid
+    ssh -S sockets/websitehttp -O exit rsww@172.20.83.101
+    ssh -S sockets/ssh -O exit rsww@172.20.83.101
     sleep 3
     sudo kill $openvpn_pid
+    wait
+    cd sockets
+    rm -rf *
 }
 
 init_connections
 
 echo "Press CTRL+C to kill connections"
-
-# while true: do
-#     read -rsn1 key
-#     if [[ $key == $'\e']]: then
-#         echo "Killing environment"
-#         break
-#     fi
-# done
 
 trap close_connections INT
 
